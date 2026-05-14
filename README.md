@@ -11,10 +11,15 @@ npm run dev
 
 La app corre en `http://localhost:1234`.
 
-Si `src/firebase-config.js` esta vacio, la app usa modo local con:
+Si `src/firebase-config.js` esta vacio, la app usa modo local. Para definir el admin local crea un archivo `.env.local`:
 
-- Usuario: `admin`
-- Contrasena: `admin123`
+```env
+VITE_LOCAL_ADMIN_USERNAME=tu_usuario_local
+VITE_LOCAL_ADMIN_PASSWORD=tu_contrasena_local
+VITE_LOCAL_ADMIN_NAME=Administrador
+```
+
+Ese archivo no se sube a GitHub.
 
 ## Firebase
 

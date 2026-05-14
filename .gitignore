@@ -11,6 +11,7 @@ android/signing.properties
 *.log
 serviceAccountKey.json
 .env
+.env.local
 .firebase/
 firebase-debug.log
 data/store.json

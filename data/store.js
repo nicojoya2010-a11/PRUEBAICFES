@@ -5,9 +5,9 @@ const { getAreaInfo } = require("./questions");
 
 const STORE_PATH = path.join(__dirname, "store.json");
 const DEFAULT_ADMIN = {
-  username: "admin",
-  password: "admin123",
-  fullName: "Administrador"
+  username: process.env.LOCAL_ADMIN_USERNAME || "LOCALADMIN",
+  password: process.env.LOCAL_ADMIN_PASSWORD || "CHANGE_ME",
+  fullName: process.env.LOCAL_ADMIN_NAME || "Administrador"
 };
 
 function now() {

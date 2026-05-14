@@ -242,5 +242,5 @@ const server = http.createServer(async (req, res) => {
 
 server.listen(PORT, () => {
   console.log(`Practica ICFES disponible en http://localhost:${PORT}`);
-  console.log("Admin inicial: usuario admin / contrasena admin123");
+  console.log("Admin local configurable por variables de entorno.");
 });

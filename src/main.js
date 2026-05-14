@@ -47,6 +47,8 @@ const els = {
   loginUsername: document.querySelector("#loginUsername"),
   loginPassword: document.querySelector("#loginPassword"),
   loginMessage: document.querySelector("#loginMessage"),
+  localAdminUsername: document.querySelector("#localAdminUsername"),
+  localAdminPassword: document.querySelector("#localAdminPassword"),
   registerForm: document.querySelector("#registerForm"),
   registerName: document.querySelector("#registerName"),
   registerUsername: document.querySelector("#registerUsername"),
@@ -513,6 +515,8 @@ function renderConnection() {
   const mode = dataProvider.mode === "firebase" ? "Firebase" : "Local";
   const status = navigator.onLine ? "online" : "offline";
   els.connectionBadge.textContent = `${mode} · ${status}`;
+  els.localAdminUsername.textContent = appSettings.localAdmin.username;
+  els.localAdminPassword.textContent = appSettings.localAdmin.password;
 }
 
 function shuffle(items) {
