@@ -11,6 +11,8 @@
     "cap:sync": "npm run build && npx cap sync android",
     "cap:open": "npm run build && npx cap open android",
     "android:aab": "npm run build && npx cap build android --androidreleasetype AAB",
+    "android:keystore": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/create-upload-keystore.ps1",
+    "android:aab:signed": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-release-aab.ps1",
     "firebase:login": "npx firebase-tools login",
     "firebase:deploy": "npm run build && npx firebase-tools deploy",
     "firebase:seed-admin": "node scripts/seed-admin.mjs"
