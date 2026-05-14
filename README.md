@@ -11,7 +11,7 @@ npm run dev
 
 La app corre en `http://localhost:1234`.
 
-Si `src/firebase-config.js` esta vacio, la app usa modo local. Para definir el admin local crea un archivo `.env.local`:
+Si Firebase no esta configurado, la app usa modo local. Para definir el admin local crea un archivo `.env.local`:
 
 ```env
 VITE_LOCAL_ADMIN_USERNAME=tu_usuario_local
@@ -34,6 +34,8 @@ Ese archivo no se sube a GitHub.
 npm run firebase:login
 npm run firebase:deploy
 ```
+
+El proyecto actual esta apuntando a `detective-7ec8c` desde `.firebaserc`. La configuracion real de Firebase queda en `.env.local`, que no se sube a GitHub.
 
 Ejemplo `.env.local`:
 
@@ -67,6 +69,8 @@ $env:ADMIN_PASSWORD="tu-contrasena-segura"
 npm run firebase:seed-admin
 ```
 
+La app convierte el usuario en un correo interno. Por ejemplo, `DEKUVIGILANTE` inicia sesion como `dekuvigilante@icfes.local` dentro de Firebase Auth.
+
 ## Android con Capacitor
 
 ```bash
@@ -74,13 +78,25 @@ npm run cap:sync
 npm run cap:open
 ```
 
-Para generar AAB:
+Para generar AAB sin firmar:
 
 ```bash
 npm run android:aab
 ```
 
-Necesitas Android SDK instalado y un JDK moderno. En esta maquina ya existe JDK 21 en `C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot`, pero falta configurar/instalar Android SDK.
+Para generar AAB firmada para Play Console:
+
+```bash
+npm run android:aab:signed
+```
+
+La AAB firmada queda en:
+
+```text
+android/app/build/outputs/bundle/release/app-release-signed.aab
+```
+
+En esta maquina ya esta configurado JDK 21 y Android SDK. Guarda una copia segura de `android/upload-keystore.jks` y `android/signing.properties`; esos archivos no se suben a GitHub y son necesarios para futuras actualizaciones en Google Play.
 
 ## GitHub
 
