@@ -515,8 +515,12 @@ function renderConnection() {
   const mode = dataProvider.mode === "firebase" ? "Firebase" : "Local";
   const status = navigator.onLine ? "online" : "offline";
   els.connectionBadge.textContent = `${mode} · ${status}`;
-  els.localAdminUsername.textContent = appSettings.localAdmin.username;
-  els.localAdminPassword.textContent = appSettings.localAdmin.password;
+  els.localAdminUsername.textContent = dataProvider.mode === "firebase"
+    ? "Firebase conectado"
+    : appSettings.localAdmin.username;
+  els.localAdminPassword.textContent = dataProvider.mode === "firebase"
+    ? "no aplica"
+    : appSettings.localAdmin.password;
 }
 
 function shuffle(items) {

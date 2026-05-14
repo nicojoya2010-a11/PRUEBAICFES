@@ -26,13 +26,25 @@ Ese archivo no se sube a GitHub.
 1. Crea un proyecto en Firebase.
 2. Activa Authentication con Email/Password.
 3. Activa Firestore.
-4. Copia la configuracion web en `src/firebase-config.js`.
-5. Copia `.firebaserc.example` a `.firebaserc` y cambia `TU_PROJECT_ID`.
+4. Copia la configuracion web en `.env.local` usando variables `VITE_FIREBASE_*`.
+5. Verifica que `.firebaserc` tenga tu `projectId`.
 6. Despliega reglas y hosting:
 
 ```bash
 npm run firebase:login
 npm run firebase:deploy
+```
+
+Ejemplo `.env.local`:
+
+```env
+VITE_FIREBASE_API_KEY=tu_api_key
+VITE_FIREBASE_AUTH_DOMAIN=tu_proyecto.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=tu_proyecto
+VITE_FIREBASE_STORAGE_BUCKET=tu_proyecto.firebasestorage.app
+VITE_FIREBASE_MESSAGING_SENDER_ID=000000000000
+VITE_FIREBASE_APP_ID=1:000000000000:web:xxxxxxxx
+VITE_FIREBASE_MEASUREMENT_ID=G-XXXXXXXXXX
 ```
 
 ## Crear admin en Firebase
