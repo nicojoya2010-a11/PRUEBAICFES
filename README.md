@@ -1,4 +1,4 @@
-# Practica ICFES
+# Práctica ICFES
 
 App web y Android para practicar Saber 11 con roles de estudiante, profesor y admin.
 
@@ -20,6 +20,52 @@ VITE_LOCAL_ADMIN_NAME=Administrador
 ```
 
 Ese archivo no se sube a GitHub.
+
+## Preguntas base y preguntas extra
+
+Las 250 preguntas base se generan desde:
+
+```text
+data/questions.js
+```
+
+Para agregar muchas preguntas sin tocar la lógica, usa:
+
+```text
+data/extraQuestions.json
+```
+
+Duplica el objeto de ejemplo, cambia `"enabled": true` y completa:
+
+```json
+{
+  "enabled": true,
+  "areaId": "lectura",
+  "skill": "Comprensión lectora",
+  "difficulty": "Medio",
+  "context": "Texto base opcional.",
+  "prompt": "Pregunta para el estudiante.",
+  "options": ["Opción A", "Opción B", "Opción C", "Opción D"],
+  "answer": "A",
+  "explanation": "Explicación de la respuesta."
+}
+```
+
+`areaId` puede ser `lectura`, `matematicas`, `sociales`, `ciencias` o `ingles`. `answer` acepta `A`, `B`, `C`, `D` o `0`, `1`, `2`, `3`. Al ejecutar `npm run build`, la app combina las 250 base con las preguntas extra y las deja disponibles offline dentro de la web y Android.
+
+## Marca del colegio
+
+Edita este archivo para cambiar nombre, colegio, correo y aviso legal:
+
+```text
+src/data/appConfig.json
+```
+
+La política de privacidad pública está en:
+
+```text
+public/privacy.html
+```
 
 ## Firebase
 
@@ -69,7 +115,17 @@ $env:ADMIN_PASSWORD="tu-contrasena-segura"
 npm run firebase:seed-admin
 ```
 
-La app convierte el usuario en un correo interno. Por ejemplo, `DEKUVIGILANTE` inicia sesion como `dekuvigilante@icfes.local` dentro de Firebase Auth.
+La app convierte el usuario en un correo interno. Por ejemplo, `DEKUVIGILANTE` inicia sesión como `dekuvigilante@icfes.local` dentro de Firebase Auth.
+
+## Offline
+
+La app trae las preguntas base empacadas. En Android funcionan sin internet. En web, el usuario debe abrir la app al menos una vez con internet para que el navegador guarde los archivos. Si el estudiante ya inició sesión antes, Firebase conserva la sesión y Firestore intenta sincronizar cambios pendientes cuando vuelva la conexión.
+
+## Temas y monetización
+
+La app incluye temas desbloqueables por recompensas: claro, rojo neón, morado, azul profundo y verde pizarra. Los temas premium piden 5 videos de recompensa.
+
+Por ahora el botón de video está en modo demo para probar el flujo. Para monetizar de verdad hay que crear cuenta de AdMob, generar App ID y Rewarded Ad Unit ID, y conectar el SDK de anuncios antes de publicar esa versión.
 
 ## Android con Capacitor
 
@@ -110,3 +166,18 @@ git push -u origin main
 ```
 
 No subas contrasenas, `serviceAccountKey.json`, `.env`, keystores ni archivos `.jks`.
+
+## Salida a mercado
+
+Antes de mostrar o entregar una versión final:
+
+```bash
+npm run build
+npm run firebase:deploy
+npm run android:aab:signed
+git add .
+git commit -m "Prepare market release"
+git push
+```
+
+Revisa que `public/privacy.html` tenga el responsable real, que `src/data/appConfig.json` tenga el nombre del colegio si aplica, y guarda copia segura del keystore de Android.

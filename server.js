@@ -13,7 +13,10 @@ const {
 } = require("./data/store");
 
 const PORT = Number(process.env.PORT || 1234);
-const PUBLIC_DIR = path.join(__dirname, "public");
+const DIST_DIR = path.join(__dirname, "dist");
+const PUBLIC_DIR = fs.existsSync(path.join(DIST_DIR, "index.html"))
+  ? DIST_DIR
+  : path.join(__dirname, "public");
 const sessions = new Map();
 
 const mimeTypes = {
@@ -88,7 +91,7 @@ function getSessionUser(req) {
 function requireUser(req, res) {
   const user = getSessionUser(req);
   if (!user) {
-    sendJson(res, 401, { error: "Debes iniciar sesion." });
+    sendJson(res, 401, { error: "Debes iniciar sesión." });
     return null;
   }
   return user;
@@ -241,6 +244,6 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Practica ICFES disponible en http://localhost:${PORT}`);
+  console.log(`Práctica ICFES disponible en http://localhost:${PORT}`);
   console.log("Admin local configurable por variables de entorno.");
 });

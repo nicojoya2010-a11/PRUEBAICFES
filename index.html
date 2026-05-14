@@ -18,13 +18,14 @@
           </div>
           <div>
             <p class="eyebrow">Saber 11</p>
-            <h1>Práctica ICFES</h1>
+            <h1 data-app-name>Práctica ICFES</h1>
           </div>
         </div>
         <p class="auth-copy">
           Entrena por áreas, revisa resultados y administra preguntas desde un panel claro para estudiantes y docentes.
         </p>
-        
+        <p class="legal-note" data-legal-notice>Material de práctica independiente. No corresponde a preguntas oficiales del ICFES.</p>
+        <a class="privacy-link" href="/privacy.html" target="_blank" rel="noreferrer">Política de privacidad</a>
       </div>
 
       <div class="auth-grid">
@@ -85,7 +86,7 @@
           </div>
           <div>
             <p class="eyebrow">Saber 11</p>
-            <h1>Práctica ICFES</h1>
+            <h1 data-app-name>Práctica ICFES</h1>
           </div>
         </div>
         <div class="user-strip" aria-label="Sesion">
@@ -93,7 +94,8 @@
           <span id="totalQuestions">250 preguntas</span>
           <span id="sessionClock">00:00</span>
           <span id="userBadge">Usuario</span>
-          <button class="secondary-button compact" id="themeToggle">Modo neon</button>
+          <span class="hidden" id="institutionBadge"></span>
+          <button class="secondary-button compact" id="themeToggle">Temas</button>
           <button class="secondary-button compact" id="logoutBtn">Salir</button>
         </div>
       </header>
@@ -173,7 +175,7 @@
             <div>
               <p class="eyebrow">Banco listo</p>
               <h2>Elige un área y empieza tu sesión.</h2>
-              <p>Practica por competencias, guarda avances y revisa tus resultados con una lectura sencilla.</p>
+              <p>Práctica por competencias, guarda avances y revisa tus resultados con una lectura sencilla.</p>
             </div>
           </section>
 
@@ -302,6 +304,27 @@
           </section>
         </section>
       </main>
+
+      <section class="theme-panel hidden" id="themePanel" aria-label="Personalización">
+        <div class="theme-panel-inner">
+          <div class="view-heading">
+            <div>
+              <p class="eyebrow">Personalización</p>
+              <h2>Temas del sistema</h2>
+            </div>
+            <button class="secondary-button compact" id="closeThemePanel">Cerrar</button>
+          </div>
+          <div class="theme-options" id="themeOptions"></div>
+          <div class="reward-box">
+            <div>
+              <p class="eyebrow">Recompensas</p>
+              <strong id="rewardProgress">0/5 videos</strong>
+            </div>
+            <button class="primary-button action-primary" id="watchRewardBtn">Ver video</button>
+          </div>
+          <p class="form-message" id="rewardMessage"></p>
+        </div>
+      </section>
     </div>
 
     <script type="module" src="/src/main.js"></script>

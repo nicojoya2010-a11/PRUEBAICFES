@@ -1,0 +1,18 @@
+[
+  {
+    "enabled": false,
+    "areaId": "lectura",
+    "skill": "Comprensión lectora",
+    "difficulty": "Medio",
+    "context": "Pega aquí el texto base si la pregunta lo necesita.",
+    "prompt": "Escribe aquí la pregunta.",
+    "options": [
+      "Opción A",
+      "Opción B",
+      "Opción C",
+      "Opción D"
+    ],
+    "answer": "A",
+    "explanation": "Explica por qué esa opción es correcta."
+  }
+]

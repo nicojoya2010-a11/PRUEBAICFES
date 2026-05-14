@@ -27,6 +27,7 @@ import {
 } from "firebase/firestore";
 import baseQuestions from "./data/baseQuestions.json";
 import areas from "./data/areas.json";
+import appConfig from "./data/appConfig.json";
 import { appSettings, firebaseConfig, hasFirebaseConfig } from "./firebase-config.js";
 
 const state = {
@@ -39,6 +40,17 @@ const state = {
   startedAt: null,
   timer: null
 };
+
+const themeCatalog = [
+  { id: "light", name: "Claro", cost: 0, accent: "#B91C1C" },
+  { id: "dark", name: "Rojo neón", cost: 0, accent: "#FF1744" },
+  { id: "purple", name: "Morado", cost: 5, accent: "#A855F7" },
+  { id: "ocean", name: "Azul profundo", cost: 5, accent: "#38BDF8" },
+  { id: "forest", name: "Verde pizarra", cost: 5, accent: "#34D399" }
+];
+
+const freeThemes = themeCatalog.filter((theme) => theme.cost === 0).map((theme) => theme.id);
+const rewardKey = "icfesThemeRewards";
 
 const els = {
   authScreen: document.querySelector("#authScreen"),
@@ -59,7 +71,14 @@ const els = {
   totalQuestions: document.querySelector("#totalQuestions"),
   sessionClock: document.querySelector("#sessionClock"),
   userBadge: document.querySelector("#userBadge"),
+  institutionBadge: document.querySelector("#institutionBadge"),
   themeToggle: document.querySelector("#themeToggle"),
+  themePanel: document.querySelector("#themePanel"),
+  closeThemePanel: document.querySelector("#closeThemePanel"),
+  themeOptions: document.querySelector("#themeOptions"),
+  rewardProgress: document.querySelector("#rewardProgress"),
+  watchRewardBtn: document.querySelector("#watchRewardBtn"),
+  rewardMessage: document.querySelector("#rewardMessage"),
   logoutBtn: document.querySelector("#logoutBtn"),
   areaSelect: document.querySelector("#areaSelect"),
   amountSelect: document.querySelector("#amountSelect"),
@@ -127,6 +146,134 @@ function normalizeUsername(username) {
 
 function emailForUsername(username) {
   return `${normalizeUsername(username)}@${appSettings.usernameEmailDomain}`;
+}
+
+function renderBranding() {
+  document.title = `${appConfig.appName} Saber 11`;
+  document.querySelectorAll("[data-app-name]").forEach((element) => {
+    element.textContent = appConfig.appName;
+  });
+  document.querySelectorAll("[data-legal-notice]").forEach((element) => {
+    element.textContent = appConfig.legalNotice;
+  });
+
+  if (els.institutionBadge && appConfig.institutionName) {
+    els.institutionBadge.textContent = appConfig.institutionName;
+    els.institutionBadge.classList.remove("hidden");
+  }
+}
+
+function readRewardState() {
+  const fallback = { credits: 0, unlocked: freeThemes };
+  try {
+    const parsed = JSON.parse(localStorage.getItem(rewardKey) || "null") || fallback;
+    return {
+      credits: Number(parsed.credits || 0),
+      unlocked: Array.from(new Set([...(parsed.unlocked || []), ...freeThemes]))
+    };
+  } catch {
+    return fallback;
+  }
+}
+
+function writeRewardState(rewardState) {
+  localStorage.setItem(rewardKey, JSON.stringify(rewardState));
+}
+
+function isThemeUnlocked(themeId) {
+  return readRewardState().unlocked.includes(themeId);
+}
+
+function applyTheme(themeId) {
+  const theme = themeCatalog.some((item) => item.id === themeId) ? themeId : "light";
+  const nextTheme = isThemeUnlocked(theme) ? theme : "light";
+  document.documentElement.dataset.theme = nextTheme;
+  localStorage.setItem("icfesTheme", nextTheme);
+  els.themeToggle.textContent = "Temas";
+  renderThemeOptions();
+}
+
+function renderThemeOptions() {
+  if (!els.themeOptions || !els.rewardProgress) {
+    return;
+  }
+
+  const rewardState = readRewardState();
+  const currentTheme = document.documentElement.dataset.theme || "light";
+  els.rewardProgress.textContent = `${Math.min(rewardState.credits, 5)}/5 videos`;
+
+  els.themeOptions.innerHTML = themeCatalog
+    .map((theme) => {
+      const unlocked = rewardState.unlocked.includes(theme.id);
+      const selected = currentTheme === theme.id;
+      const canUnlock = !unlocked && rewardState.credits >= theme.cost;
+      const action = unlocked ? "Usar" : canUnlock ? "Desbloquear" : `${rewardState.credits}/${theme.cost}`;
+      return `
+        <button class="theme-option ${selected ? "selected" : ""}" data-theme-id="${escapeHtml(theme.id)}" ${!unlocked && !canUnlock ? "disabled" : ""}>
+          <span class="theme-swatch" style="background:${escapeHtml(theme.accent)}"></span>
+          <span>${escapeHtml(theme.name)}</span>
+          <strong>${escapeHtml(action)}</strong>
+        </button>
+      `;
+    })
+    .join("");
+}
+
+function openThemePanel() {
+  setMessage(els.rewardMessage, "");
+  renderThemeOptions();
+  els.themePanel.classList.remove("hidden");
+}
+
+function closeThemePanel() {
+  els.themePanel.classList.add("hidden");
+}
+
+async function watchRewardVideo() {
+  els.watchRewardBtn.disabled = true;
+  els.watchRewardBtn.textContent = "Reproduciendo...";
+  setMessage(els.rewardMessage, "Video de recompensa en modo demo.");
+
+  await new Promise((resolve) => setTimeout(resolve, 1400));
+
+  const rewardState = readRewardState();
+  rewardState.credits += 1;
+  writeRewardState(rewardState);
+  els.watchRewardBtn.disabled = false;
+  els.watchRewardBtn.textContent = "Ver video";
+  setMessage(els.rewardMessage, "Recompensa agregada.", "success");
+  renderThemeOptions();
+}
+
+function handleThemeChoice(event) {
+  const button = event.target.closest(".theme-option");
+  if (!button) {
+    return;
+  }
+
+  const themeId = button.dataset.themeId;
+  const theme = themeCatalog.find((item) => item.id === themeId);
+  const rewardState = readRewardState();
+
+  if (!theme) {
+    return;
+  }
+
+  if (rewardState.unlocked.includes(themeId)) {
+    applyTheme(themeId);
+    setMessage(els.rewardMessage, `${theme.name} aplicado.`, "success");
+    return;
+  }
+
+  if (rewardState.credits < theme.cost) {
+    return;
+  }
+
+  rewardState.credits -= theme.cost;
+  rewardState.unlocked.push(themeId);
+  writeRewardState(rewardState);
+  applyTheme(themeId);
+  setMessage(els.rewardMessage, `${theme.name} desbloqueado.`, "success");
 }
 
 function areaName(areaId) {
@@ -337,6 +484,28 @@ async function makeFirebaseProvider() {
 
   let currentUser = null;
 
+  function profileCacheKey(uid) {
+    return `icfesFirebaseProfile:${uid}`;
+  }
+
+  function cacheProfile(user) {
+    if (!user?.id) {
+      return;
+    }
+    localStorage.setItem(profileCacheKey(user.id), JSON.stringify({
+      ...user,
+      cachedAt: new Date().toISOString()
+    }));
+  }
+
+  function cachedProfile(uid) {
+    try {
+      return JSON.parse(localStorage.getItem(profileCacheKey(uid)) || "null");
+    } catch {
+      return null;
+    }
+  }
+
   function waitForAuth() {
     return new Promise((resolve) => {
       const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -358,6 +527,18 @@ async function makeFirebaseProvider() {
     return safeUserFromSnap(snap);
   }
 
+  async function loadUserWithOfflineFallback(uid) {
+    try {
+      const user = await loadUser(uid);
+      if (user) {
+        cacheProfile(user);
+      }
+      return user || cachedProfile(uid);
+    } catch {
+      return cachedProfile(uid);
+    }
+  }
+
   return {
     mode: "firebase",
     async init() {
@@ -365,7 +546,7 @@ async function makeFirebaseProvider() {
       if (!authUser) {
         return null;
       }
-      currentUser = await loadUser(authUser.uid);
+      currentUser = await loadUserWithOfflineFallback(authUser.uid);
       if (currentUser?.status !== "active") {
         await signOut(auth);
         currentUser = null;
@@ -385,6 +566,7 @@ async function makeFirebaseProvider() {
         throw new Error("Tu cuenta aún está pendiente de aprobación.");
       }
       currentUser = user;
+      cacheProfile(currentUser);
       return currentUser;
     },
     async register({ fullName, username, password, role }) {
@@ -411,6 +593,7 @@ async function makeFirebaseProvider() {
         return plainUser;
       }
       currentUser = plainUser;
+      cacheProfile(currentUser);
       return currentUser;
     },
     async logout() {
@@ -565,15 +748,7 @@ function showView(name) {
 
 function applyStoredTheme() {
   const theme = localStorage.getItem("icfesTheme") || "light";
-  document.documentElement.dataset.theme = theme;
-  els.themeToggle.textContent = theme === "dark" ? "Modo claro" : "Modo neon";
-}
-
-function toggleTheme() {
-  const nextTheme = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
-  document.documentElement.dataset.theme = nextTheme;
-  localStorage.setItem("icfesTheme", nextTheme);
-  els.themeToggle.textContent = nextTheme === "dark" ? "Modo claro" : "Modo neon";
+  applyTheme(theme);
 }
 
 function renderRolePanels() {
@@ -889,6 +1064,7 @@ async function approveTeacher(event) {
 }
 
 async function boot() {
+  renderBranding();
   applyStoredTheme();
   renderConnection();
 
@@ -904,7 +1080,10 @@ async function boot() {
 
 els.loginForm.addEventListener("submit", login);
 els.registerForm.addEventListener("submit", register);
-els.themeToggle.addEventListener("click", toggleTheme);
+els.themeToggle.addEventListener("click", openThemePanel);
+els.closeThemePanel.addEventListener("click", closeThemePanel);
+els.watchRewardBtn.addEventListener("click", watchRewardVideo);
+els.themeOptions.addEventListener("click", handleThemeChoice);
 els.logoutBtn.addEventListener("click", async () => {
   await dataProvider.logout().catch(() => null);
   leaveApp();

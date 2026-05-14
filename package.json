@@ -7,7 +7,7 @@
     "dev": "vite --host 0.0.0.0 --port 1234",
     "build": "node scripts/export-questions.js && vite build",
     "preview": "vite preview --host 0.0.0.0 --port 1234",
-    "server": "node server.js",
+    "server": "npm run build && node server.js",
     "cap:sync": "npm run build && npx cap sync android",
     "cap:open": "npm run build && npx cap open android",
     "android:aab": "npm run build && npx cap build android --androidreleasetype AAB",
