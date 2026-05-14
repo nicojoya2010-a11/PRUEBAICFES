@@ -1,0 +1,8 @@
+{
+  "appId": "com.nicoj.practicaicfes",
+  "appName": "Practica ICFES",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

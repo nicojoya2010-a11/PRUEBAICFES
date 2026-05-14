@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practica ICFES Saber 11</title>
+    <meta name="theme-color" content="#ff174d">
+    <link rel="manifest" href="/manifest.webmanifest">
+  </head>
+  <body>
+    <section class="auth-screen" id="authScreen">
+      <div class="auth-hero">
+        <div class="brand large">
+          <div class="brand-mark" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div>
+            <p class="eyebrow">Saber 11</p>
+            <h1>Practica ICFES</h1>
+          </div>
+        </div>
+        <p class="auth-copy">
+          Plataforma local y online con estudiantes, profesores y administracion. Los profesores quedan pendientes hasta que el admin los apruebe.
+        </p>
+        <div class="admin-note">
+          <strong>Modo local</strong>
+          <span>Usuario admin: <code>admin</code></span>
+          <span>Contrasena: <code>admin123</code></span>
+          <small>En Firebase, crea el admin con <code>npm run firebase:seed-admin</code>.</small>
+        </div>
+      </div>
+
+      <div class="auth-grid">
+        <form class="auth-card" id="loginForm">
+          <div>
+            <p class="eyebrow">Entrar</p>
+            <h2>Inicia sesion</h2>
+          </div>
+          <label class="field">
+            <span>Usuario</span>
+            <input id="loginUsername" autocomplete="username" required>
+          </label>
+          <label class="field">
+            <span>Contrasena</span>
+            <input id="loginPassword" type="password" autocomplete="current-password" required>
+          </label>
+          <button class="primary-button" type="submit">Entrar</button>
+          <p class="form-message" id="loginMessage"></p>
+        </form>
+
+        <form class="auth-card" id="registerForm">
+          <div>
+            <p class="eyebrow">Nuevo perfil</p>
+            <h2>Crear cuenta</h2>
+          </div>
+          <label class="field">
+            <span>Nombre</span>
+            <input id="registerName" autocomplete="name" required>
+          </label>
+          <label class="field">
+            <span>Usuario</span>
+            <input id="registerUsername" autocomplete="username" required>
+          </label>
+          <label class="field">
+            <span>Contrasena</span>
+            <input id="registerPassword" type="password" autocomplete="new-password" required>
+          </label>
+          <label class="field">
+            <span>Tipo de cuenta</span>
+            <select id="registerRole">
+              <option value="student">Estudiante</option>
+              <option value="teacher">Profesor</option>
+            </select>
+          </label>
+          <button class="secondary-button full-button" type="submit">Registrarme</button>
+          <p class="form-message" id="registerMessage"></p>
+        </form>
+      </div>
+    </section>
+
+    <div class="app-shell hidden" id="appShell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div>
+            <p class="eyebrow">Saber 11</p>
+            <h1>Practica ICFES</h1>
+          </div>
+        </div>
+        <div class="user-strip" aria-label="Sesion">
+          <span id="connectionBadge">Local</span>
+          <span id="totalQuestions">250 preguntas</span>
+          <span id="sessionClock">00:00</span>
+          <span id="userBadge">Usuario</span>
+          <button class="secondary-button compact" id="themeToggle">Modo neon</button>
+          <button class="secondary-button compact" id="logoutBtn">Salir</button>
+        </div>
+      </header>
+
+      <main class="layout">
+        <aside class="sidebar" aria-label="Configuracion de practica">
+          <section class="panel setup-panel">
+            <div class="panel-heading">
+              <h2>Practica</h2>
+              <button class="icon-button" id="resetStats" title="Borrar historial" aria-label="Borrar historial">R</button>
+            </div>
+
+            <label class="field">
+              <span>Area</span>
+              <select id="areaSelect"></select>
+            </label>
+
+            <label class="field">
+              <span>Cantidad</span>
+              <select id="amountSelect">
+                <option value="10">10 preguntas</option>
+                <option value="20" selected>20 preguntas</option>
+                <option value="30">30 preguntas</option>
+                <option value="50">50 preguntas</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Dificultad</span>
+              <select id="difficultySelect">
+                <option value="todas" selected>Todas</option>
+                <option value="Básico">Basico</option>
+                <option value="Medio">Medio</option>
+                <option value="Avanzado">Avanzado</option>
+              </select>
+            </label>
+
+            <button class="primary-button" id="startBtn">Comenzar</button>
+          </section>
+
+          <section class="panel role-panel hidden" id="teacherPanel">
+            <h2>Profesor</h2>
+            <button class="secondary-button full-button" id="openQuestionFormBtn">Agregar pregunta</button>
+          </section>
+
+          <section class="panel role-panel hidden" id="adminPanel">
+            <h2>Admin</h2>
+            <button class="secondary-button full-button" id="openAdminBtn">Autorizar profesores</button>
+            <button class="secondary-button full-button" id="adminQuestionFormBtn">Agregar pregunta</button>
+          </section>
+
+          <section class="panel areas-panel">
+            <h2>Areas</h2>
+            <div class="area-list" id="areaList"></div>
+          </section>
+
+          <section class="panel progress-panel">
+            <h2>Historial</h2>
+            <div class="history-grid">
+              <div>
+                <span id="bestScore">0%</span>
+                <small>Mejor</small>
+              </div>
+              <div>
+                <span id="practiceCount">0</span>
+                <small>Sesiones</small>
+              </div>
+            </div>
+          </section>
+        </aside>
+
+        <section class="workspace" aria-live="polite">
+          <section class="hero-state" id="emptyState">
+            <div class="score-ring" aria-hidden="true">
+              <span>11</span>
+            </div>
+            <div>
+              <p class="eyebrow">Banco listo</p>
+              <h2>Elige un area y empieza una sesion.</h2>
+              <p>Funciona localmente y queda preparado para Firebase con sincronizacion offline cuando configures el proyecto.</p>
+            </div>
+          </section>
+
+          <section class="quiz-view hidden" id="quizView">
+            <div class="quiz-top">
+              <div>
+                <p class="eyebrow" id="questionArea">Area</p>
+                <h2 id="questionCounter">Pregunta 1 de 20</h2>
+              </div>
+              <div class="pill" id="questionDifficulty">Medio</div>
+            </div>
+
+            <div class="progress-track">
+              <div class="progress-fill" id="progressFill"></div>
+            </div>
+
+            <article class="question-card">
+              <div class="context-box hidden" id="questionContext"></div>
+              <div class="skill-line" id="questionSkill">Competencia</div>
+              <h3 id="questionPrompt">Pregunta</h3>
+              <div class="options" id="optionsList"></div>
+            </article>
+
+            <div class="actions">
+              <button class="secondary-button" id="prevBtn">Anterior</button>
+              <button class="secondary-button" id="nextBtn">Siguiente</button>
+              <button class="primary-button action-primary" id="finishBtn">Finalizar</button>
+            </div>
+          </section>
+
+          <section class="results-view hidden" id="resultsView">
+            <div class="results-header">
+              <div>
+                <p class="eyebrow">Resultado</p>
+                <h2 id="scoreTitle">0 de 0</h2>
+              </div>
+              <div class="score-badge" id="scorePercent">0%</div>
+            </div>
+
+            <div class="result-bars" id="resultBars"></div>
+
+            <div class="review-heading">
+              <h3>Revision</h3>
+              <button class="secondary-button" id="newSessionBtn">Nueva sesion</button>
+            </div>
+            <div class="review-list" id="reviewList"></div>
+          </section>
+
+          <section class="manager-view hidden" id="managerView">
+            <div class="view-heading">
+              <div>
+                <p class="eyebrow">Banco docente</p>
+                <h2>Agregar pregunta</h2>
+              </div>
+              <button class="secondary-button" id="backHomeFromManager">Volver</button>
+            </div>
+
+            <form class="question-form" id="questionForm">
+              <div class="form-grid">
+                <label class="field">
+                  <span>Materia</span>
+                  <select id="questionAreaSelect"></select>
+                </label>
+                <label class="field">
+                  <span>Dificultad</span>
+                  <select id="questionDifficultySelect">
+                    <option value="Básico">Basico</option>
+                    <option value="Medio" selected>Medio</option>
+                    <option value="Avanzado">Avanzado</option>
+                  </select>
+                </label>
+              </div>
+
+              <label class="field">
+                <span>Competencia o tema</span>
+                <input id="questionSkillInput" placeholder="Ejemplo: inferencia, algebra, ciudadania">
+              </label>
+
+              <label class="field">
+                <span>Contexto o lectura</span>
+                <textarea id="questionContextInput" rows="4" placeholder="Opcional"></textarea>
+              </label>
+
+              <label class="field">
+                <span>Pregunta</span>
+                <textarea id="questionPromptInput" rows="3" required></textarea>
+              </label>
+
+              <div class="option-grid">
+                <label class="field"><span>Opcion A</span><input id="option0" required></label>
+                <label class="field"><span>Opcion B</span><input id="option1" required></label>
+                <label class="field"><span>Opcion C</span><input id="option2" required></label>
+                <label class="field"><span>Opcion D</span><input id="option3" required></label>
+              </div>
+
+              <div class="form-grid">
+                <label class="field">
+                  <span>Respuesta correcta</span>
+                  <select id="correctAnswerSelect">
+                    <option value="0">A</option>
+                    <option value="1">B</option>
+                    <option value="2">C</option>
+                    <option value="3">D</option>
+                  </select>
+                </label>
+                <label class="field">
+                  <span>Explicacion</span>
+                  <input id="questionExplanationInput" placeholder="Retroalimentacion para el estudiante">
+                </label>
+              </div>
+
+              <button class="primary-button" type="submit">Guardar pregunta</button>
+              <p class="form-message" id="questionFormMessage"></p>
+            </form>
+          </section>
+
+          <section class="admin-view hidden" id="adminView">
+            <div class="view-heading">
+              <div>
+                <p class="eyebrow">Admin</p>
+                <h2>Profesores pendientes</h2>
+              </div>
+              <button class="secondary-button" id="backHomeFromAdmin">Volver</button>
+            </div>
+            <div class="teacher-list" id="teacherList"></div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

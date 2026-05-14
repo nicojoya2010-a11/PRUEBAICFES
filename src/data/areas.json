@@ -1,0 +1,32 @@
+[
+  {
+    "id": "lectura",
+    "name": "Lectura Crítica",
+    "short": "LEC",
+    "accent": "#ef4444"
+  },
+  {
+    "id": "matematicas",
+    "name": "Matemáticas",
+    "short": "MAT",
+    "accent": "#2563eb"
+  },
+  {
+    "id": "sociales",
+    "name": "Sociales y Ciudadanas",
+    "short": "SOC",
+    "accent": "#16a34a"
+  },
+  {
+    "id": "ciencias",
+    "name": "Ciencias Naturales",
+    "short": "CIE",
+    "accent": "#0891b2"
+  },
+  {
+    "id": "ingles",
+    "name": "Inglés",
+    "short": "ING",
+    "accent": "#7c3aed"
+  }
+]

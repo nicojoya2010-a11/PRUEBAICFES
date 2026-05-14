@@ -1,0 +1,35 @@
+{
+  "name": "practica-icfes-local",
+  "version": "1.0.0",
+  "description": "Aplicacion web y Android para practicar Saber 11 / ICFES.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 1234",
+    "build": "node scripts/export-questions.js && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 1234",
+    "server": "node server.js",
+    "cap:sync": "npm run build && npx cap sync android",
+    "cap:open": "npm run build && npx cap open android",
+    "android:aab": "npm run build && npx cap build android --androidreleasetype AAB",
+    "firebase:login": "npx firebase-tools login",
+    "firebase:deploy": "npm run build && npx firebase-tools deploy",
+    "firebase:seed-admin": "node scripts/seed-admin.mjs"
+  },
+  "keywords": [
+    "icfes",
+    "saber-11",
+    "practica"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/android": "^8.3.4",
+    "@capacitor/cli": "^8.3.4",
+    "@capacitor/core": "^8.3.4",
+    "firebase": "^12.13.0",
+    "vite": "^8.0.12"
+  },
+  "devDependencies": {
+    "firebase-admin": "^13.9.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Practica ICFES",
+  "short_name": "ICFES",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06070b",
+  "theme_color": "#ff174d",
+  "description": "Practica Saber 11 con estudiantes, profesores y admin.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

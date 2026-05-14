@@ -1,0 +1,16 @@
+node_modules/
+dist/
+android/.gradle/
+android/app/build/
+android/build/
+android/gradle/
+*.jks
+*.keystore
+*.log
+serviceAccountKey.json
+.env
+.firebase/
+firebase-debug.log
+data/store.json
+server.log
+server.err

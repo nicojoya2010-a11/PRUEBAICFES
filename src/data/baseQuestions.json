@@ -1,0 +1,4252 @@
+[
+  {
+    "id": "LEC-001",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Comprensión global",
+    "difficulty": "Básico",
+    "context": "Huertas escolares\n\nEn un colegio urbano se abrió una huerta en el patio central. Al principio fue vista como una actividad decorativa; luego, los estudiantes comenzaron a medir el uso del agua, a comparar semillas y a vender parte de la cosecha en la tienda escolar. La huerta no reemplazó las clases de ciencias ni de matemáticas, pero las volvió más cercanas. Sin embargo, algunos docentes advirtieron que el proyecto solo tendría sentido si se mantenía como un espacio de investigación y no como una moda de semestre.",
+    "prompt": "¿Cuál es la idea central del texto?",
+    "options": [
+      "El texto presenta una anécdota sin relación con un problema general.",
+      "El texto defiende que toda innovación debe rechazarse por sus riesgos.",
+      "El texto se limita a describir una actividad sin tomar posición.",
+      "La huerta escolar es valiosa cuando funciona como un espacio de aprendizaje sostenido."
+    ],
+    "answer": 3,
+    "explanation": "La idea central recoge el punto que organiza todo el texto, no solo un detalle del caso."
+  },
+  {
+    "id": "LEC-002",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Inferencia",
+    "difficulty": "Medio",
+    "context": "Huertas escolares\n\nEn un colegio urbano se abrió una huerta en el patio central. Al principio fue vista como una actividad decorativa; luego, los estudiantes comenzaron a medir el uso del agua, a comparar semillas y a vender parte de la cosecha en la tienda escolar. La huerta no reemplazó las clases de ciencias ni de matemáticas, pero las volvió más cercanas. Sin embargo, algunos docentes advirtieron que el proyecto solo tendría sentido si se mantenía como un espacio de investigación y no como una moda de semestre.",
+    "prompt": "De acuerdo con el texto, se puede inferir que:",
+    "options": [
+      "La opinión de una sola persona basta para validar la conclusión.",
+      "La situación descrita no tiene relación con decisiones colectivas.",
+      "El proyecto exige continuidad para producir aprendizajes reales.",
+      "El problema queda resuelto de manera automática."
+    ],
+    "answer": 2,
+    "explanation": "La inferencia se apoya en información implícita del texto y evita exagerar lo que se afirma."
+  },
+  {
+    "id": "LEC-003",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Intención comunicativa",
+    "difficulty": "Medio",
+    "context": "Huertas escolares\n\nEn un colegio urbano se abrió una huerta en el patio central. Al principio fue vista como una actividad decorativa; luego, los estudiantes comenzaron a medir el uso del agua, a comparar semillas y a vender parte de la cosecha en la tienda escolar. La huerta no reemplazó las clases de ciencias ni de matemáticas, pero las volvió más cercanas. Sin embargo, algunos docentes advirtieron que el proyecto solo tendría sentido si se mantenía como un espacio de investigación y no como una moda de semestre.",
+    "prompt": "La intención principal del autor es:",
+    "options": [
+      "Presentar datos inconexos para confundir al lector.",
+      "Defender una iniciativa escolar, señalando una condición para que no pierda sentido.",
+      "Ordenar al lector que acepte una conclusión sin argumentos.",
+      "Narrar un hecho aislado sin relacionarlo con una reflexión."
+    ],
+    "answer": 1,
+    "explanation": "La intención se reconoce por el propósito que cumplen los ejemplos y comentarios del autor."
+  },
+  {
+    "id": "LEC-004",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Estructura textual",
+    "difficulty": "Medio",
+    "context": "Huertas escolares\n\nEn un colegio urbano se abrió una huerta en el patio central. Al principio fue vista como una actividad decorativa; luego, los estudiantes comenzaron a medir el uso del agua, a comparar semillas y a vender parte de la cosecha en la tienda escolar. La huerta no reemplazó las clases de ciencias ni de matemáticas, pero las volvió más cercanas. Sin embargo, algunos docentes advirtieron que el proyecto solo tendría sentido si se mantenía como un espacio de investigación y no como una moda de semestre.",
+    "prompt": "En el texto, la expresión \"Sin embargo\" cumple la función de:",
+    "options": [
+      "Introduce una advertencia que matiza los beneficios del proyecto.",
+      "Repetir exactamente la misma idea anterior.",
+      "Cerrar el texto sin aportar relación lógica.",
+      "Introducir un ejemplo que no se conecta con la tesis."
+    ],
+    "answer": 0,
+    "explanation": "Los conectores muestran relaciones de contraste, causa, consecuencia o corrección entre ideas."
+  },
+  {
+    "id": "LEC-005",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Evaluación crítica",
+    "difficulty": "Avanzado",
+    "context": "Huertas escolares\n\nEn un colegio urbano se abrió una huerta en el patio central. Al principio fue vista como una actividad decorativa; luego, los estudiantes comenzaron a medir el uso del agua, a comparar semillas y a vender parte de la cosecha en la tienda escolar. La huerta no reemplazó las clases de ciencias ni de matemáticas, pero las volvió más cercanas. Sin embargo, algunos docentes advirtieron que el proyecto solo tendría sentido si se mantenía como un espacio de investigación y no como una moda de semestre.",
+    "prompt": "¿Cuál afirmación debilitaría mejor la postura del texto?",
+    "options": [
+      "Un lector dijo que el tema le parecía interesante.",
+      "La experiencia fue comentada en una reunión informal.",
+      "El caso ocurrió en una institución con nombre propio.",
+      "Después del primer mes, ningún curso volvió a registrar datos ni a cuidar los cultivos."
+    ],
+    "answer": 3,
+    "explanation": "Para debilitar una postura se requiere una afirmación que contradiga una razón clave del texto."
+  },
+  {
+    "id": "LEC-006",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Comprensión global",
+    "difficulty": "Básico",
+    "context": "Biblioteca digital\n\nLa biblioteca del municipio compró tabletas para prestar libros digitales. La noticia fue celebrada como una prueba de modernización, aunque la asistencia no aumentó durante los primeros meses. La bibliotecaria observó que muchos jóvenes no necesitaban más pantallas, sino orientación para elegir qué leer y espacios para conversar sobre los textos. Por eso creó clubes de lectura mixtos: algunos libros se leían en papel y otros en formato digital.",
+    "prompt": "¿Cuál es la idea central del texto?",
+    "options": [
+      "El texto defiende que toda innovación debe rechazarse por sus riesgos.",
+      "El texto se limita a describir una actividad sin tomar posición.",
+      "La tecnología mejora la lectura solo si se acompaña de mediación y conversación.",
+      "El texto presenta una anécdota sin relación con un problema general."
+    ],
+    "answer": 2,
+    "explanation": "La idea central recoge el punto que organiza todo el texto, no solo un detalle del caso."
+  },
+  {
+    "id": "LEC-007",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Inferencia",
+    "difficulty": "Medio",
+    "context": "Biblioteca digital\n\nLa biblioteca del municipio compró tabletas para prestar libros digitales. La noticia fue celebrada como una prueba de modernización, aunque la asistencia no aumentó durante los primeros meses. La bibliotecaria observó que muchos jóvenes no necesitaban más pantallas, sino orientación para elegir qué leer y espacios para conversar sobre los textos. Por eso creó clubes de lectura mixtos: algunos libros se leían en papel y otros en formato digital.",
+    "prompt": "De acuerdo con el texto, se puede inferir que:",
+    "options": [
+      "La situación descrita no tiene relación con decisiones colectivas.",
+      "El acceso a dispositivos no garantiza por sí solo el hábito lector.",
+      "El problema queda resuelto de manera automática.",
+      "La opinión de una sola persona basta para validar la conclusión."
+    ],
+    "answer": 1,
+    "explanation": "La inferencia se apoya en información implícita del texto y evita exagerar lo que se afirma."
+  },
+  {
+    "id": "LEC-008",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Intención comunicativa",
+    "difficulty": "Medio",
+    "context": "Biblioteca digital\n\nLa biblioteca del municipio compró tabletas para prestar libros digitales. La noticia fue celebrada como una prueba de modernización, aunque la asistencia no aumentó durante los primeros meses. La bibliotecaria observó que muchos jóvenes no necesitaban más pantallas, sino orientación para elegir qué leer y espacios para conversar sobre los textos. Por eso creó clubes de lectura mixtos: algunos libros se leían en papel y otros en formato digital.",
+    "prompt": "La intención principal del autor es:",
+    "options": [
+      "Cuestionar una idea simplista de modernización cultural.",
+      "Ordenar al lector que acepte una conclusión sin argumentos.",
+      "Narrar un hecho aislado sin relacionarlo con una reflexión.",
+      "Presentar datos inconexos para confundir al lector."
+    ],
+    "answer": 0,
+    "explanation": "La intención se reconoce por el propósito que cumplen los ejemplos y comentarios del autor."
+  },
+  {
+    "id": "LEC-009",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Estructura textual",
+    "difficulty": "Medio",
+    "context": "Biblioteca digital\n\nLa biblioteca del municipio compró tabletas para prestar libros digitales. La noticia fue celebrada como una prueba de modernización, aunque la asistencia no aumentó durante los primeros meses. La bibliotecaria observó que muchos jóvenes no necesitaban más pantallas, sino orientación para elegir qué leer y espacios para conversar sobre los textos. Por eso creó clubes de lectura mixtos: algunos libros se leían en papel y otros en formato digital.",
+    "prompt": "En el texto, la expresión \"aunque\" cumple la función de:",
+    "options": [
+      "Repetir exactamente la misma idea anterior.",
+      "Cerrar el texto sin aportar relación lógica.",
+      "Introducir un ejemplo que no se conecta con la tesis.",
+      "Contrasta el entusiasmo inicial con un resultado limitado."
+    ],
+    "answer": 3,
+    "explanation": "Los conectores muestran relaciones de contraste, causa, consecuencia o corrección entre ideas."
+  },
+  {
+    "id": "LEC-010",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Evaluación crítica",
+    "difficulty": "Medio",
+    "context": "Biblioteca digital\n\nLa biblioteca del municipio compró tabletas para prestar libros digitales. La noticia fue celebrada como una prueba de modernización, aunque la asistencia no aumentó durante los primeros meses. La bibliotecaria observó que muchos jóvenes no necesitaban más pantallas, sino orientación para elegir qué leer y espacios para conversar sobre los textos. Por eso creó clubes de lectura mixtos: algunos libros se leían en papel y otros en formato digital.",
+    "prompt": "¿Cuál afirmación debilitaría mejor la postura del texto?",
+    "options": [
+      "La experiencia fue comentada en una reunión informal.",
+      "El caso ocurrió en una institución con nombre propio.",
+      "Tras entregar las tabletas, la asistencia subió sin necesidad de talleres ni clubes.",
+      "Un lector dijo que el tema le parecía interesante."
+    ],
+    "answer": 2,
+    "explanation": "Para debilitar una postura se requiere una afirmación que contradiga una razón clave del texto."
+  },
+  {
+    "id": "LEC-011",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Comprensión global",
+    "difficulty": "Básico",
+    "context": "Movilidad\n\nLa alcaldía propuso cerrar una avenida los domingos para uso de ciclistas y peatones. Los comerciantes temieron vender menos, mientras varios vecinos celebraron la posibilidad de caminar sin carros. Un mes después, las ventas de algunos cafés aumentaron y las quejas por ruido disminuyeron. Aun así, el informe recomienda evaluar rutas alternas para no trasladar la congestión a calles pequeñas.",
+    "prompt": "¿Cuál es la idea central del texto?",
+    "options": [
+      "El texto se limita a describir una actividad sin tomar posición.",
+      "Una medida de movilidad puede traer beneficios, pero requiere evaluación de sus efectos secundarios.",
+      "El texto presenta una anécdota sin relación con un problema general.",
+      "El texto defiende que toda innovación debe rechazarse por sus riesgos."
+    ],
+    "answer": 1,
+    "explanation": "La idea central recoge el punto que organiza todo el texto, no solo un detalle del caso."
+  },
+  {
+    "id": "LEC-012",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Inferencia",
+    "difficulty": "Medio",
+    "context": "Movilidad\n\nLa alcaldía propuso cerrar una avenida los domingos para uso de ciclistas y peatones. Los comerciantes temieron vender menos, mientras varios vecinos celebraron la posibilidad de caminar sin carros. Un mes después, las ventas de algunos cafés aumentaron y las quejas por ruido disminuyeron. Aun así, el informe recomienda evaluar rutas alternas para no trasladar la congestión a calles pequeñas.",
+    "prompt": "De acuerdo con el texto, se puede inferir que:",
+    "options": [
+      "La política pública debe considerar a distintos grupos afectados.",
+      "El problema queda resuelto de manera automática.",
+      "La opinión de una sola persona basta para validar la conclusión.",
+      "La situación descrita no tiene relación con decisiones colectivas."
+    ],
+    "answer": 0,
+    "explanation": "La inferencia se apoya en información implícita del texto y evita exagerar lo que se afirma."
+  },
+  {
+    "id": "LEC-013",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Intención comunicativa",
+    "difficulty": "Medio",
+    "context": "Movilidad\n\nLa alcaldía propuso cerrar una avenida los domingos para uso de ciclistas y peatones. Los comerciantes temieron vender menos, mientras varios vecinos celebraron la posibilidad de caminar sin carros. Un mes después, las ventas de algunos cafés aumentaron y las quejas por ruido disminuyeron. Aun así, el informe recomienda evaluar rutas alternas para no trasladar la congestión a calles pequeñas.",
+    "prompt": "La intención principal del autor es:",
+    "options": [
+      "Ordenar al lector que acepte una conclusión sin argumentos.",
+      "Narrar un hecho aislado sin relacionarlo con una reflexión.",
+      "Presentar datos inconexos para confundir al lector.",
+      "Presentar un balance prudente sobre una intervención urbana."
+    ],
+    "answer": 3,
+    "explanation": "La intención se reconoce por el propósito que cumplen los ejemplos y comentarios del autor."
+  },
+  {
+    "id": "LEC-014",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Estructura textual",
+    "difficulty": "Medio",
+    "context": "Movilidad\n\nLa alcaldía propuso cerrar una avenida los domingos para uso de ciclistas y peatones. Los comerciantes temieron vender menos, mientras varios vecinos celebraron la posibilidad de caminar sin carros. Un mes después, las ventas de algunos cafés aumentaron y las quejas por ruido disminuyeron. Aun así, el informe recomienda evaluar rutas alternas para no trasladar la congestión a calles pequeñas.",
+    "prompt": "En el texto, la expresión \"Aun así\" cumple la función de:",
+    "options": [
+      "Cerrar el texto sin aportar relación lógica.",
+      "Introducir un ejemplo que no se conecta con la tesis.",
+      "Introduce una precaución después de mencionar resultados positivos.",
+      "Repetir exactamente la misma idea anterior."
+    ],
+    "answer": 2,
+    "explanation": "Los conectores muestran relaciones de contraste, causa, consecuencia o corrección entre ideas."
+  },
+  {
+    "id": "LEC-015",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Evaluación crítica",
+    "difficulty": "Avanzado",
+    "context": "Movilidad\n\nLa alcaldía propuso cerrar una avenida los domingos para uso de ciclistas y peatones. Los comerciantes temieron vender menos, mientras varios vecinos celebraron la posibilidad de caminar sin carros. Un mes después, las ventas de algunos cafés aumentaron y las quejas por ruido disminuyeron. Aun así, el informe recomienda evaluar rutas alternas para no trasladar la congestión a calles pequeñas.",
+    "prompt": "¿Cuál afirmación debilitaría mejor la postura del texto?",
+    "options": [
+      "El caso ocurrió en una institución con nombre propio.",
+      "El cierre produjo congestión severa en todos los barrios y no generó ningún uso peatonal.",
+      "Un lector dijo que el tema le parecía interesante.",
+      "La experiencia fue comentada en una reunión informal."
+    ],
+    "answer": 1,
+    "explanation": "Para debilitar una postura se requiere una afirmación que contradiga una razón clave del texto."
+  },
+  {
+    "id": "LEC-016",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Comprensión global",
+    "difficulty": "Básico",
+    "context": "Datos personales\n\nUna aplicación gratuita ofrecía filtros para fotos a cambio de registrar la ubicación de sus usuarios. Muchos aceptaron sin leer las condiciones, porque el servicio parecía inofensivo. Meses después se descubrió que la empresa vendía patrones de desplazamiento a firmas de publicidad. El caso muestra que la privacidad no siempre se pierde por imposición; a veces se entrega por desconocimiento.",
+    "prompt": "¿Cuál es la idea central del texto?",
+    "options": [
+      "El uso irreflexivo de servicios digitales puede poner en riesgo la privacidad.",
+      "El texto presenta una anécdota sin relación con un problema general.",
+      "El texto defiende que toda innovación debe rechazarse por sus riesgos.",
+      "El texto se limita a describir una actividad sin tomar posición."
+    ],
+    "answer": 0,
+    "explanation": "La idea central recoge el punto que organiza todo el texto, no solo un detalle del caso."
+  },
+  {
+    "id": "LEC-017",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Inferencia",
+    "difficulty": "Medio",
+    "context": "Datos personales\n\nUna aplicación gratuita ofrecía filtros para fotos a cambio de registrar la ubicación de sus usuarios. Muchos aceptaron sin leer las condiciones, porque el servicio parecía inofensivo. Meses después se descubrió que la empresa vendía patrones de desplazamiento a firmas de publicidad. El caso muestra que la privacidad no siempre se pierde por imposición; a veces se entrega por desconocimiento.",
+    "prompt": "De acuerdo con el texto, se puede inferir que:",
+    "options": [
+      "El problema queda resuelto de manera automática.",
+      "La opinión de una sola persona basta para validar la conclusión.",
+      "La situación descrita no tiene relación con decisiones colectivas.",
+      "Aceptar términos sin comprenderlos puede tener consecuencias no visibles al inicio."
+    ],
+    "answer": 3,
+    "explanation": "La inferencia se apoya en información implícita del texto y evita exagerar lo que se afirma."
+  },
+  {
+    "id": "LEC-018",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Intención comunicativa",
+    "difficulty": "Medio",
+    "context": "Datos personales\n\nUna aplicación gratuita ofrecía filtros para fotos a cambio de registrar la ubicación de sus usuarios. Muchos aceptaron sin leer las condiciones, porque el servicio parecía inofensivo. Meses después se descubrió que la empresa vendía patrones de desplazamiento a firmas de publicidad. El caso muestra que la privacidad no siempre se pierde por imposición; a veces se entrega por desconocimiento.",
+    "prompt": "La intención principal del autor es:",
+    "options": [
+      "Narrar un hecho aislado sin relacionarlo con una reflexión.",
+      "Presentar datos inconexos para confundir al lector.",
+      "Advertir sobre una práctica cotidiana en entornos digitales.",
+      "Ordenar al lector que acepte una conclusión sin argumentos."
+    ],
+    "answer": 2,
+    "explanation": "La intención se reconoce por el propósito que cumplen los ejemplos y comentarios del autor."
+  },
+  {
+    "id": "LEC-019",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Estructura textual",
+    "difficulty": "Medio",
+    "context": "Datos personales\n\nUna aplicación gratuita ofrecía filtros para fotos a cambio de registrar la ubicación de sus usuarios. Muchos aceptaron sin leer las condiciones, porque el servicio parecía inofensivo. Meses después se descubrió que la empresa vendía patrones de desplazamiento a firmas de publicidad. El caso muestra que la privacidad no siempre se pierde por imposición; a veces se entrega por desconocimiento.",
+    "prompt": "En el texto, la expresión \"a veces\" cumple la función de:",
+    "options": [
+      "Introducir un ejemplo que no se conecta con la tesis.",
+      "Amplía la explicación al mostrar una forma menos evidente de perder privacidad.",
+      "Repetir exactamente la misma idea anterior.",
+      "Cerrar el texto sin aportar relación lógica."
+    ],
+    "answer": 1,
+    "explanation": "Los conectores muestran relaciones de contraste, causa, consecuencia o corrección entre ideas."
+  },
+  {
+    "id": "LEC-020",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Evaluación crítica",
+    "difficulty": "Medio",
+    "context": "Datos personales\n\nUna aplicación gratuita ofrecía filtros para fotos a cambio de registrar la ubicación de sus usuarios. Muchos aceptaron sin leer las condiciones, porque el servicio parecía inofensivo. Meses después se descubrió que la empresa vendía patrones de desplazamiento a firmas de publicidad. El caso muestra que la privacidad no siempre se pierde por imposición; a veces se entrega por desconocimiento.",
+    "prompt": "¿Cuál afirmación debilitaría mejor la postura del texto?",
+    "options": [
+      "La aplicación nunca recolectó ubicación ni compartió información con terceros.",
+      "Un lector dijo que el tema le parecía interesante.",
+      "La experiencia fue comentada en una reunión informal.",
+      "El caso ocurrió en una institución con nombre propio."
+    ],
+    "answer": 0,
+    "explanation": "Para debilitar una postura se requiere una afirmación que contradiga una razón clave del texto."
+  },
+  {
+    "id": "LEC-021",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Comprensión global",
+    "difficulty": "Básico",
+    "context": "Agua comunitaria\n\nEn una vereda, la comunidad decidió reparar el acueducto antes de pedir maquinaria nueva. Los habitantes revisaron fugas, limpiaron el tanque y organizaron turnos de mantenimiento. Cuando llegó el apoyo de la gobernación, ya existía un diagnóstico claro. La obra avanzó más rápido porque la ayuda externa encontró una comunidad organizada, no una comunidad pasiva.",
+    "prompt": "¿Cuál es la idea central del texto?",
+    "options": [
+      "El texto presenta una anécdota sin relación con un problema general.",
+      "El texto defiende que toda innovación debe rechazarse por sus riesgos.",
+      "El texto se limita a describir una actividad sin tomar posición.",
+      "La organización local puede hacer más eficaz el apoyo institucional."
+    ],
+    "answer": 3,
+    "explanation": "La idea central recoge el punto que organiza todo el texto, no solo un detalle del caso."
+  },
+  {
+    "id": "LEC-022",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Inferencia",
+    "difficulty": "Medio",
+    "context": "Agua comunitaria\n\nEn una vereda, la comunidad decidió reparar el acueducto antes de pedir maquinaria nueva. Los habitantes revisaron fugas, limpiaron el tanque y organizaron turnos de mantenimiento. Cuando llegó el apoyo de la gobernación, ya existía un diagnóstico claro. La obra avanzó más rápido porque la ayuda externa encontró una comunidad organizada, no una comunidad pasiva.",
+    "prompt": "De acuerdo con el texto, se puede inferir que:",
+    "options": [
+      "La opinión de una sola persona basta para validar la conclusión.",
+      "La situación descrita no tiene relación con decisiones colectivas.",
+      "La comunidad no esperó soluciones externas para actuar.",
+      "El problema queda resuelto de manera automática."
+    ],
+    "answer": 2,
+    "explanation": "La inferencia se apoya en información implícita del texto y evita exagerar lo que se afirma."
+  },
+  {
+    "id": "LEC-023",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Intención comunicativa",
+    "difficulty": "Medio",
+    "context": "Agua comunitaria\n\nEn una vereda, la comunidad decidió reparar el acueducto antes de pedir maquinaria nueva. Los habitantes revisaron fugas, limpiaron el tanque y organizaron turnos de mantenimiento. Cuando llegó el apoyo de la gobernación, ya existía un diagnóstico claro. La obra avanzó más rápido porque la ayuda externa encontró una comunidad organizada, no una comunidad pasiva.",
+    "prompt": "La intención principal del autor es:",
+    "options": [
+      "Presentar datos inconexos para confundir al lector.",
+      "Resaltar el valor de la participación comunitaria en la solución de problemas.",
+      "Ordenar al lector que acepte una conclusión sin argumentos.",
+      "Narrar un hecho aislado sin relacionarlo con una reflexión."
+    ],
+    "answer": 1,
+    "explanation": "La intención se reconoce por el propósito que cumplen los ejemplos y comentarios del autor."
+  },
+  {
+    "id": "LEC-024",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Estructura textual",
+    "difficulty": "Medio",
+    "context": "Agua comunitaria\n\nEn una vereda, la comunidad decidió reparar el acueducto antes de pedir maquinaria nueva. Los habitantes revisaron fugas, limpiaron el tanque y organizaron turnos de mantenimiento. Cuando llegó el apoyo de la gobernación, ya existía un diagnóstico claro. La obra avanzó más rápido porque la ayuda externa encontró una comunidad organizada, no una comunidad pasiva.",
+    "prompt": "En el texto, la expresión \"porque\" cumple la función de:",
+    "options": [
+      "Explica la causa de la rapidez con que avanzó la obra.",
+      "Repetir exactamente la misma idea anterior.",
+      "Cerrar el texto sin aportar relación lógica.",
+      "Introducir un ejemplo que no se conecta con la tesis."
+    ],
+    "answer": 0,
+    "explanation": "Los conectores muestran relaciones de contraste, causa, consecuencia o corrección entre ideas."
+  },
+  {
+    "id": "LEC-025",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Evaluación crítica",
+    "difficulty": "Avanzado",
+    "context": "Agua comunitaria\n\nEn una vereda, la comunidad decidió reparar el acueducto antes de pedir maquinaria nueva. Los habitantes revisaron fugas, limpiaron el tanque y organizaron turnos de mantenimiento. Cuando llegó el apoyo de la gobernación, ya existía un diagnóstico claro. La obra avanzó más rápido porque la ayuda externa encontró una comunidad organizada, no una comunidad pasiva.",
+    "prompt": "¿Cuál afirmación debilitaría mejor la postura del texto?",
+    "options": [
+      "Un lector dijo que el tema le parecía interesante.",
+      "La experiencia fue comentada en una reunión informal.",
+      "El caso ocurrió en una institución con nombre propio.",
+      "La comunidad rechazó participar y la obra solo avanzó cuando llegó personal externo."
+    ],
+    "answer": 3,
+    "explanation": "Para debilitar una postura se requiere una afirmación que contradiga una razón clave del texto."
+  },
+  {
+    "id": "LEC-026",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Comprensión global",
+    "difficulty": "Básico",
+    "context": "Memoria histórica\n\nEl museo local abrió una sala con testimonios de víctimas del conflicto armado. Algunos visitantes preguntaron por qué se insistía en hechos dolorosos si el pueblo quería mirar al futuro. La guía respondió que recordar no significa quedarse detenido, sino reconocer responsabilidades y evitar que el silencio vuelva normal la violencia. La sala no busca cerrar la discusión, sino impedir que se borren sus preguntas.",
+    "prompt": "¿Cuál es la idea central del texto?",
+    "options": [
+      "El texto defiende que toda innovación debe rechazarse por sus riesgos.",
+      "El texto se limita a describir una actividad sin tomar posición.",
+      "La memoria histórica permite comprender el pasado para construir una convivencia más responsable.",
+      "El texto presenta una anécdota sin relación con un problema general."
+    ],
+    "answer": 2,
+    "explanation": "La idea central recoge el punto que organiza todo el texto, no solo un detalle del caso."
+  },
+  {
+    "id": "LEC-027",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Inferencia",
+    "difficulty": "Medio",
+    "context": "Memoria histórica\n\nEl museo local abrió una sala con testimonios de víctimas del conflicto armado. Algunos visitantes preguntaron por qué se insistía en hechos dolorosos si el pueblo quería mirar al futuro. La guía respondió que recordar no significa quedarse detenido, sino reconocer responsabilidades y evitar que el silencio vuelva normal la violencia. La sala no busca cerrar la discusión, sino impedir que se borren sus preguntas.",
+    "prompt": "De acuerdo con el texto, se puede inferir que:",
+    "options": [
+      "La situación descrita no tiene relación con decisiones colectivas.",
+      "Olvidar hechos violentos puede dificultar la reparación social.",
+      "El problema queda resuelto de manera automática.",
+      "La opinión de una sola persona basta para validar la conclusión."
+    ],
+    "answer": 1,
+    "explanation": "La inferencia se apoya en información implícita del texto y evita exagerar lo que se afirma."
+  },
+  {
+    "id": "LEC-028",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Intención comunicativa",
+    "difficulty": "Medio",
+    "context": "Memoria histórica\n\nEl museo local abrió una sala con testimonios de víctimas del conflicto armado. Algunos visitantes preguntaron por qué se insistía en hechos dolorosos si el pueblo quería mirar al futuro. La guía respondió que recordar no significa quedarse detenido, sino reconocer responsabilidades y evitar que el silencio vuelva normal la violencia. La sala no busca cerrar la discusión, sino impedir que se borren sus preguntas.",
+    "prompt": "La intención principal del autor es:",
+    "options": [
+      "Justificar la importancia pública de conservar testimonios dolorosos.",
+      "Ordenar al lector que acepte una conclusión sin argumentos.",
+      "Narrar un hecho aislado sin relacionarlo con una reflexión.",
+      "Presentar datos inconexos para confundir al lector."
+    ],
+    "answer": 0,
+    "explanation": "La intención se reconoce por el propósito que cumplen los ejemplos y comentarios del autor."
+  },
+  {
+    "id": "LEC-029",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Estructura textual",
+    "difficulty": "Medio",
+    "context": "Memoria histórica\n\nEl museo local abrió una sala con testimonios de víctimas del conflicto armado. Algunos visitantes preguntaron por qué se insistía en hechos dolorosos si el pueblo quería mirar al futuro. La guía respondió que recordar no significa quedarse detenido, sino reconocer responsabilidades y evitar que el silencio vuelva normal la violencia. La sala no busca cerrar la discusión, sino impedir que se borren sus preguntas.",
+    "prompt": "En el texto, la expresión \"sino\" cumple la función de:",
+    "options": [
+      "Repetir exactamente la misma idea anterior.",
+      "Cerrar el texto sin aportar relación lógica.",
+      "Introducir un ejemplo que no se conecta con la tesis.",
+      "Corrige una interpretación y propone una idea alternativa."
+    ],
+    "answer": 3,
+    "explanation": "Los conectores muestran relaciones de contraste, causa, consecuencia o corrección entre ideas."
+  },
+  {
+    "id": "LEC-030",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Evaluación crítica",
+    "difficulty": "Medio",
+    "context": "Memoria histórica\n\nEl museo local abrió una sala con testimonios de víctimas del conflicto armado. Algunos visitantes preguntaron por qué se insistía en hechos dolorosos si el pueblo quería mirar al futuro. La guía respondió que recordar no significa quedarse detenido, sino reconocer responsabilidades y evitar que el silencio vuelva normal la violencia. La sala no busca cerrar la discusión, sino impedir que se borren sus preguntas.",
+    "prompt": "¿Cuál afirmación debilitaría mejor la postura del texto?",
+    "options": [
+      "La experiencia fue comentada en una reunión informal.",
+      "El caso ocurrió en una institución con nombre propio.",
+      "Los testimonios fueron inventados y no correspondían a experiencias reales del pueblo.",
+      "Un lector dijo que el tema le parecía interesante."
+    ],
+    "answer": 2,
+    "explanation": "Para debilitar una postura se requiere una afirmación que contradiga una razón clave del texto."
+  },
+  {
+    "id": "LEC-031",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Comprensión global",
+    "difficulty": "Básico",
+    "context": "Alimentación escolar\n\nEl menú escolar cambió las bebidas azucaradas por jugos sin azúcar y frutas enteras. Varios estudiantes se quejaron durante la primera semana, pero el equipo de nutrición acompañó el cambio con talleres sobre energía, concentración y hábitos. Al final del mes, el rechazo disminuyó. La experiencia sugiere que una norma alimentaria funciona mejor cuando también se explica su propósito.",
+    "prompt": "¿Cuál es la idea central del texto?",
+    "options": [
+      "El texto se limita a describir una actividad sin tomar posición.",
+      "Los cambios de hábitos son más aceptados cuando se acompañan de información pertinente.",
+      "El texto presenta una anécdota sin relación con un problema general.",
+      "El texto defiende que toda innovación debe rechazarse por sus riesgos."
+    ],
+    "answer": 1,
+    "explanation": "La idea central recoge el punto que organiza todo el texto, no solo un detalle del caso."
+  },
+  {
+    "id": "LEC-032",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Inferencia",
+    "difficulty": "Medio",
+    "context": "Alimentación escolar\n\nEl menú escolar cambió las bebidas azucaradas por jugos sin azúcar y frutas enteras. Varios estudiantes se quejaron durante la primera semana, pero el equipo de nutrición acompañó el cambio con talleres sobre energía, concentración y hábitos. Al final del mes, el rechazo disminuyó. La experiencia sugiere que una norma alimentaria funciona mejor cuando también se explica su propósito.",
+    "prompt": "De acuerdo con el texto, se puede inferir que:",
+    "options": [
+      "La resistencia inicial puede reducirse mediante educación y diálogo.",
+      "El problema queda resuelto de manera automática.",
+      "La opinión de una sola persona basta para validar la conclusión.",
+      "La situación descrita no tiene relación con decisiones colectivas."
+    ],
+    "answer": 0,
+    "explanation": "La inferencia se apoya en información implícita del texto y evita exagerar lo que se afirma."
+  },
+  {
+    "id": "LEC-033",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Intención comunicativa",
+    "difficulty": "Medio",
+    "context": "Alimentación escolar\n\nEl menú escolar cambió las bebidas azucaradas por jugos sin azúcar y frutas enteras. Varios estudiantes se quejaron durante la primera semana, pero el equipo de nutrición acompañó el cambio con talleres sobre energía, concentración y hábitos. Al final del mes, el rechazo disminuyó. La experiencia sugiere que una norma alimentaria funciona mejor cuando también se explica su propósito.",
+    "prompt": "La intención principal del autor es:",
+    "options": [
+      "Ordenar al lector que acepte una conclusión sin argumentos.",
+      "Narrar un hecho aislado sin relacionarlo con una reflexión.",
+      "Presentar datos inconexos para confundir al lector.",
+      "Mostrar que una medida saludable necesita acompañamiento pedagógico."
+    ],
+    "answer": 3,
+    "explanation": "La intención se reconoce por el propósito que cumplen los ejemplos y comentarios del autor."
+  },
+  {
+    "id": "LEC-034",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Estructura textual",
+    "difficulty": "Medio",
+    "context": "Alimentación escolar\n\nEl menú escolar cambió las bebidas azucaradas por jugos sin azúcar y frutas enteras. Varios estudiantes se quejaron durante la primera semana, pero el equipo de nutrición acompañó el cambio con talleres sobre energía, concentración y hábitos. Al final del mes, el rechazo disminuyó. La experiencia sugiere que una norma alimentaria funciona mejor cuando también se explica su propósito.",
+    "prompt": "En el texto, la expresión \"pero\" cumple la función de:",
+    "options": [
+      "Cerrar el texto sin aportar relación lógica.",
+      "Introducir un ejemplo que no se conecta con la tesis.",
+      "Contrapone la queja inicial con la estrategia de acompañamiento.",
+      "Repetir exactamente la misma idea anterior."
+    ],
+    "answer": 2,
+    "explanation": "Los conectores muestran relaciones de contraste, causa, consecuencia o corrección entre ideas."
+  },
+  {
+    "id": "LEC-035",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Evaluación crítica",
+    "difficulty": "Avanzado",
+    "context": "Alimentación escolar\n\nEl menú escolar cambió las bebidas azucaradas por jugos sin azúcar y frutas enteras. Varios estudiantes se quejaron durante la primera semana, pero el equipo de nutrición acompañó el cambio con talleres sobre energía, concentración y hábitos. Al final del mes, el rechazo disminuyó. La experiencia sugiere que una norma alimentaria funciona mejor cuando también se explica su propósito.",
+    "prompt": "¿Cuál afirmación debilitaría mejor la postura del texto?",
+    "options": [
+      "El caso ocurrió en una institución con nombre propio.",
+      "Los talleres confundieron a los estudiantes y aumentaron el rechazo durante todo el año.",
+      "Un lector dijo que el tema le parecía interesante.",
+      "La experiencia fue comentada en una reunión informal."
+    ],
+    "answer": 1,
+    "explanation": "Para debilitar una postura se requiere una afirmación que contradiga una razón clave del texto."
+  },
+  {
+    "id": "LEC-036",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Comprensión global",
+    "difficulty": "Básico",
+    "context": "Tecnología en clase\n\nUn profesor permitió usar celulares para consultar fuentes durante un debate. La actividad fracasó cuando varios estudiantes copiaron la primera respuesta que encontraron. En la siguiente sesión, el profesor pidió comparar tres fuentes, identificar autores y justificar cuál era más confiable. Entonces los celulares dejaron de ser una distracción automática y se volvieron una herramienta de lectura crítica.",
+    "prompt": "¿Cuál es la idea central del texto?",
+    "options": [
+      "La tecnología educativa requiere criterios de uso para aportar al aprendizaje.",
+      "El texto presenta una anécdota sin relación con un problema general.",
+      "El texto defiende que toda innovación debe rechazarse por sus riesgos.",
+      "El texto se limita a describir una actividad sin tomar posición."
+    ],
+    "answer": 0,
+    "explanation": "La idea central recoge el punto que organiza todo el texto, no solo un detalle del caso."
+  },
+  {
+    "id": "LEC-037",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Inferencia",
+    "difficulty": "Medio",
+    "context": "Tecnología en clase\n\nUn profesor permitió usar celulares para consultar fuentes durante un debate. La actividad fracasó cuando varios estudiantes copiaron la primera respuesta que encontraron. En la siguiente sesión, el profesor pidió comparar tres fuentes, identificar autores y justificar cuál era más confiable. Entonces los celulares dejaron de ser una distracción automática y se volvieron una herramienta de lectura crítica.",
+    "prompt": "De acuerdo con el texto, se puede inferir que:",
+    "options": [
+      "El problema queda resuelto de manera automática.",
+      "La opinión de una sola persona basta para validar la conclusión.",
+      "La situación descrita no tiene relación con decisiones colectivas.",
+      "Consultar información no equivale a evaluarla críticamente."
+    ],
+    "answer": 3,
+    "explanation": "La inferencia se apoya en información implícita del texto y evita exagerar lo que se afirma."
+  },
+  {
+    "id": "LEC-038",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Intención comunicativa",
+    "difficulty": "Medio",
+    "context": "Tecnología en clase\n\nUn profesor permitió usar celulares para consultar fuentes durante un debate. La actividad fracasó cuando varios estudiantes copiaron la primera respuesta que encontraron. En la siguiente sesión, el profesor pidió comparar tres fuentes, identificar autores y justificar cuál era más confiable. Entonces los celulares dejaron de ser una distracción automática y se volvieron una herramienta de lectura crítica.",
+    "prompt": "La intención principal del autor es:",
+    "options": [
+      "Narrar un hecho aislado sin relacionarlo con una reflexión.",
+      "Presentar datos inconexos para confundir al lector.",
+      "Diferenciar el acceso a información de la formación de criterio.",
+      "Ordenar al lector que acepte una conclusión sin argumentos."
+    ],
+    "answer": 2,
+    "explanation": "La intención se reconoce por el propósito que cumplen los ejemplos y comentarios del autor."
+  },
+  {
+    "id": "LEC-039",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Estructura textual",
+    "difficulty": "Medio",
+    "context": "Tecnología en clase\n\nUn profesor permitió usar celulares para consultar fuentes durante un debate. La actividad fracasó cuando varios estudiantes copiaron la primera respuesta que encontraron. En la siguiente sesión, el profesor pidió comparar tres fuentes, identificar autores y justificar cuál era más confiable. Entonces los celulares dejaron de ser una distracción automática y se volvieron una herramienta de lectura crítica.",
+    "prompt": "En el texto, la expresión \"Entonces\" cumple la función de:",
+    "options": [
+      "Introducir un ejemplo que no se conecta con la tesis.",
+      "Señala el resultado de modificar la estrategia de trabajo.",
+      "Repetir exactamente la misma idea anterior.",
+      "Cerrar el texto sin aportar relación lógica."
+    ],
+    "answer": 1,
+    "explanation": "Los conectores muestran relaciones de contraste, causa, consecuencia o corrección entre ideas."
+  },
+  {
+    "id": "LEC-040",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Evaluación crítica",
+    "difficulty": "Medio",
+    "context": "Tecnología en clase\n\nUn profesor permitió usar celulares para consultar fuentes durante un debate. La actividad fracasó cuando varios estudiantes copiaron la primera respuesta que encontraron. En la siguiente sesión, el profesor pidió comparar tres fuentes, identificar autores y justificar cuál era más confiable. Entonces los celulares dejaron de ser una distracción automática y se volvieron una herramienta de lectura crítica.",
+    "prompt": "¿Cuál afirmación debilitaría mejor la postura del texto?",
+    "options": [
+      "Los estudiantes evaluaron fuentes con rigor desde la primera sesión, sin orientación alguna.",
+      "Un lector dijo que el tema le parecía interesante.",
+      "La experiencia fue comentada en una reunión informal.",
+      "El caso ocurrió en una institución con nombre propio."
+    ],
+    "answer": 0,
+    "explanation": "Para debilitar una postura se requiere una afirmación que contradiga una razón clave del texto."
+  },
+  {
+    "id": "LEC-041",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Comprensión global",
+    "difficulty": "Básico",
+    "context": "Emprendimiento local\n\nUn grupo de jóvenes empezó a vender mermeladas hechas con frutas de la región. Al comienzo copiaron etiquetas de marcas famosas para parecer más profesionales. Una asesora les explicó que la confianza no nace de imitar, sino de comunicar origen, calidad y responsabilidad. Rediseñaron la marca con historias de productores locales y sus ventas crecieron lentamente, pero con clientes más fieles.",
+    "prompt": "¿Cuál es la idea central del texto?",
+    "options": [
+      "El texto presenta una anécdota sin relación con un problema general.",
+      "El texto defiende que toda innovación debe rechazarse por sus riesgos.",
+      "El texto se limita a describir una actividad sin tomar posición.",
+      "Un emprendimiento local puede fortalecerse cuando construye una identidad propia."
+    ],
+    "answer": 3,
+    "explanation": "La idea central recoge el punto que organiza todo el texto, no solo un detalle del caso."
+  },
+  {
+    "id": "LEC-042",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Inferencia",
+    "difficulty": "Medio",
+    "context": "Emprendimiento local\n\nUn grupo de jóvenes empezó a vender mermeladas hechas con frutas de la región. Al comienzo copiaron etiquetas de marcas famosas para parecer más profesionales. Una asesora les explicó que la confianza no nace de imitar, sino de comunicar origen, calidad y responsabilidad. Rediseñaron la marca con historias de productores locales y sus ventas crecieron lentamente, pero con clientes más fieles.",
+    "prompt": "De acuerdo con el texto, se puede inferir que:",
+    "options": [
+      "La opinión de una sola persona basta para validar la conclusión.",
+      "La situación descrita no tiene relación con decisiones colectivas.",
+      "La autenticidad puede ser más valiosa que aparentar prestigio ajeno.",
+      "El problema queda resuelto de manera automática."
+    ],
+    "answer": 2,
+    "explanation": "La inferencia se apoya en información implícita del texto y evita exagerar lo que se afirma."
+  },
+  {
+    "id": "LEC-043",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Intención comunicativa",
+    "difficulty": "Medio",
+    "context": "Emprendimiento local\n\nUn grupo de jóvenes empezó a vender mermeladas hechas con frutas de la región. Al comienzo copiaron etiquetas de marcas famosas para parecer más profesionales. Una asesora les explicó que la confianza no nace de imitar, sino de comunicar origen, calidad y responsabilidad. Rediseñaron la marca con historias de productores locales y sus ventas crecieron lentamente, pero con clientes más fieles.",
+    "prompt": "La intención principal del autor es:",
+    "options": [
+      "Presentar datos inconexos para confundir al lector.",
+      "Valorar una estrategia comercial basada en identidad y confianza.",
+      "Ordenar al lector que acepte una conclusión sin argumentos.",
+      "Narrar un hecho aislado sin relacionarlo con una reflexión."
+    ],
+    "answer": 1,
+    "explanation": "La intención se reconoce por el propósito que cumplen los ejemplos y comentarios del autor."
+  },
+  {
+    "id": "LEC-044",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Estructura textual",
+    "difficulty": "Medio",
+    "context": "Emprendimiento local\n\nUn grupo de jóvenes empezó a vender mermeladas hechas con frutas de la región. Al comienzo copiaron etiquetas de marcas famosas para parecer más profesionales. Una asesora les explicó que la confianza no nace de imitar, sino de comunicar origen, calidad y responsabilidad. Rediseñaron la marca con historias de productores locales y sus ventas crecieron lentamente, pero con clientes más fieles.",
+    "prompt": "En el texto, la expresión \"sino\" cumple la función de:",
+    "options": [
+      "Reemplaza una idea equivocada por una recomendación central.",
+      "Repetir exactamente la misma idea anterior.",
+      "Cerrar el texto sin aportar relación lógica.",
+      "Introducir un ejemplo que no se conecta con la tesis."
+    ],
+    "answer": 0,
+    "explanation": "Los conectores muestran relaciones de contraste, causa, consecuencia o corrección entre ideas."
+  },
+  {
+    "id": "LEC-045",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Evaluación crítica",
+    "difficulty": "Avanzado",
+    "context": "Emprendimiento local\n\nUn grupo de jóvenes empezó a vender mermeladas hechas con frutas de la región. Al comienzo copiaron etiquetas de marcas famosas para parecer más profesionales. Una asesora les explicó que la confianza no nace de imitar, sino de comunicar origen, calidad y responsabilidad. Rediseñaron la marca con historias de productores locales y sus ventas crecieron lentamente, pero con clientes más fieles.",
+    "prompt": "¿Cuál afirmación debilitaría mejor la postura del texto?",
+    "options": [
+      "Un lector dijo que el tema le parecía interesante.",
+      "La experiencia fue comentada en una reunión informal.",
+      "El caso ocurrió en una institución con nombre propio.",
+      "Al copiar etiquetas de marcas famosas, el negocio ganó confianza estable y reconocimiento legal."
+    ],
+    "answer": 3,
+    "explanation": "Para debilitar una postura se requiere una afirmación que contradiga una razón clave del texto."
+  },
+  {
+    "id": "LEC-046",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Comprensión global",
+    "difficulty": "Básico",
+    "context": "Deporte e inclusión\n\nEl torneo intercolegiado exigía equipos mixtos, pero algunos capitanes dejaban a las niñas en la banca durante todo el partido. La regla parecía incluyente en el papel, aunque no cambiaba la práctica. Después se agregó una condición: todos los integrantes debían participar al menos un tiempo completo. La inclusión dejó de ser un requisito formal y empezó a notarse en la cancha.",
+    "prompt": "¿Cuál es la idea central del texto?",
+    "options": [
+      "El texto defiende que toda innovación debe rechazarse por sus riesgos.",
+      "El texto se limita a describir una actividad sin tomar posición.",
+      "Una norma incluyente debe transformar la práctica, no solo aparecer en el reglamento.",
+      "El texto presenta una anécdota sin relación con un problema general."
+    ],
+    "answer": 2,
+    "explanation": "La idea central recoge el punto que organiza todo el texto, no solo un detalle del caso."
+  },
+  {
+    "id": "LEC-047",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Inferencia",
+    "difficulty": "Medio",
+    "context": "Deporte e inclusión\n\nEl torneo intercolegiado exigía equipos mixtos, pero algunos capitanes dejaban a las niñas en la banca durante todo el partido. La regla parecía incluyente en el papel, aunque no cambiaba la práctica. Después se agregó una condición: todos los integrantes debían participar al menos un tiempo completo. La inclusión dejó de ser un requisito formal y empezó a notarse en la cancha.",
+    "prompt": "De acuerdo con el texto, se puede inferir que:",
+    "options": [
+      "La situación descrita no tiene relación con decisiones colectivas.",
+      "La igualdad formal puede ser insuficiente si no se verifica su cumplimiento.",
+      "El problema queda resuelto de manera automática.",
+      "La opinión de una sola persona basta para validar la conclusión."
+    ],
+    "answer": 1,
+    "explanation": "La inferencia se apoya en información implícita del texto y evita exagerar lo que se afirma."
+  },
+  {
+    "id": "LEC-048",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Intención comunicativa",
+    "difficulty": "Medio",
+    "context": "Deporte e inclusión\n\nEl torneo intercolegiado exigía equipos mixtos, pero algunos capitanes dejaban a las niñas en la banca durante todo el partido. La regla parecía incluyente en el papel, aunque no cambiaba la práctica. Después se agregó una condición: todos los integrantes debían participar al menos un tiempo completo. La inclusión dejó de ser un requisito formal y empezó a notarse en la cancha.",
+    "prompt": "La intención principal del autor es:",
+    "options": [
+      "Criticar una inclusión aparente y proponer un criterio más efectivo.",
+      "Ordenar al lector que acepte una conclusión sin argumentos.",
+      "Narrar un hecho aislado sin relacionarlo con una reflexión.",
+      "Presentar datos inconexos para confundir al lector."
+    ],
+    "answer": 0,
+    "explanation": "La intención se reconoce por el propósito que cumplen los ejemplos y comentarios del autor."
+  },
+  {
+    "id": "LEC-049",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Estructura textual",
+    "difficulty": "Medio",
+    "context": "Deporte e inclusión\n\nEl torneo intercolegiado exigía equipos mixtos, pero algunos capitanes dejaban a las niñas en la banca durante todo el partido. La regla parecía incluyente en el papel, aunque no cambiaba la práctica. Después se agregó una condición: todos los integrantes debían participar al menos un tiempo completo. La inclusión dejó de ser un requisito formal y empezó a notarse en la cancha.",
+    "prompt": "En el texto, la expresión \"aunque\" cumple la función de:",
+    "options": [
+      "Repetir exactamente la misma idea anterior.",
+      "Cerrar el texto sin aportar relación lógica.",
+      "Introducir un ejemplo que no se conecta con la tesis.",
+      "Marca una oposición entre la regla escrita y lo que ocurría realmente."
+    ],
+    "answer": 3,
+    "explanation": "Los conectores muestran relaciones de contraste, causa, consecuencia o corrección entre ideas."
+  },
+  {
+    "id": "LEC-050",
+    "areaId": "lectura",
+    "area": "Lectura Crítica",
+    "skill": "Evaluación crítica",
+    "difficulty": "Medio",
+    "context": "Deporte e inclusión\n\nEl torneo intercolegiado exigía equipos mixtos, pero algunos capitanes dejaban a las niñas en la banca durante todo el partido. La regla parecía incluyente en el papel, aunque no cambiaba la práctica. Después se agregó una condición: todos los integrantes debían participar al menos un tiempo completo. La inclusión dejó de ser un requisito formal y empezó a notarse en la cancha.",
+    "prompt": "¿Cuál afirmación debilitaría mejor la postura del texto?",
+    "options": [
+      "La experiencia fue comentada en una reunión informal.",
+      "El caso ocurrió en una institución con nombre propio.",
+      "Desde el inicio, todos los jugadores participaron por igual sin necesidad de ajustar reglas.",
+      "Un lector dijo que el tema le parecía interesante."
+    ],
+    "answer": 2,
+    "explanation": "Para debilitar una postura se requiere una afirmación que contradiga una razón clave del texto."
+  },
+  {
+    "id": "MAT-001",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Numérico-variacional",
+    "difficulty": "Básico",
+    "context": "",
+    "prompt": "Un libro cuesta $28.000 y tiene un descuento del 10 %. ¿Cuánto se paga al aplicar el descuento?",
+    "options": [
+      "$30.520",
+      "$27.990",
+      "$30.800",
+      "$25.200"
+    ],
+    "answer": 3,
+    "explanation": "Se paga el 90 % del precio: $28.000 * 0.9 = $25.200."
+  },
+  {
+    "id": "MAT-002",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Numérico-variacional",
+    "difficulty": "Básico",
+    "context": "",
+    "prompt": "Un libro cuesta $32.500 y tiene un descuento del 15 %. ¿Cuánto se paga al aplicar el descuento?",
+    "options": [
+      "$32.485",
+      "$37.375",
+      "$27.625",
+      "$36.644"
+    ],
+    "answer": 2,
+    "explanation": "Se paga el 85 % del precio: $32.500 * 0.85 = $27.625."
+  },
+  {
+    "id": "MAT-003",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Numérico-variacional",
+    "difficulty": "Básico",
+    "context": "",
+    "prompt": "Un libro cuesta $37.000 y tiene un descuento del 20 %. ¿Cuánto se paga al aplicar el descuento?",
+    "options": [
+      "$44.400",
+      "$29.600",
+      "$42.920",
+      "$36.980"
+    ],
+    "answer": 1,
+    "explanation": "Se paga el 80 % del precio: $37.000 * 0.8 = $29.600."
+  },
+  {
+    "id": "MAT-004",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Numérico-variacional",
+    "difficulty": "Básico",
+    "context": "",
+    "prompt": "Un libro cuesta $41.500 y tiene un descuento del 25 %. ¿Cuánto se paga al aplicar el descuento?",
+    "options": [
+      "$31.125",
+      "$49.281",
+      "$41.475",
+      "$51.875"
+    ],
+    "answer": 0,
+    "explanation": "Se paga el 75 % del precio: $41.500 * 0.75 = $31.125."
+  },
+  {
+    "id": "MAT-005",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Numérico-variacional",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Un libro cuesta $46.000 y tiene un descuento del 30 %. ¿Cuánto se paga al aplicar el descuento?",
+    "options": [
+      "$55.660",
+      "$45.970",
+      "$59.800",
+      "$32.200"
+    ],
+    "answer": 3,
+    "explanation": "Se paga el 70 % del precio: $46.000 * 0.7 = $32.200."
+  },
+  {
+    "id": "MAT-006",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Numérico-variacional",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Un libro cuesta $50.500 y tiene un descuento del 12 %. ¿Cuánto se paga al aplicar el descuento?",
+    "options": [
+      "$50.488",
+      "$56.560",
+      "$44.440",
+      "$55.833"
+    ],
+    "answer": 2,
+    "explanation": "Se paga el 88 % del precio: $50.500 * 0.88 = $44.440."
+  },
+  {
+    "id": "MAT-007",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Numérico-variacional",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Un libro cuesta $55.000 y tiene un descuento del 18 %. ¿Cuánto se paga al aplicar el descuento?",
+    "options": [
+      "$64.900",
+      "$45.100",
+      "$63.118",
+      "$54.982"
+    ],
+    "answer": 1,
+    "explanation": "Se paga el 82 % del precio: $55.000 * 0.82 = $45.100."
+  },
+  {
+    "id": "MAT-008",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Numérico-variacional",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Un libro cuesta $59.500 y tiene un descuento del 22 %. ¿Cuánto se paga al aplicar el descuento?",
+    "options": [
+      "$46.410",
+      "$69.710",
+      "$59.478",
+      "$72.590"
+    ],
+    "answer": 0,
+    "explanation": "Se paga el 78 % del precio: $59.500 * 0.78 = $46.410."
+  },
+  {
+    "id": "MAT-009",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Numérico-variacional",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Un libro cuesta $64.000 y tiene un descuento del 35 %. ¿Cuánto se paga al aplicar el descuento?",
+    "options": [
+      "$78.560",
+      "$63.965",
+      "$86.400",
+      "$41.600"
+    ],
+    "answer": 3,
+    "explanation": "Se paga el 65 % del precio: $64.000 * 0.65 = $41.600."
+  },
+  {
+    "id": "MAT-010",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Numérico-variacional",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Un libro cuesta $68.500 y tiene un descuento del 40 %. ¿Cuánto se paga al aplicar el descuento?",
+    "options": [
+      "$68.460",
+      "$95.900",
+      "$41.100",
+      "$84.940"
+    ],
+    "answer": 2,
+    "explanation": "Se paga el 60 % del precio: $68.500 * 0.6 = $41.100."
+  },
+  {
+    "id": "MAT-011",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Álgebra",
+    "difficulty": "Básico",
+    "context": "",
+    "prompt": "Si 2x + 5 = 9, ¿cuál es el valor de x?",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "Primero se resta 5: 2x = 4. Luego se divide entre 2: x = 2."
+  },
+  {
+    "id": "MAT-012",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Álgebra",
+    "difficulty": "Básico",
+    "context": "",
+    "prompt": "Si 3x + 6 = 15, ¿cuál es el valor de x?",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "9"
+    ],
+    "answer": 0,
+    "explanation": "Primero se resta 6: 3x = 9. Luego se divide entre 3: x = 3."
+  },
+  {
+    "id": "MAT-013",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Álgebra",
+    "difficulty": "Básico",
+    "context": "",
+    "prompt": "Si 4x + 7 = 23, ¿cuál es el valor de x?",
+    "options": [
+      "5",
+      "3",
+      "16",
+      "4"
+    ],
+    "answer": 3,
+    "explanation": "Primero se resta 7: 4x = 16. Luego se divide entre 4: x = 4."
+  },
+  {
+    "id": "MAT-014",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Álgebra",
+    "difficulty": "Básico",
+    "context": "",
+    "prompt": "Si 5x + 8 = 33, ¿cuál es el valor de x?",
+    "options": [
+      "4",
+      "25",
+      "5",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "Primero se resta 8: 5x = 25. Luego se divide entre 5: x = 5."
+  },
+  {
+    "id": "MAT-015",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Álgebra",
+    "difficulty": "Básico",
+    "context": "",
+    "prompt": "Si 2x + 9 = 21, ¿cuál es el valor de x?",
+    "options": [
+      "12",
+      "6",
+      "7",
+      "5"
+    ],
+    "answer": 1,
+    "explanation": "Primero se resta 9: 2x = 12. Luego se divide entre 2: x = 6."
+  },
+  {
+    "id": "MAT-016",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Álgebra",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Si 3x + 10 = 31, ¿cuál es el valor de x?",
+    "options": [
+      "7",
+      "8",
+      "6",
+      "21"
+    ],
+    "answer": 0,
+    "explanation": "Primero se resta 10: 3x = 21. Luego se divide entre 3: x = 7."
+  },
+  {
+    "id": "MAT-017",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Álgebra",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Si 4x + 11 = 43, ¿cuál es el valor de x?",
+    "options": [
+      "9",
+      "7",
+      "32",
+      "8"
+    ],
+    "answer": 3,
+    "explanation": "Primero se resta 11: 4x = 32. Luego se divide entre 4: x = 8."
+  },
+  {
+    "id": "MAT-018",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Álgebra",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Si 5x + 12 = 57, ¿cuál es el valor de x?",
+    "options": [
+      "8",
+      "45",
+      "9",
+      "10"
+    ],
+    "answer": 2,
+    "explanation": "Primero se resta 12: 5x = 45. Luego se divide entre 5: x = 9."
+  },
+  {
+    "id": "MAT-019",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Álgebra",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Si 2x + 13 = 33, ¿cuál es el valor de x?",
+    "options": [
+      "20",
+      "10",
+      "11",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "Primero se resta 13: 2x = 20. Luego se divide entre 2: x = 10."
+  },
+  {
+    "id": "MAT-020",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Álgebra",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Si 3x + 14 = 47, ¿cuál es el valor de x?",
+    "options": [
+      "11",
+      "12",
+      "10",
+      "33"
+    ],
+    "answer": 0,
+    "explanation": "Primero se resta 14: 3x = 33. Luego se divide entre 3: x = 11."
+  },
+  {
+    "id": "MAT-021",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Geométrico-métrico",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Un rectángulo mide 6 cm de largo y 4 cm de ancho. ¿Cuál es su área?",
+    "options": [
+      "20 cm²",
+      "10 cm²",
+      "12 cm²",
+      "24 cm²"
+    ],
+    "answer": 3,
+    "explanation": "El área de un rectángulo se calcula multiplicando largo por ancho."
+  },
+  {
+    "id": "MAT-022",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Geométrico-métrico",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Un triángulo tiene base de 9 cm y altura de 6 cm. ¿Cuál es su área?",
+    "options": [
+      "15 cm²",
+      "30 cm²",
+      "27 cm²",
+      "54 cm²"
+    ],
+    "answer": 2,
+    "explanation": "El área de un triángulo es base por altura dividido entre 2."
+  },
+  {
+    "id": "MAT-023",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Geométrico-métrico",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Un rectángulo mide 8 cm de largo y 5 cm de ancho. ¿Cuál es su área?",
+    "options": [
+      "20 cm²",
+      "40 cm²",
+      "26 cm²",
+      "13 cm²"
+    ],
+    "answer": 1,
+    "explanation": "El área de un rectángulo se calcula multiplicando largo por ancho."
+  },
+  {
+    "id": "MAT-024",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Geométrico-métrico",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Un triángulo tiene base de 11 cm y altura de 8 cm. ¿Cuál es su área?",
+    "options": [
+      "44 cm²",
+      "88 cm²",
+      "19 cm²",
+      "38 cm²"
+    ],
+    "answer": 0,
+    "explanation": "El área de un triángulo es base por altura dividido entre 2."
+  },
+  {
+    "id": "MAT-025",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Geométrico-métrico",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Un rectángulo mide 10 cm de largo y 6 cm de ancho. ¿Cuál es su área?",
+    "options": [
+      "32 cm²",
+      "16 cm²",
+      "30 cm²",
+      "60 cm²"
+    ],
+    "answer": 3,
+    "explanation": "El área de un rectángulo se calcula multiplicando largo por ancho."
+  },
+  {
+    "id": "MAT-026",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Geométrico-métrico",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Un triángulo tiene base de 13 cm y altura de 10 cm. ¿Cuál es su área?",
+    "options": [
+      "23 cm²",
+      "46 cm²",
+      "65 cm²",
+      "130 cm²"
+    ],
+    "answer": 2,
+    "explanation": "El área de un triángulo es base por altura dividido entre 2."
+  },
+  {
+    "id": "MAT-027",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Geométrico-métrico",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Un rectángulo mide 12 cm de largo y 7 cm de ancho. ¿Cuál es su área?",
+    "options": [
+      "42 cm²",
+      "84 cm²",
+      "38 cm²",
+      "19 cm²"
+    ],
+    "answer": 1,
+    "explanation": "El área de un rectángulo se calcula multiplicando largo por ancho."
+  },
+  {
+    "id": "MAT-028",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Geométrico-métrico",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Un triángulo tiene base de 15 cm y altura de 12 cm. ¿Cuál es su área?",
+    "options": [
+      "90 cm²",
+      "180 cm²",
+      "27 cm²",
+      "54 cm²"
+    ],
+    "answer": 0,
+    "explanation": "El área de un triángulo es base por altura dividido entre 2."
+  },
+  {
+    "id": "MAT-029",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Geométrico-métrico",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Un rectángulo mide 14 cm de largo y 8 cm de ancho. ¿Cuál es su área?",
+    "options": [
+      "44 cm²",
+      "22 cm²",
+      "56 cm²",
+      "112 cm²"
+    ],
+    "answer": 3,
+    "explanation": "El área de un rectángulo se calcula multiplicando largo por ancho."
+  },
+  {
+    "id": "MAT-030",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Geométrico-métrico",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Un triángulo tiene base de 17 cm y altura de 14 cm. ¿Cuál es su área?",
+    "options": [
+      "31 cm²",
+      "62 cm²",
+      "119 cm²",
+      "238 cm²"
+    ],
+    "answer": 2,
+    "explanation": "El área de un triángulo es base por altura dividido entre 2."
+  },
+  {
+    "id": "MAT-031",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Aleatorio",
+    "difficulty": "Básico",
+    "context": "",
+    "prompt": "Las notas de un estudiante son 8, 10, 14, 16, 17. ¿Cuál es el promedio?",
+    "options": [
+      "No se puede determinar con la información dada.",
+      "13",
+      "14",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "El promedio es la suma de los datos dividida entre la cantidad de datos."
+  },
+  {
+    "id": "MAT-032",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Aleatorio",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Los tiempos registrados fueron 9, 10, 13, 16, 19 minutos. ¿Cuál es la mediana?",
+    "options": [
+      "13",
+      "14",
+      "9",
+      "19"
+    ],
+    "answer": 0,
+    "explanation": "La mediana es el dato central cuando los valores están ordenados."
+  },
+  {
+    "id": "MAT-033",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Aleatorio",
+    "difficulty": "Básico",
+    "context": "",
+    "prompt": "Las notas de un estudiante son 10, 12, 16, 18, 19. ¿Cuál es el promedio?",
+    "options": [
+      "16",
+      "9",
+      "No se puede determinar con la información dada.",
+      "15"
+    ],
+    "answer": 3,
+    "explanation": "El promedio es la suma de los datos dividida entre la cantidad de datos."
+  },
+  {
+    "id": "MAT-034",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Aleatorio",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Los tiempos registrados fueron 11, 12, 15, 18, 21 minutos. ¿Cuál es la mediana?",
+    "options": [
+      "11",
+      "21",
+      "15",
+      "16"
+    ],
+    "answer": 2,
+    "explanation": "La mediana es el dato central cuando los valores están ordenados."
+  },
+  {
+    "id": "MAT-035",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Aleatorio",
+    "difficulty": "Básico",
+    "context": "",
+    "prompt": "Las notas de un estudiante son 12, 14, 18, 20, 21. ¿Cuál es el promedio?",
+    "options": [
+      "No se puede determinar con la información dada.",
+      "17",
+      "18",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "El promedio es la suma de los datos dividida entre la cantidad de datos."
+  },
+  {
+    "id": "MAT-036",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Aleatorio",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Los tiempos registrados fueron 13, 14, 17, 20, 23 minutos. ¿Cuál es la mediana?",
+    "options": [
+      "17",
+      "18",
+      "13",
+      "23"
+    ],
+    "answer": 0,
+    "explanation": "La mediana es el dato central cuando los valores están ordenados."
+  },
+  {
+    "id": "MAT-037",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Aleatorio",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Las notas de un estudiante son 14, 16, 20, 22, 23. ¿Cuál es el promedio?",
+    "options": [
+      "20",
+      "9",
+      "No se puede determinar con la información dada.",
+      "19"
+    ],
+    "answer": 3,
+    "explanation": "El promedio es la suma de los datos dividida entre la cantidad de datos."
+  },
+  {
+    "id": "MAT-038",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Aleatorio",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Los tiempos registrados fueron 15, 16, 19, 22, 25 minutos. ¿Cuál es la mediana?",
+    "options": [
+      "15",
+      "25",
+      "19",
+      "20"
+    ],
+    "answer": 2,
+    "explanation": "La mediana es el dato central cuando los valores están ordenados."
+  },
+  {
+    "id": "MAT-039",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Aleatorio",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Las notas de un estudiante son 16, 18, 22, 24, 25. ¿Cuál es el promedio?",
+    "options": [
+      "No se puede determinar con la información dada.",
+      "21",
+      "22",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "El promedio es la suma de los datos dividida entre la cantidad de datos."
+  },
+  {
+    "id": "MAT-040",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Aleatorio",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Los tiempos registrados fueron 17, 18, 21, 24, 27 minutos. ¿Cuál es la mediana?",
+    "options": [
+      "21",
+      "22",
+      "17",
+      "27"
+    ],
+    "answer": 0,
+    "explanation": "La mediana es el dato central cuando los valores están ordenados."
+  },
+  {
+    "id": "MAT-041",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Probabilidad",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "En una bolsa hay 2 fichas rojas, 3 azules y 5 verdes. Si se saca una ficha al azar, ¿cuál es la probabilidad de que sea roja?",
+    "options": [
+      "3/10",
+      "1/2",
+      "No se puede determinar con la información dada.",
+      "1/5"
+    ],
+    "answer": 3,
+    "explanation": "La probabilidad es casos favorables sobre casos posibles."
+  },
+  {
+    "id": "MAT-042",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Probabilidad",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "En una bolsa hay 3 fichas rojas, 4 azules y 5 verdes. Si se saca una ficha al azar, ¿cuál es la probabilidad de que sea roja?",
+    "options": [
+      "5/12",
+      "7/12",
+      "1/4",
+      "1/3"
+    ],
+    "answer": 2,
+    "explanation": "La probabilidad es casos favorables sobre casos posibles."
+  },
+  {
+    "id": "MAT-043",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Probabilidad",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "En una bolsa hay 4 fichas rojas, 5 azules y 5 verdes. Si se saca una ficha al azar, ¿cuál es la probabilidad de que sea roja?",
+    "options": [
+      "No se puede determinar con la información dada.",
+      "2/7",
+      "5/14",
+      "9/14"
+    ],
+    "answer": 1,
+    "explanation": "La probabilidad es casos favorables sobre casos posibles."
+  },
+  {
+    "id": "MAT-044",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Probabilidad",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "En una bolsa hay 5 fichas rojas, 6 azules y 5 verdes. Si se saca una ficha al azar, ¿cuál es la probabilidad de que sea roja?",
+    "options": [
+      "5/16",
+      "3/8",
+      "11/16",
+      "No se puede determinar con la información dada."
+    ],
+    "answer": 0,
+    "explanation": "La probabilidad es casos favorables sobre casos posibles."
+  },
+  {
+    "id": "MAT-045",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Probabilidad",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "En una bolsa hay 6 fichas rojas, 7 azules y 5 verdes. Si se saca una ficha al azar, ¿cuál es la probabilidad de que sea roja?",
+    "options": [
+      "7/18",
+      "5/18",
+      "13/18",
+      "1/3"
+    ],
+    "answer": 3,
+    "explanation": "La probabilidad es casos favorables sobre casos posibles."
+  },
+  {
+    "id": "MAT-046",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Funciones",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Para la función f(x) = 2x + 3, ¿cuál es el valor de f(4)?",
+    "options": [
+      "8",
+      "9",
+      "11",
+      "13"
+    ],
+    "answer": 2,
+    "explanation": "Se reemplaza x por 4: f(4) = 2 * 4 + 3 = 11."
+  },
+  {
+    "id": "MAT-047",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Funciones",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Para la función f(x) = 3x + 4, ¿cuál es el valor de f(5)?",
+    "options": [
+      "12",
+      "19",
+      "22",
+      "15"
+    ],
+    "answer": 1,
+    "explanation": "Se reemplaza x por 5: f(5) = 3 * 5 + 4 = 19."
+  },
+  {
+    "id": "MAT-048",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Funciones",
+    "difficulty": "Medio",
+    "context": "",
+    "prompt": "Para la función f(x) = 4x + 5, ¿cuál es el valor de f(6)?",
+    "options": [
+      "29",
+      "33",
+      "24",
+      "15"
+    ],
+    "answer": 0,
+    "explanation": "Se reemplaza x por 6: f(6) = 4 * 6 + 5 = 29."
+  },
+  {
+    "id": "MAT-049",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Funciones",
+    "difficulty": "Avanzado",
+    "context": "",
+    "prompt": "Para la función f(x) = 5x + 6, ¿cuál es el valor de f(7)?",
+    "options": [
+      "46",
+      "35",
+      "18",
+      "41"
+    ],
+    "answer": 3,
+    "explanation": "Se reemplaza x por 7: f(7) = 5 * 7 + 6 = 41."
+  },
+  {
+    "id": "MAT-050",
+    "areaId": "matematicas",
+    "area": "Matemáticas",
+    "skill": "Funciones",
+    "difficulty": "Avanzado",
+    "context": "",
+    "prompt": "Para la función f(x) = 6x + 7, ¿cuál es el valor de f(8)?",
+    "options": [
+      "48",
+      "21",
+      "55",
+      "61"
+    ],
+    "answer": 2,
+    "explanation": "Se reemplaza x por 8: f(8) = 6 * 8 + 7 = 55."
+  },
+  {
+    "id": "SOC-001",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento social",
+    "difficulty": "Básico",
+    "context": "Río contaminado\n\nHabitantes de un barrio detectan malos olores en el río y sospechan que una fábrica vierte residuos sin tratamiento.",
+    "prompt": "El derecho o principio más relacionado con la situación es:",
+    "options": [
+      "La eliminación de toda forma de participación comunitaria.",
+      "La prioridad absoluta de intereses privados sin control público.",
+      "La obligación de resolver conflictos mediante rumores.",
+      "El derecho a un ambiente sano y la responsabilidad de proteger bienes colectivos."
+    ],
+    "answer": 3,
+    "explanation": "La respuesta identifica el principio constitucional o social que organiza el caso."
+  },
+  {
+    "id": "SOC-002",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Interpretación y análisis",
+    "difficulty": "Medio",
+    "context": "Río contaminado\n\nHabitantes de un barrio detectan malos olores en el río y sospechan que una fábrica vierte residuos sin tratamiento.",
+    "prompt": "La acción ciudadana más adecuada sería:",
+    "options": [
+      "Impedir cualquier diálogo con las instituciones.",
+      "Suponer que el problema no afecta a nadie más.",
+      "Organizar evidencias, presentar derecho de petición y solicitar intervención de la autoridad ambiental.",
+      "Actuar solo con base en comentarios no verificados."
+    ],
+    "answer": 2,
+    "explanation": "Una acción adecuada combina participación, información y respeto por los procedimientos."
+  },
+  {
+    "id": "SOC-003",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Ciudadanía",
+    "difficulty": "Medio",
+    "context": "Río contaminado\n\nHabitantes de un barrio detectan malos olores en el río y sospechan que una fábrica vierte residuos sin tratamiento.",
+    "prompt": "¿Qué mecanismo o institución corresponde mejor al caso?",
+    "options": [
+      "La sustitución de las autoridades por opiniones en redes.",
+      "Una veeduría ciudadana que haga seguimiento a las respuestas oficiales.",
+      "Una decisión secreta sin registro ni responsables.",
+      "Un acuerdo informal que ignore las normas vigentes."
+    ],
+    "answer": 1,
+    "explanation": "Los mecanismos democráticos permiten tramitar conflictos sin desconocer derechos."
+  },
+  {
+    "id": "SOC-004",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Análisis de perspectivas",
+    "difficulty": "Avanzado",
+    "context": "Río contaminado\n\nHabitantes de un barrio detectan malos olores en el río y sospechan que una fábrica vierte residuos sin tratamiento.",
+    "prompt": "La situación se entiende mejor como:",
+    "options": [
+      "Un conflicto entre actividad económica, salud pública y protección ambiental.",
+      "Un hecho aislado que no involucra intereses sociales.",
+      "Un problema que solo puede resolverse con castigos inmediatos.",
+      "Una dificultad causada por una única persona sin contexto."
+    ],
+    "answer": 0,
+    "explanation": "El análisis social reconoce actores, intereses, derechos y condiciones del contexto."
+  },
+  {
+    "id": "SOC-005",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento reflexivo",
+    "difficulty": "Avanzado",
+    "context": "Río contaminado\n\nHabitantes de un barrio detectan malos olores en el río y sospechan que una fábrica vierte residuos sin tratamiento.",
+    "prompt": "Una decisión compatible con el Estado social de derecho sería:",
+    "options": [
+      "Aplicar una solución que favorezca a un grupo y silencie a los demás.",
+      "Evitar cualquier control público sobre la decisión tomada.",
+      "Resolver el caso sin información, participación ni garantías.",
+      "Exigir control institucional sin desconocer el debido proceso de la empresa."
+    ],
+    "answer": 3,
+    "explanation": "El Estado social de derecho exige proteger derechos, deliberar y justificar las decisiones públicas."
+  },
+  {
+    "id": "SOC-006",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento social",
+    "difficulty": "Básico",
+    "context": "Presupuesto escolar\n\nLa comunidad educativa debe decidir si prioriza laboratorios, biblioteca o escenarios deportivos con recursos limitados.",
+    "prompt": "El derecho o principio más relacionado con la situación es:",
+    "options": [
+      "La prioridad absoluta de intereses privados sin control público.",
+      "La obligación de resolver conflictos mediante rumores.",
+      "La participación democrática en decisiones que afectan a la comunidad.",
+      "La eliminación de toda forma de participación comunitaria."
+    ],
+    "answer": 2,
+    "explanation": "La respuesta identifica el principio constitucional o social que organiza el caso."
+  },
+  {
+    "id": "SOC-007",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Interpretación y análisis",
+    "difficulty": "Medio",
+    "context": "Presupuesto escolar\n\nLa comunidad educativa debe decidir si prioriza laboratorios, biblioteca o escenarios deportivos con recursos limitados.",
+    "prompt": "La acción ciudadana más adecuada sería:",
+    "options": [
+      "Suponer que el problema no afecta a nadie más.",
+      "Abrir deliberación con estudiantes, familias y docentes antes de votar prioridades.",
+      "Actuar solo con base en comentarios no verificados.",
+      "Impedir cualquier diálogo con las instituciones."
+    ],
+    "answer": 1,
+    "explanation": "Una acción adecuada combina participación, información y respeto por los procedimientos."
+  },
+  {
+    "id": "SOC-008",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Ciudadanía",
+    "difficulty": "Medio",
+    "context": "Presupuesto escolar\n\nLa comunidad educativa debe decidir si prioriza laboratorios, biblioteca o escenarios deportivos con recursos limitados.",
+    "prompt": "¿Qué mecanismo o institución corresponde mejor al caso?",
+    "options": [
+      "El gobierno escolar como espacio de representación y discusión.",
+      "Una decisión secreta sin registro ni responsables.",
+      "Un acuerdo informal que ignore las normas vigentes.",
+      "La sustitución de las autoridades por opiniones en redes."
+    ],
+    "answer": 0,
+    "explanation": "Los mecanismos democráticos permiten tramitar conflictos sin desconocer derechos."
+  },
+  {
+    "id": "SOC-009",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Análisis de perspectivas",
+    "difficulty": "Medio",
+    "context": "Presupuesto escolar\n\nLa comunidad educativa debe decidir si prioriza laboratorios, biblioteca o escenarios deportivos con recursos limitados.",
+    "prompt": "La situación se entiende mejor como:",
+    "options": [
+      "Un hecho aislado que no involucra intereses sociales.",
+      "Un problema que solo puede resolverse con castigos inmediatos.",
+      "Una dificultad causada por una única persona sin contexto.",
+      "Un problema de asignación de recursos escasos entre necesidades legítimas."
+    ],
+    "answer": 3,
+    "explanation": "El análisis social reconoce actores, intereses, derechos y condiciones del contexto."
+  },
+  {
+    "id": "SOC-010",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento reflexivo",
+    "difficulty": "Avanzado",
+    "context": "Presupuesto escolar\n\nLa comunidad educativa debe decidir si prioriza laboratorios, biblioteca o escenarios deportivos con recursos limitados.",
+    "prompt": "Una decisión compatible con el Estado social de derecho sería:",
+    "options": [
+      "Evitar cualquier control público sobre la decisión tomada.",
+      "Resolver el caso sin información, participación ni garantías.",
+      "Definir criterios públicos y revisar la decisión con información verificable.",
+      "Aplicar una solución que favorezca a un grupo y silencie a los demás."
+    ],
+    "answer": 2,
+    "explanation": "El Estado social de derecho exige proteger derechos, deliberar y justificar las decisiones públicas."
+  },
+  {
+    "id": "SOC-011",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento social",
+    "difficulty": "Básico",
+    "context": "Noticia falsa\n\nDurante una campaña local circula una cadena que acusa a una candidata sin pruebas y pide reenviarla masivamente.",
+    "prompt": "El derecho o principio más relacionado con la situación es:",
+    "options": [
+      "La obligación de resolver conflictos mediante rumores.",
+      "El derecho a recibir información veraz y la responsabilidad de no afectar la honra.",
+      "La eliminación de toda forma de participación comunitaria.",
+      "La prioridad absoluta de intereses privados sin control público."
+    ],
+    "answer": 1,
+    "explanation": "La respuesta identifica el principio constitucional o social que organiza el caso."
+  },
+  {
+    "id": "SOC-012",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Interpretación y análisis",
+    "difficulty": "Medio",
+    "context": "Noticia falsa\n\nDurante una campaña local circula una cadena que acusa a una candidata sin pruebas y pide reenviarla masivamente.",
+    "prompt": "La acción ciudadana más adecuada sería:",
+    "options": [
+      "Verificar la fuente antes de compartir y promover una rectificación si es falsa.",
+      "Actuar solo con base en comentarios no verificados.",
+      "Impedir cualquier diálogo con las instituciones.",
+      "Suponer que el problema no afecta a nadie más."
+    ],
+    "answer": 0,
+    "explanation": "Una acción adecuada combina participación, información y respeto por los procedimientos."
+  },
+  {
+    "id": "SOC-013",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Ciudadanía",
+    "difficulty": "Medio",
+    "context": "Noticia falsa\n\nDurante una campaña local circula una cadena que acusa a una candidata sin pruebas y pide reenviarla masivamente.",
+    "prompt": "¿Qué mecanismo o institución corresponde mejor al caso?",
+    "options": [
+      "Una decisión secreta sin registro ni responsables.",
+      "Un acuerdo informal que ignore las normas vigentes.",
+      "La sustitución de las autoridades por opiniones en redes.",
+      "La denuncia ante autoridades electorales o plataformas de verificación."
+    ],
+    "answer": 3,
+    "explanation": "Los mecanismos democráticos permiten tramitar conflictos sin desconocer derechos."
+  },
+  {
+    "id": "SOC-014",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Análisis de perspectivas",
+    "difficulty": "Medio",
+    "context": "Noticia falsa\n\nDurante una campaña local circula una cadena que acusa a una candidata sin pruebas y pide reenviarla masivamente.",
+    "prompt": "La situación se entiende mejor como:",
+    "options": [
+      "Un problema que solo puede resolverse con castigos inmediatos.",
+      "Una dificultad causada por una única persona sin contexto.",
+      "Un riesgo para la deliberación democrática por desinformación.",
+      "Un hecho aislado que no involucra intereses sociales."
+    ],
+    "answer": 2,
+    "explanation": "El análisis social reconoce actores, intereses, derechos y condiciones del contexto."
+  },
+  {
+    "id": "SOC-015",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento reflexivo",
+    "difficulty": "Avanzado",
+    "context": "Noticia falsa\n\nDurante una campaña local circula una cadena que acusa a una candidata sin pruebas y pide reenviarla masivamente.",
+    "prompt": "Una decisión compatible con el Estado social de derecho sería:",
+    "options": [
+      "Resolver el caso sin información, participación ni garantías.",
+      "Contrastar datos y proteger el debate público de acusaciones infundadas.",
+      "Aplicar una solución que favorezca a un grupo y silencie a los demás.",
+      "Evitar cualquier control público sobre la decisión tomada."
+    ],
+    "answer": 1,
+    "explanation": "El Estado social de derecho exige proteger derechos, deliberar y justificar las decisiones públicas."
+  },
+  {
+    "id": "SOC-016",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento social",
+    "difficulty": "Básico",
+    "context": "Trabajo juvenil\n\nUna tienda ofrece empleo a estudiantes menores de edad con jornadas nocturnas y sin autorización familiar.",
+    "prompt": "El derecho o principio más relacionado con la situación es:",
+    "options": [
+      "La protección especial de niños, niñas y adolescentes frente a condiciones laborales inadecuadas.",
+      "La eliminación de toda forma de participación comunitaria.",
+      "La prioridad absoluta de intereses privados sin control público.",
+      "La obligación de resolver conflictos mediante rumores."
+    ],
+    "answer": 0,
+    "explanation": "La respuesta identifica el principio constitucional o social que organiza el caso."
+  },
+  {
+    "id": "SOC-017",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Interpretación y análisis",
+    "difficulty": "Medio",
+    "context": "Trabajo juvenil\n\nUna tienda ofrece empleo a estudiantes menores de edad con jornadas nocturnas y sin autorización familiar.",
+    "prompt": "La acción ciudadana más adecuada sería:",
+    "options": [
+      "Actuar solo con base en comentarios no verificados.",
+      "Impedir cualquier diálogo con las instituciones.",
+      "Suponer que el problema no afecta a nadie más.",
+      "Solicitar orientación a una autoridad laboral o de protección de infancia."
+    ],
+    "answer": 3,
+    "explanation": "Una acción adecuada combina participación, información y respeto por los procedimientos."
+  },
+  {
+    "id": "SOC-018",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Ciudadanía",
+    "difficulty": "Medio",
+    "context": "Trabajo juvenil\n\nUna tienda ofrece empleo a estudiantes menores de edad con jornadas nocturnas y sin autorización familiar.",
+    "prompt": "¿Qué mecanismo o institución corresponde mejor al caso?",
+    "options": [
+      "Un acuerdo informal que ignore las normas vigentes.",
+      "La sustitución de las autoridades por opiniones en redes.",
+      "La intervención del Ministerio de Trabajo o la comisaría de familia según el caso.",
+      "Una decisión secreta sin registro ni responsables."
+    ],
+    "answer": 2,
+    "explanation": "Los mecanismos democráticos permiten tramitar conflictos sin desconocer derechos."
+  },
+  {
+    "id": "SOC-019",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Análisis de perspectivas",
+    "difficulty": "Avanzado",
+    "context": "Trabajo juvenil\n\nUna tienda ofrece empleo a estudiantes menores de edad con jornadas nocturnas y sin autorización familiar.",
+    "prompt": "La situación se entiende mejor como:",
+    "options": [
+      "Una dificultad causada por una única persona sin contexto.",
+      "Una tensión entre necesidad económica y garantía de derechos.",
+      "Un hecho aislado que no involucra intereses sociales.",
+      "Un problema que solo puede resolverse con castigos inmediatos."
+    ],
+    "answer": 1,
+    "explanation": "El análisis social reconoce actores, intereses, derechos y condiciones del contexto."
+  },
+  {
+    "id": "SOC-020",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento reflexivo",
+    "difficulty": "Avanzado",
+    "context": "Trabajo juvenil\n\nUna tienda ofrece empleo a estudiantes menores de edad con jornadas nocturnas y sin autorización familiar.",
+    "prompt": "Una decisión compatible con el Estado social de derecho sería:",
+    "options": [
+      "Permitir alternativas formativas y seguras que no vulneren la educación ni la salud.",
+      "Aplicar una solución que favorezca a un grupo y silencie a los demás.",
+      "Evitar cualquier control público sobre la decisión tomada.",
+      "Resolver el caso sin información, participación ni garantías."
+    ],
+    "answer": 0,
+    "explanation": "El Estado social de derecho exige proteger derechos, deliberar y justificar las decisiones públicas."
+  },
+  {
+    "id": "SOC-021",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento social",
+    "difficulty": "Básico",
+    "context": "Parque público\n\nUn conjunto residencial cercó parte de un parque que era usado por vecinos de distintos sectores.",
+    "prompt": "El derecho o principio más relacionado con la situación es:",
+    "options": [
+      "La eliminación de toda forma de participación comunitaria.",
+      "La prioridad absoluta de intereses privados sin control público.",
+      "La obligación de resolver conflictos mediante rumores.",
+      "El uso colectivo del espacio público y la igualdad de acceso."
+    ],
+    "answer": 3,
+    "explanation": "La respuesta identifica el principio constitucional o social que organiza el caso."
+  },
+  {
+    "id": "SOC-022",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Interpretación y análisis",
+    "difficulty": "Medio",
+    "context": "Parque público\n\nUn conjunto residencial cercó parte de un parque que era usado por vecinos de distintos sectores.",
+    "prompt": "La acción ciudadana más adecuada sería:",
+    "options": [
+      "Impedir cualquier diálogo con las instituciones.",
+      "Suponer que el problema no afecta a nadie más.",
+      "Solicitar a la alcaldía verificar la legalidad del cerramiento.",
+      "Actuar solo con base en comentarios no verificados."
+    ],
+    "answer": 2,
+    "explanation": "Una acción adecuada combina participación, información y respeto por los procedimientos."
+  },
+  {
+    "id": "SOC-023",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Ciudadanía",
+    "difficulty": "Medio",
+    "context": "Parque público\n\nUn conjunto residencial cercó parte de un parque que era usado por vecinos de distintos sectores.",
+    "prompt": "¿Qué mecanismo o institución corresponde mejor al caso?",
+    "options": [
+      "La sustitución de las autoridades por opiniones en redes.",
+      "Una acción popular si se afecta un derecho colectivo.",
+      "Una decisión secreta sin registro ni responsables.",
+      "Un acuerdo informal que ignore las normas vigentes."
+    ],
+    "answer": 1,
+    "explanation": "Los mecanismos democráticos permiten tramitar conflictos sin desconocer derechos."
+  },
+  {
+    "id": "SOC-024",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Análisis de perspectivas",
+    "difficulty": "Medio",
+    "context": "Parque público\n\nUn conjunto residencial cercó parte de un parque que era usado por vecinos de distintos sectores.",
+    "prompt": "La situación se entiende mejor como:",
+    "options": [
+      "Un conflicto entre intereses privados y bienes de uso común.",
+      "Un hecho aislado que no involucra intereses sociales.",
+      "Un problema que solo puede resolverse con castigos inmediatos.",
+      "Una dificultad causada por una única persona sin contexto."
+    ],
+    "answer": 0,
+    "explanation": "El análisis social reconoce actores, intereses, derechos y condiciones del contexto."
+  },
+  {
+    "id": "SOC-025",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento reflexivo",
+    "difficulty": "Avanzado",
+    "context": "Parque público\n\nUn conjunto residencial cercó parte de un parque que era usado por vecinos de distintos sectores.",
+    "prompt": "Una decisión compatible con el Estado social de derecho sería:",
+    "options": [
+      "Aplicar una solución que favorezca a un grupo y silencie a los demás.",
+      "Evitar cualquier control público sobre la decisión tomada.",
+      "Resolver el caso sin información, participación ni garantías.",
+      "Restituir el acceso público y acordar reglas de cuidado compartido."
+    ],
+    "answer": 3,
+    "explanation": "El Estado social de derecho exige proteger derechos, deliberar y justificar las decisiones públicas."
+  },
+  {
+    "id": "SOC-026",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento social",
+    "difficulty": "Básico",
+    "context": "Consulta previa\n\nUna obra vial atravesaría territorio de una comunidad étnica sin que sus autoridades hayan sido escuchadas.",
+    "prompt": "El derecho o principio más relacionado con la situación es:",
+    "options": [
+      "La prioridad absoluta de intereses privados sin control público.",
+      "La obligación de resolver conflictos mediante rumores.",
+      "El derecho a la participación y a la consulta previa de comunidades étnicas.",
+      "La eliminación de toda forma de participación comunitaria."
+    ],
+    "answer": 2,
+    "explanation": "La respuesta identifica el principio constitucional o social que organiza el caso."
+  },
+  {
+    "id": "SOC-027",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Interpretación y análisis",
+    "difficulty": "Medio",
+    "context": "Consulta previa\n\nUna obra vial atravesaría territorio de una comunidad étnica sin que sus autoridades hayan sido escuchadas.",
+    "prompt": "La acción ciudadana más adecuada sería:",
+    "options": [
+      "Suponer que el problema no afecta a nadie más.",
+      "Suspender decisiones de fondo hasta realizar un proceso de consulta adecuado.",
+      "Actuar solo con base en comentarios no verificados.",
+      "Impedir cualquier diálogo con las instituciones."
+    ],
+    "answer": 1,
+    "explanation": "Una acción adecuada combina participación, información y respeto por los procedimientos."
+  },
+  {
+    "id": "SOC-028",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Ciudadanía",
+    "difficulty": "Medio",
+    "context": "Consulta previa\n\nUna obra vial atravesaría territorio de una comunidad étnica sin que sus autoridades hayan sido escuchadas.",
+    "prompt": "¿Qué mecanismo o institución corresponde mejor al caso?",
+    "options": [
+      "La consulta previa como procedimiento de diálogo y concertación.",
+      "Una decisión secreta sin registro ni responsables.",
+      "Un acuerdo informal que ignore las normas vigentes.",
+      "La sustitución de las autoridades por opiniones en redes."
+    ],
+    "answer": 0,
+    "explanation": "Los mecanismos democráticos permiten tramitar conflictos sin desconocer derechos."
+  },
+  {
+    "id": "SOC-029",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Análisis de perspectivas",
+    "difficulty": "Medio",
+    "context": "Consulta previa\n\nUna obra vial atravesaría territorio de una comunidad étnica sin que sus autoridades hayan sido escuchadas.",
+    "prompt": "La situación se entiende mejor como:",
+    "options": [
+      "Un hecho aislado que no involucra intereses sociales.",
+      "Un problema que solo puede resolverse con castigos inmediatos.",
+      "Una dificultad causada por una única persona sin contexto.",
+      "Un caso donde el desarrollo de infraestructura debe respetar diversidad cultural."
+    ],
+    "answer": 3,
+    "explanation": "El análisis social reconoce actores, intereses, derechos y condiciones del contexto."
+  },
+  {
+    "id": "SOC-030",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento reflexivo",
+    "difficulty": "Avanzado",
+    "context": "Consulta previa\n\nUna obra vial atravesaría territorio de una comunidad étnica sin que sus autoridades hayan sido escuchadas.",
+    "prompt": "Una decisión compatible con el Estado social de derecho sería:",
+    "options": [
+      "Evitar cualquier control público sobre la decisión tomada.",
+      "Resolver el caso sin información, participación ni garantías.",
+      "Ajustar el proyecto con participación informada de la comunidad afectada.",
+      "Aplicar una solución que favorezca a un grupo y silencie a los demás."
+    ],
+    "answer": 2,
+    "explanation": "El Estado social de derecho exige proteger derechos, deliberar y justificar las decisiones públicas."
+  },
+  {
+    "id": "SOC-031",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento social",
+    "difficulty": "Básico",
+    "context": "Impuestos locales\n\nEl municipio propone aumentar un impuesto para financiar atención en salud, pero algunos ciudadanos piden conocer el destino exacto del dinero.",
+    "prompt": "El derecho o principio más relacionado con la situación es:",
+    "options": [
+      "La obligación de resolver conflictos mediante rumores.",
+      "El control ciudadano sobre el uso de recursos públicos.",
+      "La eliminación de toda forma de participación comunitaria.",
+      "La prioridad absoluta de intereses privados sin control público."
+    ],
+    "answer": 1,
+    "explanation": "La respuesta identifica el principio constitucional o social que organiza el caso."
+  },
+  {
+    "id": "SOC-032",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Interpretación y análisis",
+    "difficulty": "Medio",
+    "context": "Impuestos locales\n\nEl municipio propone aumentar un impuesto para financiar atención en salud, pero algunos ciudadanos piden conocer el destino exacto del dinero.",
+    "prompt": "La acción ciudadana más adecuada sería:",
+    "options": [
+      "Solicitar información presupuestal clara y participar en audiencias públicas.",
+      "Actuar solo con base en comentarios no verificados.",
+      "Impedir cualquier diálogo con las instituciones.",
+      "Suponer que el problema no afecta a nadie más."
+    ],
+    "answer": 0,
+    "explanation": "Una acción adecuada combina participación, información y respeto por los procedimientos."
+  },
+  {
+    "id": "SOC-033",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Ciudadanía",
+    "difficulty": "Medio",
+    "context": "Impuestos locales\n\nEl municipio propone aumentar un impuesto para financiar atención en salud, pero algunos ciudadanos piden conocer el destino exacto del dinero.",
+    "prompt": "¿Qué mecanismo o institución corresponde mejor al caso?",
+    "options": [
+      "Una decisión secreta sin registro ni responsables.",
+      "Un acuerdo informal que ignore las normas vigentes.",
+      "La sustitución de las autoridades por opiniones en redes.",
+      "La rendición de cuentas como práctica de transparencia."
+    ],
+    "answer": 3,
+    "explanation": "Los mecanismos democráticos permiten tramitar conflictos sin desconocer derechos."
+  },
+  {
+    "id": "SOC-034",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Análisis de perspectivas",
+    "difficulty": "Avanzado",
+    "context": "Impuestos locales\n\nEl municipio propone aumentar un impuesto para financiar atención en salud, pero algunos ciudadanos piden conocer el destino exacto del dinero.",
+    "prompt": "La situación se entiende mejor como:",
+    "options": [
+      "Un problema que solo puede resolverse con castigos inmediatos.",
+      "Una dificultad causada por una única persona sin contexto.",
+      "Una relación entre tributación, bienes públicos y confianza institucional.",
+      "Un hecho aislado que no involucra intereses sociales."
+    ],
+    "answer": 2,
+    "explanation": "El análisis social reconoce actores, intereses, derechos y condiciones del contexto."
+  },
+  {
+    "id": "SOC-035",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento reflexivo",
+    "difficulty": "Avanzado",
+    "context": "Impuestos locales\n\nEl municipio propone aumentar un impuesto para financiar atención en salud, pero algunos ciudadanos piden conocer el destino exacto del dinero.",
+    "prompt": "Una decisión compatible con el Estado social de derecho sería:",
+    "options": [
+      "Resolver el caso sin información, participación ni garantías.",
+      "Publicar metas, costos y mecanismos de seguimiento del gasto.",
+      "Aplicar una solución que favorezca a un grupo y silencie a los demás.",
+      "Evitar cualquier control público sobre la decisión tomada."
+    ],
+    "answer": 1,
+    "explanation": "El Estado social de derecho exige proteger derechos, deliberar y justificar las decisiones públicas."
+  },
+  {
+    "id": "SOC-036",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento social",
+    "difficulty": "Básico",
+    "context": "Protesta estudiantil\n\nEstudiantes marchan por transporte escolar. La autoridad permite la protesta, pero exige que no se bloquee la entrada a un hospital.",
+    "prompt": "El derecho o principio más relacionado con la situación es:",
+    "options": [
+      "La libertad de expresión y reunión, limitada por derechos de otras personas.",
+      "La eliminación de toda forma de participación comunitaria.",
+      "La prioridad absoluta de intereses privados sin control público.",
+      "La obligación de resolver conflictos mediante rumores."
+    ],
+    "answer": 0,
+    "explanation": "La respuesta identifica el principio constitucional o social que organiza el caso."
+  },
+  {
+    "id": "SOC-037",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Interpretación y análisis",
+    "difficulty": "Medio",
+    "context": "Protesta estudiantil\n\nEstudiantes marchan por transporte escolar. La autoridad permite la protesta, pero exige que no se bloquee la entrada a un hospital.",
+    "prompt": "La acción ciudadana más adecuada sería:",
+    "options": [
+      "Actuar solo con base en comentarios no verificados.",
+      "Impedir cualquier diálogo con las instituciones.",
+      "Suponer que el problema no afecta a nadie más.",
+      "Acordar un recorrido que haga visible la demanda sin impedir servicios esenciales."
+    ],
+    "answer": 3,
+    "explanation": "Una acción adecuada combina participación, información y respeto por los procedimientos."
+  },
+  {
+    "id": "SOC-038",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Ciudadanía",
+    "difficulty": "Medio",
+    "context": "Protesta estudiantil\n\nEstudiantes marchan por transporte escolar. La autoridad permite la protesta, pero exige que no se bloquee la entrada a un hospital.",
+    "prompt": "¿Qué mecanismo o institución corresponde mejor al caso?",
+    "options": [
+      "Un acuerdo informal que ignore las normas vigentes.",
+      "La sustitución de las autoridades por opiniones en redes.",
+      "La concertación entre manifestantes y autoridades civiles.",
+      "Una decisión secreta sin registro ni responsables."
+    ],
+    "answer": 2,
+    "explanation": "Los mecanismos democráticos permiten tramitar conflictos sin desconocer derechos."
+  },
+  {
+    "id": "SOC-039",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Análisis de perspectivas",
+    "difficulty": "Medio",
+    "context": "Protesta estudiantil\n\nEstudiantes marchan por transporte escolar. La autoridad permite la protesta, pero exige que no se bloquee la entrada a un hospital.",
+    "prompt": "La situación se entiende mejor como:",
+    "options": [
+      "Una dificultad causada por una única persona sin contexto.",
+      "Un equilibrio entre protesta legítima y protección de otros derechos.",
+      "Un hecho aislado que no involucra intereses sociales.",
+      "Un problema que solo puede resolverse con castigos inmediatos."
+    ],
+    "answer": 1,
+    "explanation": "El análisis social reconoce actores, intereses, derechos y condiciones del contexto."
+  },
+  {
+    "id": "SOC-040",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento reflexivo",
+    "difficulty": "Avanzado",
+    "context": "Protesta estudiantil\n\nEstudiantes marchan por transporte escolar. La autoridad permite la protesta, pero exige que no se bloquee la entrada a un hospital.",
+    "prompt": "Una decisión compatible con el Estado social de derecho sería:",
+    "options": [
+      "Garantizar la manifestación con medidas proporcionales de seguridad.",
+      "Aplicar una solución que favorezca a un grupo y silencie a los demás.",
+      "Evitar cualquier control público sobre la decisión tomada.",
+      "Resolver el caso sin información, participación ni garantías."
+    ],
+    "answer": 0,
+    "explanation": "El Estado social de derecho exige proteger derechos, deliberar y justificar las decisiones públicas."
+  },
+  {
+    "id": "SOC-041",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento social",
+    "difficulty": "Básico",
+    "context": "Desplazamiento\n\nUna familia llega a la ciudad después de abandonar su vereda por amenazas de un grupo armado.",
+    "prompt": "El derecho o principio más relacionado con la situación es:",
+    "options": [
+      "La eliminación de toda forma de participación comunitaria.",
+      "La prioridad absoluta de intereses privados sin control público.",
+      "La obligación de resolver conflictos mediante rumores.",
+      "La protección y reparación de víctimas del conflicto armado."
+    ],
+    "answer": 3,
+    "explanation": "La respuesta identifica el principio constitucional o social que organiza el caso."
+  },
+  {
+    "id": "SOC-042",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Interpretación y análisis",
+    "difficulty": "Medio",
+    "context": "Desplazamiento\n\nUna familia llega a la ciudad después de abandonar su vereda por amenazas de un grupo armado.",
+    "prompt": "La acción ciudadana más adecuada sería:",
+    "options": [
+      "Impedir cualquier diálogo con las instituciones.",
+      "Suponer que el problema no afecta a nadie más.",
+      "Orientar a la familia para declarar los hechos y acceder a rutas de atención.",
+      "Actuar solo con base en comentarios no verificados."
+    ],
+    "answer": 2,
+    "explanation": "Una acción adecuada combina participación, información y respeto por los procedimientos."
+  },
+  {
+    "id": "SOC-043",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Ciudadanía",
+    "difficulty": "Medio",
+    "context": "Desplazamiento\n\nUna familia llega a la ciudad después de abandonar su vereda por amenazas de un grupo armado.",
+    "prompt": "¿Qué mecanismo o institución corresponde mejor al caso?",
+    "options": [
+      "La sustitución de las autoridades por opiniones en redes.",
+      "El registro y la atención institucional a víctimas.",
+      "Una decisión secreta sin registro ni responsables.",
+      "Un acuerdo informal que ignore las normas vigentes."
+    ],
+    "answer": 1,
+    "explanation": "Los mecanismos democráticos permiten tramitar conflictos sin desconocer derechos."
+  },
+  {
+    "id": "SOC-044",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Análisis de perspectivas",
+    "difficulty": "Medio",
+    "context": "Desplazamiento\n\nUna familia llega a la ciudad después de abandonar su vereda por amenazas de un grupo armado.",
+    "prompt": "La situación se entiende mejor como:",
+    "options": [
+      "Una consecuencia social del conflicto que exige respuesta estatal integral.",
+      "Un hecho aislado que no involucra intereses sociales.",
+      "Un problema que solo puede resolverse con castigos inmediatos.",
+      "Una dificultad causada por una única persona sin contexto."
+    ],
+    "answer": 0,
+    "explanation": "El análisis social reconoce actores, intereses, derechos y condiciones del contexto."
+  },
+  {
+    "id": "SOC-045",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento reflexivo",
+    "difficulty": "Avanzado",
+    "context": "Desplazamiento\n\nUna familia llega a la ciudad después de abandonar su vereda por amenazas de un grupo armado.",
+    "prompt": "Una decisión compatible con el Estado social de derecho sería:",
+    "options": [
+      "Aplicar una solución que favorezca a un grupo y silencie a los demás.",
+      "Evitar cualquier control público sobre la decisión tomada.",
+      "Resolver el caso sin información, participación ni garantías.",
+      "Garantizar atención humanitaria, educación y acompañamiento jurídico."
+    ],
+    "answer": 3,
+    "explanation": "El Estado social de derecho exige proteger derechos, deliberar y justificar las decisiones públicas."
+  },
+  {
+    "id": "SOC-046",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento social",
+    "difficulty": "Básico",
+    "context": "Precio de alimentos\n\nUna sequía reduce la cosecha de papa y en pocas semanas el precio sube en las plazas de mercado.",
+    "prompt": "El derecho o principio más relacionado con la situación es:",
+    "options": [
+      "La prioridad absoluta de intereses privados sin control público.",
+      "La obligación de resolver conflictos mediante rumores.",
+      "La seguridad alimentaria como preocupación social y económica.",
+      "La eliminación de toda forma de participación comunitaria."
+    ],
+    "answer": 2,
+    "explanation": "La respuesta identifica el principio constitucional o social que organiza el caso."
+  },
+  {
+    "id": "SOC-047",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Interpretación y análisis",
+    "difficulty": "Medio",
+    "context": "Precio de alimentos\n\nUna sequía reduce la cosecha de papa y en pocas semanas el precio sube en las plazas de mercado.",
+    "prompt": "La acción ciudadana más adecuada sería:",
+    "options": [
+      "Suponer que el problema no afecta a nadie más.",
+      "Analizar oferta, demanda y medidas de apoyo a productores y consumidores.",
+      "Actuar solo con base en comentarios no verificados.",
+      "Impedir cualquier diálogo con las instituciones."
+    ],
+    "answer": 1,
+    "explanation": "Una acción adecuada combina participación, información y respeto por los procedimientos."
+  },
+  {
+    "id": "SOC-048",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Ciudadanía",
+    "difficulty": "Medio",
+    "context": "Precio de alimentos\n\nUna sequía reduce la cosecha de papa y en pocas semanas el precio sube en las plazas de mercado.",
+    "prompt": "¿Qué mecanismo o institución corresponde mejor al caso?",
+    "options": [
+      "Políticas públicas de abastecimiento y apoyo agropecuario.",
+      "Una decisión secreta sin registro ni responsables.",
+      "Un acuerdo informal que ignore las normas vigentes.",
+      "La sustitución de las autoridades por opiniones en redes."
+    ],
+    "answer": 0,
+    "explanation": "Los mecanismos democráticos permiten tramitar conflictos sin desconocer derechos."
+  },
+  {
+    "id": "SOC-049",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Análisis de perspectivas",
+    "difficulty": "Avanzado",
+    "context": "Precio de alimentos\n\nUna sequía reduce la cosecha de papa y en pocas semanas el precio sube en las plazas de mercado.",
+    "prompt": "La situación se entiende mejor como:",
+    "options": [
+      "Un hecho aislado que no involucra intereses sociales.",
+      "Un problema que solo puede resolverse con castigos inmediatos.",
+      "Una dificultad causada por una única persona sin contexto.",
+      "Un cambio de precios asociado a menor oferta de un producto básico."
+    ],
+    "answer": 3,
+    "explanation": "El análisis social reconoce actores, intereses, derechos y condiciones del contexto."
+  },
+  {
+    "id": "SOC-050",
+    "areaId": "sociales",
+    "area": "Sociales y Ciudadanas",
+    "skill": "Pensamiento reflexivo",
+    "difficulty": "Avanzado",
+    "context": "Precio de alimentos\n\nUna sequía reduce la cosecha de papa y en pocas semanas el precio sube en las plazas de mercado.",
+    "prompt": "Una decisión compatible con el Estado social de derecho sería:",
+    "options": [
+      "Evitar cualquier control público sobre la decisión tomada.",
+      "Resolver el caso sin información, participación ni garantías.",
+      "Evitar especulación y fortalecer canales de distribución sin culpar a un solo actor.",
+      "Aplicar una solución que favorezca a un grupo y silencie a los demás."
+    ],
+    "answer": 2,
+    "explanation": "El Estado social de derecho exige proteger derechos, deliberar y justificar las decisiones públicas."
+  },
+  {
+    "id": "CIE-001",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Indagación",
+    "difficulty": "Básico",
+    "context": "Crecimiento de plantas\n\nUn grupo cultiva plantas iguales con la misma cantidad de agua, pero cambia las horas de luz diaria.",
+    "prompt": "En esta investigación, la variable que se modifica o analiza principalmente es:",
+    "options": [
+      "La opinión de los observadores.",
+      "El nombre del lugar donde se realiza la prueba.",
+      "Un dato que no cambia ni se registra.",
+      "Las horas de luz diaria."
+    ],
+    "answer": 3,
+    "explanation": "La variable principal es el factor que se manipula o se compara para estudiar su efecto."
+  },
+  {
+    "id": "CIE-002",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Explicación de fenómenos",
+    "difficulty": "Medio",
+    "context": "Crecimiento de plantas\n\nUn grupo cultiva plantas iguales con la misma cantidad de agua, pero cambia las horas de luz diaria.",
+    "prompt": "¿Cuál hipótesis se ajusta mejor a la situación?",
+    "options": [
+      "Si no se controla ningún factor, entonces se puede asegurar la causa.",
+      "Si se repite una palabra científica, entonces la hipótesis queda comprobada.",
+      "Si una planta recibe más luz dentro de un rango adecuado, entonces puede aumentar su crecimiento.",
+      "Si se ignoran las mediciones, entonces el resultado será más confiable."
+    ],
+    "answer": 2,
+    "explanation": "Una hipótesis relaciona una condición con un posible efecto observable."
+  },
+  {
+    "id": "CIE-003",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Uso comprensivo del conocimiento",
+    "difficulty": "Avanzado",
+    "context": "Crecimiento de plantas\n\nUn grupo cultiva plantas iguales con la misma cantidad de agua, pero cambia las horas de luz diaria.",
+    "prompt": "La conclusión más razonable es:",
+    "options": [
+      "La explicación debe basarse en preferencias personales.",
+      "La luz influye en el crecimiento si las demás condiciones se mantienen controladas.",
+      "No se puede relacionar ningún factor con lo observado.",
+      "El resultado depende únicamente del azar y no requiere datos."
+    ],
+    "answer": 1,
+    "explanation": "La conclusión debe apoyarse en los datos descritos y no excederlos."
+  },
+  {
+    "id": "CIE-004",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Conceptos científicos",
+    "difficulty": "Medio",
+    "context": "Crecimiento de plantas\n\nUn grupo cultiva plantas iguales con la misma cantidad de agua, pero cambia las horas de luz diaria.",
+    "prompt": "El concepto científico más relacionado con el caso es:",
+    "options": [
+      "Fotosíntesis y control de variables.",
+      "Clasificación de textos literarios.",
+      "Normas de tránsito urbano.",
+      "Cálculo de intereses bancarios."
+    ],
+    "answer": 0,
+    "explanation": "El concepto conecta el fenómeno observado con un modelo o principio científico."
+  },
+  {
+    "id": "CIE-005",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Diseño experimental",
+    "difficulty": "Avanzado",
+    "context": "Crecimiento de plantas\n\nUn grupo cultiva plantas iguales con la misma cantidad de agua, pero cambia las horas de luz diaria.",
+    "prompt": "Para mejorar la validez del estudio conviene:",
+    "options": [
+      "Cambiar todos los factores al mismo tiempo.",
+      "Registrar solo los datos que confirmen la idea inicial.",
+      "Evitar repetir el experimento para ahorrar tiempo.",
+      "Usar plantas de la misma especie y mantener igual agua, suelo y tamaño de matera."
+    ],
+    "answer": 3,
+    "explanation": "Controlar variables permite comparar resultados con mayor confianza."
+  },
+  {
+    "id": "CIE-006",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Indagación",
+    "difficulty": "Básico",
+    "context": "Péndulo\n\nSe mide el tiempo que tarda un péndulo en oscilar usando cuerdas de diferentes longitudes.",
+    "prompt": "En esta investigación, la variable que se modifica o analiza principalmente es:",
+    "options": [
+      "El nombre del lugar donde se realiza la prueba.",
+      "Un dato que no cambia ni se registra.",
+      "La longitud de la cuerda.",
+      "La opinión de los observadores."
+    ],
+    "answer": 2,
+    "explanation": "La variable principal es el factor que se manipula o se compara para estudiar su efecto."
+  },
+  {
+    "id": "CIE-007",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Explicación de fenómenos",
+    "difficulty": "Medio",
+    "context": "Péndulo\n\nSe mide el tiempo que tarda un péndulo en oscilar usando cuerdas de diferentes longitudes.",
+    "prompt": "¿Cuál hipótesis se ajusta mejor a la situación?",
+    "options": [
+      "Si se repite una palabra científica, entonces la hipótesis queda comprobada.",
+      "Si aumenta la longitud de la cuerda, entonces cambia el periodo de oscilación.",
+      "Si se ignoran las mediciones, entonces el resultado será más confiable.",
+      "Si no se controla ningún factor, entonces se puede asegurar la causa."
+    ],
+    "answer": 1,
+    "explanation": "Una hipótesis relaciona una condición con un posible efecto observable."
+  },
+  {
+    "id": "CIE-008",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Uso comprensivo del conocimiento",
+    "difficulty": "Medio",
+    "context": "Péndulo\n\nSe mide el tiempo que tarda un péndulo en oscilar usando cuerdas de diferentes longitudes.",
+    "prompt": "La conclusión más razonable es:",
+    "options": [
+      "La longitud es un factor que afecta el tiempo de oscilación del péndulo.",
+      "No se puede relacionar ningún factor con lo observado.",
+      "El resultado depende únicamente del azar y no requiere datos.",
+      "La explicación debe basarse en preferencias personales."
+    ],
+    "answer": 0,
+    "explanation": "La conclusión debe apoyarse en los datos descritos y no excederlos."
+  },
+  {
+    "id": "CIE-009",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Conceptos científicos",
+    "difficulty": "Medio",
+    "context": "Péndulo\n\nSe mide el tiempo que tarda un péndulo en oscilar usando cuerdas de diferentes longitudes.",
+    "prompt": "El concepto científico más relacionado con el caso es:",
+    "options": [
+      "Clasificación de textos literarios.",
+      "Normas de tránsito urbano.",
+      "Cálculo de intereses bancarios.",
+      "Movimiento periódico."
+    ],
+    "answer": 3,
+    "explanation": "El concepto conecta el fenómeno observado con un modelo o principio científico."
+  },
+  {
+    "id": "CIE-010",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Diseño experimental",
+    "difficulty": "Avanzado",
+    "context": "Péndulo\n\nSe mide el tiempo que tarda un péndulo en oscilar usando cuerdas de diferentes longitudes.",
+    "prompt": "Para mejorar la validez del estudio conviene:",
+    "options": [
+      "Registrar solo los datos que confirmen la idea inicial.",
+      "Evitar repetir el experimento para ahorrar tiempo.",
+      "Soltar el péndulo desde el mismo ángulo en cada prueba.",
+      "Cambiar todos los factores al mismo tiempo."
+    ],
+    "answer": 2,
+    "explanation": "Controlar variables permite comparar resultados con mayor confianza."
+  },
+  {
+    "id": "CIE-011",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Indagación",
+    "difficulty": "Básico",
+    "context": "Acidez del suelo\n\nUn laboratorio compara muestras de suelo y encuentra que algunas tienen pH bajo y menor crecimiento de ciertas plantas.",
+    "prompt": "En esta investigación, la variable que se modifica o analiza principalmente es:",
+    "options": [
+      "Un dato que no cambia ni se registra.",
+      "El pH del suelo.",
+      "La opinión de los observadores.",
+      "El nombre del lugar donde se realiza la prueba."
+    ],
+    "answer": 1,
+    "explanation": "La variable principal es el factor que se manipula o se compara para estudiar su efecto."
+  },
+  {
+    "id": "CIE-012",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Explicación de fenómenos",
+    "difficulty": "Medio",
+    "context": "Acidez del suelo\n\nUn laboratorio compara muestras de suelo y encuentra que algunas tienen pH bajo y menor crecimiento de ciertas plantas.",
+    "prompt": "¿Cuál hipótesis se ajusta mejor a la situación?",
+    "options": [
+      "Si el pH se aleja del rango tolerado por la planta, entonces su crecimiento disminuye.",
+      "Si se ignoran las mediciones, entonces el resultado será más confiable.",
+      "Si no se controla ningún factor, entonces se puede asegurar la causa.",
+      "Si se repite una palabra científica, entonces la hipótesis queda comprobada."
+    ],
+    "answer": 0,
+    "explanation": "Una hipótesis relaciona una condición con un posible efecto observable."
+  },
+  {
+    "id": "CIE-013",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Uso comprensivo del conocimiento",
+    "difficulty": "Medio",
+    "context": "Acidez del suelo\n\nUn laboratorio compara muestras de suelo y encuentra que algunas tienen pH bajo y menor crecimiento de ciertas plantas.",
+    "prompt": "La conclusión más razonable es:",
+    "options": [
+      "No se puede relacionar ningún factor con lo observado.",
+      "El resultado depende únicamente del azar y no requiere datos.",
+      "La explicación debe basarse en preferencias personales.",
+      "La acidez puede limitar la disponibilidad de nutrientes para algunas especies."
+    ],
+    "answer": 3,
+    "explanation": "La conclusión debe apoyarse en los datos descritos y no excederlos."
+  },
+  {
+    "id": "CIE-014",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Conceptos científicos",
+    "difficulty": "Medio",
+    "context": "Acidez del suelo\n\nUn laboratorio compara muestras de suelo y encuentra que algunas tienen pH bajo y menor crecimiento de ciertas plantas.",
+    "prompt": "El concepto científico más relacionado con el caso es:",
+    "options": [
+      "Normas de tránsito urbano.",
+      "Cálculo de intereses bancarios.",
+      "pH y nutrición vegetal.",
+      "Clasificación de textos literarios."
+    ],
+    "answer": 2,
+    "explanation": "El concepto conecta el fenómeno observado con un modelo o principio científico."
+  },
+  {
+    "id": "CIE-015",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Diseño experimental",
+    "difficulty": "Avanzado",
+    "context": "Acidez del suelo\n\nUn laboratorio compara muestras de suelo y encuentra que algunas tienen pH bajo y menor crecimiento de ciertas plantas.",
+    "prompt": "Para mejorar la validez del estudio conviene:",
+    "options": [
+      "Evitar repetir el experimento para ahorrar tiempo.",
+      "Comparar plantas de la misma especie bajo condiciones de agua y luz semejantes.",
+      "Cambiar todos los factores al mismo tiempo.",
+      "Registrar solo los datos que confirmen la idea inicial."
+    ],
+    "answer": 1,
+    "explanation": "Controlar variables permite comparar resultados con mayor confianza."
+  },
+  {
+    "id": "CIE-016",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Indagación",
+    "difficulty": "Básico",
+    "context": "Especie invasora\n\nEn una laguna aparece un pez introducido que se reproduce rápido y consume alimento de especies nativas.",
+    "prompt": "En esta investigación, la variable que se modifica o analiza principalmente es:",
+    "options": [
+      "La presencia del pez introducido.",
+      "La opinión de los observadores.",
+      "El nombre del lugar donde se realiza la prueba.",
+      "Un dato que no cambia ni se registra."
+    ],
+    "answer": 0,
+    "explanation": "La variable principal es el factor que se manipula o se compara para estudiar su efecto."
+  },
+  {
+    "id": "CIE-017",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Explicación de fenómenos",
+    "difficulty": "Medio",
+    "context": "Especie invasora\n\nEn una laguna aparece un pez introducido que se reproduce rápido y consume alimento de especies nativas.",
+    "prompt": "¿Cuál hipótesis se ajusta mejor a la situación?",
+    "options": [
+      "Si se ignoran las mediciones, entonces el resultado será más confiable.",
+      "Si no se controla ningún factor, entonces se puede asegurar la causa.",
+      "Si se repite una palabra científica, entonces la hipótesis queda comprobada.",
+      "Si aumenta la población invasora, entonces puede disminuir la población de especies nativas."
+    ],
+    "answer": 3,
+    "explanation": "Una hipótesis relaciona una condición con un posible efecto observable."
+  },
+  {
+    "id": "CIE-018",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Uso comprensivo del conocimiento",
+    "difficulty": "Medio",
+    "context": "Especie invasora\n\nEn una laguna aparece un pez introducido que se reproduce rápido y consume alimento de especies nativas.",
+    "prompt": "La conclusión más razonable es:",
+    "options": [
+      "El resultado depende únicamente del azar y no requiere datos.",
+      "La explicación debe basarse en preferencias personales.",
+      "La competencia por recursos puede alterar el equilibrio del ecosistema.",
+      "No se puede relacionar ningún factor con lo observado."
+    ],
+    "answer": 2,
+    "explanation": "La conclusión debe apoyarse en los datos descritos y no excederlos."
+  },
+  {
+    "id": "CIE-019",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Conceptos científicos",
+    "difficulty": "Medio",
+    "context": "Especie invasora\n\nEn una laguna aparece un pez introducido que se reproduce rápido y consume alimento de especies nativas.",
+    "prompt": "El concepto científico más relacionado con el caso es:",
+    "options": [
+      "Cálculo de intereses bancarios.",
+      "Relaciones ecológicas y competencia.",
+      "Clasificación de textos literarios.",
+      "Normas de tránsito urbano."
+    ],
+    "answer": 1,
+    "explanation": "El concepto conecta el fenómeno observado con un modelo o principio científico."
+  },
+  {
+    "id": "CIE-020",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Diseño experimental",
+    "difficulty": "Avanzado",
+    "context": "Especie invasora\n\nEn una laguna aparece un pez introducido que se reproduce rápido y consume alimento de especies nativas.",
+    "prompt": "Para mejorar la validez del estudio conviene:",
+    "options": [
+      "Monitorear poblaciones antes y después de la introducción en zonas comparables.",
+      "Cambiar todos los factores al mismo tiempo.",
+      "Registrar solo los datos que confirmen la idea inicial.",
+      "Evitar repetir el experimento para ahorrar tiempo."
+    ],
+    "answer": 0,
+    "explanation": "Controlar variables permite comparar resultados con mayor confianza."
+  },
+  {
+    "id": "CIE-021",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Indagación",
+    "difficulty": "Básico",
+    "context": "Circuito eléctrico\n\nSe arma un circuito con una pila y bombillos. Al agregar más bombillos en serie, disminuye el brillo.",
+    "prompt": "En esta investigación, la variable que se modifica o analiza principalmente es:",
+    "options": [
+      "La opinión de los observadores.",
+      "El nombre del lugar donde se realiza la prueba.",
+      "Un dato que no cambia ni se registra.",
+      "El número de bombillos conectados en serie."
+    ],
+    "answer": 3,
+    "explanation": "La variable principal es el factor que se manipula o se compara para estudiar su efecto."
+  },
+  {
+    "id": "CIE-022",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Explicación de fenómenos",
+    "difficulty": "Medio",
+    "context": "Circuito eléctrico\n\nSe arma un circuito con una pila y bombillos. Al agregar más bombillos en serie, disminuye el brillo.",
+    "prompt": "¿Cuál hipótesis se ajusta mejor a la situación?",
+    "options": [
+      "Si no se controla ningún factor, entonces se puede asegurar la causa.",
+      "Si se repite una palabra científica, entonces la hipótesis queda comprobada.",
+      "Si se agregan bombillos en serie, entonces la resistencia total aumenta y el brillo disminuye.",
+      "Si se ignoran las mediciones, entonces el resultado será más confiable."
+    ],
+    "answer": 2,
+    "explanation": "Una hipótesis relaciona una condición con un posible efecto observable."
+  },
+  {
+    "id": "CIE-023",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Uso comprensivo del conocimiento",
+    "difficulty": "Avanzado",
+    "context": "Circuito eléctrico\n\nSe arma un circuito con una pila y bombillos. Al agregar más bombillos en serie, disminuye el brillo.",
+    "prompt": "La conclusión más razonable es:",
+    "options": [
+      "La explicación debe basarse en preferencias personales.",
+      "En serie, los componentes comparten la corriente disponible.",
+      "No se puede relacionar ningún factor con lo observado.",
+      "El resultado depende únicamente del azar y no requiere datos."
+    ],
+    "answer": 1,
+    "explanation": "La conclusión debe apoyarse en los datos descritos y no excederlos."
+  },
+  {
+    "id": "CIE-024",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Conceptos científicos",
+    "difficulty": "Medio",
+    "context": "Circuito eléctrico\n\nSe arma un circuito con una pila y bombillos. Al agregar más bombillos en serie, disminuye el brillo.",
+    "prompt": "El concepto científico más relacionado con el caso es:",
+    "options": [
+      "Resistencia eléctrica y circuitos en serie.",
+      "Clasificación de textos literarios.",
+      "Normas de tránsito urbano.",
+      "Cálculo de intereses bancarios."
+    ],
+    "answer": 0,
+    "explanation": "El concepto conecta el fenómeno observado con un modelo o principio científico."
+  },
+  {
+    "id": "CIE-025",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Diseño experimental",
+    "difficulty": "Avanzado",
+    "context": "Circuito eléctrico\n\nSe arma un circuito con una pila y bombillos. Al agregar más bombillos en serie, disminuye el brillo.",
+    "prompt": "Para mejorar la validez del estudio conviene:",
+    "options": [
+      "Cambiar todos los factores al mismo tiempo.",
+      "Registrar solo los datos que confirmen la idea inicial.",
+      "Evitar repetir el experimento para ahorrar tiempo.",
+      "Usar la misma pila y bombillos del mismo tipo en cada montaje."
+    ],
+    "answer": 3,
+    "explanation": "Controlar variables permite comparar resultados con mayor confianza."
+  },
+  {
+    "id": "CIE-026",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Indagación",
+    "difficulty": "Básico",
+    "context": "Cambio de estado\n\nUna muestra de hielo se calienta hasta convertirse en agua líquida y luego en vapor.",
+    "prompt": "En esta investigación, la variable que se modifica o analiza principalmente es:",
+    "options": [
+      "El nombre del lugar donde se realiza la prueba.",
+      "Un dato que no cambia ni se registra.",
+      "La temperatura suministrada al sistema.",
+      "La opinión de los observadores."
+    ],
+    "answer": 2,
+    "explanation": "La variable principal es el factor que se manipula o se compara para estudiar su efecto."
+  },
+  {
+    "id": "CIE-027",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Explicación de fenómenos",
+    "difficulty": "Medio",
+    "context": "Cambio de estado\n\nUna muestra de hielo se calienta hasta convertirse en agua líquida y luego en vapor.",
+    "prompt": "¿Cuál hipótesis se ajusta mejor a la situación?",
+    "options": [
+      "Si se repite una palabra científica, entonces la hipótesis queda comprobada.",
+      "Si se entrega suficiente energía térmica, entonces la sustancia cambia de estado.",
+      "Si se ignoran las mediciones, entonces el resultado será más confiable.",
+      "Si no se controla ningún factor, entonces se puede asegurar la causa."
+    ],
+    "answer": 1,
+    "explanation": "Una hipótesis relaciona una condición con un posible efecto observable."
+  },
+  {
+    "id": "CIE-028",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Uso comprensivo del conocimiento",
+    "difficulty": "Medio",
+    "context": "Cambio de estado\n\nUna muestra de hielo se calienta hasta convertirse en agua líquida y luego en vapor.",
+    "prompt": "La conclusión más razonable es:",
+    "options": [
+      "Los cambios de estado se relacionan con la energía y el movimiento de partículas.",
+      "No se puede relacionar ningún factor con lo observado.",
+      "El resultado depende únicamente del azar y no requiere datos.",
+      "La explicación debe basarse en preferencias personales."
+    ],
+    "answer": 0,
+    "explanation": "La conclusión debe apoyarse en los datos descritos y no excederlos."
+  },
+  {
+    "id": "CIE-029",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Conceptos científicos",
+    "difficulty": "Medio",
+    "context": "Cambio de estado\n\nUna muestra de hielo se calienta hasta convertirse en agua líquida y luego en vapor.",
+    "prompt": "El concepto científico más relacionado con el caso es:",
+    "options": [
+      "Clasificación de textos literarios.",
+      "Normas de tránsito urbano.",
+      "Cálculo de intereses bancarios.",
+      "Estados de la materia y calor."
+    ],
+    "answer": 3,
+    "explanation": "El concepto conecta el fenómeno observado con un modelo o principio científico."
+  },
+  {
+    "id": "CIE-030",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Diseño experimental",
+    "difficulty": "Avanzado",
+    "context": "Cambio de estado\n\nUna muestra de hielo se calienta hasta convertirse en agua líquida y luego en vapor.",
+    "prompt": "Para mejorar la validez del estudio conviene:",
+    "options": [
+      "Registrar solo los datos que confirmen la idea inicial.",
+      "Evitar repetir el experimento para ahorrar tiempo.",
+      "Medir temperatura y tiempo con instrumentos iguales durante todo el proceso.",
+      "Cambiar todos los factores al mismo tiempo."
+    ],
+    "answer": 2,
+    "explanation": "Controlar variables permite comparar resultados con mayor confianza."
+  },
+  {
+    "id": "CIE-031",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Indagación",
+    "difficulty": "Básico",
+    "context": "Vacunación\n\nDespués de una campaña de vacunación, baja el número de casos graves de una enfermedad en la población.",
+    "prompt": "En esta investigación, la variable que se modifica o analiza principalmente es:",
+    "options": [
+      "Un dato que no cambia ni se registra.",
+      "La proporción de personas vacunadas.",
+      "La opinión de los observadores.",
+      "El nombre del lugar donde se realiza la prueba."
+    ],
+    "answer": 1,
+    "explanation": "La variable principal es el factor que se manipula o se compara para estudiar su efecto."
+  },
+  {
+    "id": "CIE-032",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Explicación de fenómenos",
+    "difficulty": "Medio",
+    "context": "Vacunación\n\nDespués de una campaña de vacunación, baja el número de casos graves de una enfermedad en la población.",
+    "prompt": "¿Cuál hipótesis se ajusta mejor a la situación?",
+    "options": [
+      "Si aumenta la vacunación, entonces disminuyen los casos graves en la población protegida.",
+      "Si se ignoran las mediciones, entonces el resultado será más confiable.",
+      "Si no se controla ningún factor, entonces se puede asegurar la causa.",
+      "Si se repite una palabra científica, entonces la hipótesis queda comprobada."
+    ],
+    "answer": 0,
+    "explanation": "Una hipótesis relaciona una condición con un posible efecto observable."
+  },
+  {
+    "id": "CIE-033",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Uso comprensivo del conocimiento",
+    "difficulty": "Medio",
+    "context": "Vacunación\n\nDespués de una campaña de vacunación, baja el número de casos graves de una enfermedad en la población.",
+    "prompt": "La conclusión más razonable es:",
+    "options": [
+      "No se puede relacionar ningún factor con lo observado.",
+      "El resultado depende únicamente del azar y no requiere datos.",
+      "La explicación debe basarse en preferencias personales.",
+      "La vacunación prepara al sistema inmune y reduce riesgos colectivos."
+    ],
+    "answer": 3,
+    "explanation": "La conclusión debe apoyarse en los datos descritos y no excederlos."
+  },
+  {
+    "id": "CIE-034",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Conceptos científicos",
+    "difficulty": "Medio",
+    "context": "Vacunación\n\nDespués de una campaña de vacunación, baja el número de casos graves de una enfermedad en la población.",
+    "prompt": "El concepto científico más relacionado con el caso es:",
+    "options": [
+      "Normas de tránsito urbano.",
+      "Cálculo de intereses bancarios.",
+      "Respuesta inmune y prevención.",
+      "Clasificación de textos literarios."
+    ],
+    "answer": 2,
+    "explanation": "El concepto conecta el fenómeno observado con un modelo o principio científico."
+  },
+  {
+    "id": "CIE-035",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Diseño experimental",
+    "difficulty": "Avanzado",
+    "context": "Vacunación\n\nDespués de una campaña de vacunación, baja el número de casos graves de una enfermedad en la población.",
+    "prompt": "Para mejorar la validez del estudio conviene:",
+    "options": [
+      "Evitar repetir el experimento para ahorrar tiempo.",
+      "Comparar grupos con datos de edad, exposición y condiciones similares.",
+      "Cambiar todos los factores al mismo tiempo.",
+      "Registrar solo los datos que confirmen la idea inicial."
+    ],
+    "answer": 1,
+    "explanation": "Controlar variables permite comparar resultados con mayor confianza."
+  },
+  {
+    "id": "CIE-036",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Indagación",
+    "difficulty": "Básico",
+    "context": "Erosión\n\nDos laderas reciben lluvia intensa: una conserva vegetación y la otra fue talada recientemente.",
+    "prompt": "En esta investigación, la variable que se modifica o analiza principalmente es:",
+    "options": [
+      "La cobertura vegetal de la ladera.",
+      "La opinión de los observadores.",
+      "El nombre del lugar donde se realiza la prueba.",
+      "Un dato que no cambia ni se registra."
+    ],
+    "answer": 0,
+    "explanation": "La variable principal es el factor que se manipula o se compara para estudiar su efecto."
+  },
+  {
+    "id": "CIE-037",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Explicación de fenómenos",
+    "difficulty": "Medio",
+    "context": "Erosión\n\nDos laderas reciben lluvia intensa: una conserva vegetación y la otra fue talada recientemente.",
+    "prompt": "¿Cuál hipótesis se ajusta mejor a la situación?",
+    "options": [
+      "Si se ignoran las mediciones, entonces el resultado será más confiable.",
+      "Si no se controla ningún factor, entonces se puede asegurar la causa.",
+      "Si se repite una palabra científica, entonces la hipótesis queda comprobada.",
+      "Si se reduce la vegetación, entonces aumenta la pérdida de suelo por escorrentía."
+    ],
+    "answer": 3,
+    "explanation": "Una hipótesis relaciona una condición con un posible efecto observable."
+  },
+  {
+    "id": "CIE-038",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Uso comprensivo del conocimiento",
+    "difficulty": "Medio",
+    "context": "Erosión\n\nDos laderas reciben lluvia intensa: una conserva vegetación y la otra fue talada recientemente.",
+    "prompt": "La conclusión más razonable es:",
+    "options": [
+      "El resultado depende únicamente del azar y no requiere datos.",
+      "La explicación debe basarse en preferencias personales.",
+      "Las raíces y la cobertura vegetal ayudan a disminuir la erosión.",
+      "No se puede relacionar ningún factor con lo observado."
+    ],
+    "answer": 2,
+    "explanation": "La conclusión debe apoyarse en los datos descritos y no excederlos."
+  },
+  {
+    "id": "CIE-039",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Conceptos científicos",
+    "difficulty": "Medio",
+    "context": "Erosión\n\nDos laderas reciben lluvia intensa: una conserva vegetación y la otra fue talada recientemente.",
+    "prompt": "El concepto científico más relacionado con el caso es:",
+    "options": [
+      "Cálculo de intereses bancarios.",
+      "Erosión y protección del suelo.",
+      "Clasificación de textos literarios.",
+      "Normas de tránsito urbano."
+    ],
+    "answer": 1,
+    "explanation": "El concepto conecta el fenómeno observado con un modelo o principio científico."
+  },
+  {
+    "id": "CIE-040",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Diseño experimental",
+    "difficulty": "Avanzado",
+    "context": "Erosión\n\nDos laderas reciben lluvia intensa: una conserva vegetación y la otra fue talada recientemente.",
+    "prompt": "Para mejorar la validez del estudio conviene:",
+    "options": [
+      "Comparar laderas con pendiente y tipo de suelo semejantes.",
+      "Cambiar todos los factores al mismo tiempo.",
+      "Registrar solo los datos que confirmen la idea inicial.",
+      "Evitar repetir el experimento para ahorrar tiempo."
+    ],
+    "answer": 0,
+    "explanation": "Controlar variables permite comparar resultados con mayor confianza."
+  },
+  {
+    "id": "CIE-041",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Indagación",
+    "difficulty": "Básico",
+    "context": "Ósmosis\n\nRodajas de papa se colocan en agua pura y en agua con mucha sal; luego se comparan sus masas.",
+    "prompt": "En esta investigación, la variable que se modifica o analiza principalmente es:",
+    "options": [
+      "La opinión de los observadores.",
+      "El nombre del lugar donde se realiza la prueba.",
+      "Un dato que no cambia ni se registra.",
+      "La concentración de sal en el agua."
+    ],
+    "answer": 3,
+    "explanation": "La variable principal es el factor que se manipula o se compara para estudiar su efecto."
+  },
+  {
+    "id": "CIE-042",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Explicación de fenómenos",
+    "difficulty": "Medio",
+    "context": "Ósmosis\n\nRodajas de papa se colocan en agua pura y en agua con mucha sal; luego se comparan sus masas.",
+    "prompt": "¿Cuál hipótesis se ajusta mejor a la situación?",
+    "options": [
+      "Si no se controla ningún factor, entonces se puede asegurar la causa.",
+      "Si se repite una palabra científica, entonces la hipótesis queda comprobada.",
+      "Si aumenta la concentración de sal externa, entonces puede salir agua de las células de la papa.",
+      "Si se ignoran las mediciones, entonces el resultado será más confiable."
+    ],
+    "answer": 2,
+    "explanation": "Una hipótesis relaciona una condición con un posible efecto observable."
+  },
+  {
+    "id": "CIE-043",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Uso comprensivo del conocimiento",
+    "difficulty": "Avanzado",
+    "context": "Ósmosis\n\nRodajas de papa se colocan en agua pura y en agua con mucha sal; luego se comparan sus masas.",
+    "prompt": "La conclusión más razonable es:",
+    "options": [
+      "La explicación debe basarse en preferencias personales.",
+      "El agua se mueve a través de membranas según diferencias de concentración.",
+      "No se puede relacionar ningún factor con lo observado.",
+      "El resultado depende únicamente del azar y no requiere datos."
+    ],
+    "answer": 1,
+    "explanation": "La conclusión debe apoyarse en los datos descritos y no excederlos."
+  },
+  {
+    "id": "CIE-044",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Conceptos científicos",
+    "difficulty": "Medio",
+    "context": "Ósmosis\n\nRodajas de papa se colocan en agua pura y en agua con mucha sal; luego se comparan sus masas.",
+    "prompt": "El concepto científico más relacionado con el caso es:",
+    "options": [
+      "Ósmosis.",
+      "Clasificación de textos literarios.",
+      "Normas de tránsito urbano.",
+      "Cálculo de intereses bancarios."
+    ],
+    "answer": 0,
+    "explanation": "El concepto conecta el fenómeno observado con un modelo o principio científico."
+  },
+  {
+    "id": "CIE-045",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Diseño experimental",
+    "difficulty": "Avanzado",
+    "context": "Ósmosis\n\nRodajas de papa se colocan en agua pura y en agua con mucha sal; luego se comparan sus masas.",
+    "prompt": "Para mejorar la validez del estudio conviene:",
+    "options": [
+      "Cambiar todos los factores al mismo tiempo.",
+      "Registrar solo los datos que confirmen la idea inicial.",
+      "Evitar repetir el experimento para ahorrar tiempo.",
+      "Usar rodajas del mismo tamaño y medir la masa antes y después del mismo tiempo."
+    ],
+    "answer": 3,
+    "explanation": "Controlar variables permite comparar resultados con mayor confianza."
+  },
+  {
+    "id": "CIE-046",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Indagación",
+    "difficulty": "Básico",
+    "context": "Clima local\n\nDurante diez años se registra aumento de temperatura promedio y reducción de lluvias en una región.",
+    "prompt": "En esta investigación, la variable que se modifica o analiza principalmente es:",
+    "options": [
+      "El nombre del lugar donde se realiza la prueba.",
+      "Un dato que no cambia ni se registra.",
+      "La temperatura promedio y la precipitación anual registradas.",
+      "La opinión de los observadores."
+    ],
+    "answer": 2,
+    "explanation": "La variable principal es el factor que se manipula o se compara para estudiar su efecto."
+  },
+  {
+    "id": "CIE-047",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Explicación de fenómenos",
+    "difficulty": "Medio",
+    "context": "Clima local\n\nDurante diez años se registra aumento de temperatura promedio y reducción de lluvias en una región.",
+    "prompt": "¿Cuál hipótesis se ajusta mejor a la situación?",
+    "options": [
+      "Si se repite una palabra científica, entonces la hipótesis queda comprobada.",
+      "Si cambian los patrones de temperatura y lluvia, entonces se afectan cultivos y disponibilidad de agua.",
+      "Si se ignoran las mediciones, entonces el resultado será más confiable.",
+      "Si no se controla ningún factor, entonces se puede asegurar la causa."
+    ],
+    "answer": 1,
+    "explanation": "Una hipótesis relaciona una condición con un posible efecto observable."
+  },
+  {
+    "id": "CIE-048",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Uso comprensivo del conocimiento",
+    "difficulty": "Medio",
+    "context": "Clima local\n\nDurante diez años se registra aumento de temperatura promedio y reducción de lluvias en una región.",
+    "prompt": "La conclusión más razonable es:",
+    "options": [
+      "Las tendencias climáticas se analizan con series de datos de varios años.",
+      "No se puede relacionar ningún factor con lo observado.",
+      "El resultado depende únicamente del azar y no requiere datos.",
+      "La explicación debe basarse en preferencias personales."
+    ],
+    "answer": 0,
+    "explanation": "La conclusión debe apoyarse en los datos descritos y no excederlos."
+  },
+  {
+    "id": "CIE-049",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Conceptos científicos",
+    "difficulty": "Medio",
+    "context": "Clima local\n\nDurante diez años se registra aumento de temperatura promedio y reducción de lluvias en una región.",
+    "prompt": "El concepto científico más relacionado con el caso es:",
+    "options": [
+      "Clasificación de textos literarios.",
+      "Normas de tránsito urbano.",
+      "Cálculo de intereses bancarios.",
+      "Variabilidad climática y análisis de datos."
+    ],
+    "answer": 3,
+    "explanation": "El concepto conecta el fenómeno observado con un modelo o principio científico."
+  },
+  {
+    "id": "CIE-050",
+    "areaId": "ciencias",
+    "area": "Ciencias Naturales",
+    "skill": "Diseño experimental",
+    "difficulty": "Avanzado",
+    "context": "Clima local\n\nDurante diez años se registra aumento de temperatura promedio y reducción de lluvias en una región.",
+    "prompt": "Para mejorar la validez del estudio conviene:",
+    "options": [
+      "Registrar solo los datos que confirmen la idea inicial.",
+      "Evitar repetir el experimento para ahorrar tiempo.",
+      "Usar mediciones comparables tomadas con métodos consistentes durante varios años.",
+      "Cambiar todos los factores al mismo tiempo."
+    ],
+    "answer": 2,
+    "explanation": "Controlar variables permite comparar resultados con mayor confianza."
+  },
+  {
+    "id": "ING-001",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Reading comprehension",
+    "difficulty": "Básico",
+    "context": "Science fair\n\nLaura is preparing a small robot for the school science fair. She will test it on Friday and present it on Monday.",
+    "prompt": "What is the text mainly about?",
+    "options": [
+      "A person who refuses to do anything.",
+      "A place that is never mentioned in the text.",
+      "A problem with no possible solution.",
+      "She will present a robot at the school science fair."
+    ],
+    "answer": 3,
+    "explanation": "La idea principal resume la situación completa, no un dato suelto."
+  },
+  {
+    "id": "ING-002",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Vocabulary",
+    "difficulty": "Básico",
+    "context": "Science fair\n\nLaura is preparing a small robot for the school science fair. She will test it on Friday and present it on Monday.",
+    "prompt": "In the text, the word \"preparing\" is closest in meaning to:",
+    "options": [
+      "very expensive",
+      "without a reason",
+      "getting ready",
+      "to forget"
+    ],
+    "answer": 2,
+    "explanation": "La palabra se interpreta por el contexto de la oración."
+  },
+  {
+    "id": "ING-003",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Grammar",
+    "difficulty": "Medio",
+    "context": "Science fair\n\nLaura is preparing a small robot for the school science fair. She will test it on Friday and present it on Monday.",
+    "prompt": "Choose the correct sentence.",
+    "options": [
+      "They has a good idea.",
+      "Laura will test the robot on Friday.",
+      "Laura will to test the robot on Friday.",
+      "She are going yesterday."
+    ],
+    "answer": 1,
+    "explanation": "La respuesta conserva el tiempo verbal y la concordancia correctos."
+  },
+  {
+    "id": "ING-004",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Communicative function",
+    "difficulty": "Medio",
+    "context": "Science fair\n\nLaura is preparing a small robot for the school science fair. She will test it on Friday and present it on Monday.",
+    "prompt": "A classmate says, \"Good luck with your presentation.\" The best answer is:",
+    "options": [
+      "Thank you. I hope it goes well.",
+      "No, I don't know your name.",
+      "Yesterday is very blue.",
+      "I never speak to people."
+    ],
+    "answer": 0,
+    "explanation": "La respuesta adecuada cumple la función comunicativa de la situación."
+  },
+  {
+    "id": "ING-005",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Sentence completion",
+    "difficulty": "Medio",
+    "context": "Science fair\n\nLaura is preparing a small robot for the school science fair. She will test it on Friday and present it on Monday.",
+    "prompt": "Complete: Laura is interested ___ technology.",
+    "options": [
+      "by",
+      "from",
+      "under",
+      "in"
+    ],
+    "answer": 3,
+    "explanation": "La preposición correcta depende de la expresión usada en la frase."
+  },
+  {
+    "id": "ING-006",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Reading comprehension",
+    "difficulty": "Básico",
+    "context": "Lost wallet\n\nTom found a wallet near the bus stop. He took it to the school office because there was an ID card inside.",
+    "prompt": "What is the text mainly about?",
+    "options": [
+      "A place that is never mentioned in the text.",
+      "A problem with no possible solution.",
+      "He gave the wallet to the school office.",
+      "A person who refuses to do anything."
+    ],
+    "answer": 2,
+    "explanation": "La idea principal resume la situación completa, no un dato suelto."
+  },
+  {
+    "id": "ING-007",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Vocabulary",
+    "difficulty": "Básico",
+    "context": "Lost wallet\n\nTom found a wallet near the bus stop. He took it to the school office because there was an ID card inside.",
+    "prompt": "In the text, \"found\" means:",
+    "options": [
+      "without a reason",
+      "discovered",
+      "to forget",
+      "very expensive"
+    ],
+    "answer": 1,
+    "explanation": "La palabra se interpreta por el contexto de la oración."
+  },
+  {
+    "id": "ING-008",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Grammar",
+    "difficulty": "Básico",
+    "context": "Lost wallet\n\nTom found a wallet near the bus stop. He took it to the school office because there was an ID card inside.",
+    "prompt": "Choose the correct sentence.",
+    "options": [
+      "Tom found a wallet near the bus stop.",
+      "She are going yesterday.",
+      "They has a good idea.",
+      "No se puede determinar con la información dada."
+    ],
+    "answer": 0,
+    "explanation": "La respuesta conserva el tiempo verbal y la concordancia correctos."
+  },
+  {
+    "id": "ING-009",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Communicative function",
+    "difficulty": "Medio",
+    "context": "Lost wallet\n\nTom found a wallet near the bus stop. He took it to the school office because there was an ID card inside.",
+    "prompt": "The owner says, \"Thanks for returning it.\" The best answer is:",
+    "options": [
+      "No, I don't know your name.",
+      "Yesterday is very blue.",
+      "I never speak to people.",
+      "You're welcome."
+    ],
+    "answer": 3,
+    "explanation": "La respuesta adecuada cumple la función comunicativa de la situación."
+  },
+  {
+    "id": "ING-010",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Sentence completion",
+    "difficulty": "Medio",
+    "context": "Lost wallet\n\nTom found a wallet near the bus stop. He took it to the school office because there was an ID card inside.",
+    "prompt": "Complete: The wallet was ___ the bus stop.",
+    "options": [
+      "from",
+      "under",
+      "near",
+      "by"
+    ],
+    "answer": 2,
+    "explanation": "La preposición correcta depende de la expresión usada en la frase."
+  },
+  {
+    "id": "ING-011",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Reading comprehension",
+    "difficulty": "Básico",
+    "context": "Rainy hike\n\nMarta wanted to go hiking, but it started to rain heavily. She stayed home and read a book about national parks.",
+    "prompt": "What is the text mainly about?",
+    "options": [
+      "A problem with no possible solution.",
+      "She stayed home because the weather was bad.",
+      "A person who refuses to do anything.",
+      "A place that is never mentioned in the text."
+    ],
+    "answer": 1,
+    "explanation": "La idea principal resume la situación completa, no un dato suelto."
+  },
+  {
+    "id": "ING-012",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Vocabulary",
+    "difficulty": "Básico",
+    "context": "Rainy hike\n\nMarta wanted to go hiking, but it started to rain heavily. She stayed home and read a book about national parks.",
+    "prompt": "In the text, \"heavily\" describes rain that is:",
+    "options": [
+      "very strong",
+      "to forget",
+      "very expensive",
+      "without a reason"
+    ],
+    "answer": 0,
+    "explanation": "La palabra se interpreta por el contexto de la oración."
+  },
+  {
+    "id": "ING-013",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Grammar",
+    "difficulty": "Medio",
+    "context": "Rainy hike\n\nMarta wanted to go hiking, but it started to rain heavily. She stayed home and read a book about national parks.",
+    "prompt": "Choose the correct sentence.",
+    "options": [
+      "She are going yesterday.",
+      "They has a good idea.",
+      "No se puede determinar con la información dada.",
+      "It started to rain heavily."
+    ],
+    "answer": 3,
+    "explanation": "La respuesta conserva el tiempo verbal y la concordancia correctos."
+  },
+  {
+    "id": "ING-014",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Communicative function",
+    "difficulty": "Medio",
+    "context": "Rainy hike\n\nMarta wanted to go hiking, but it started to rain heavily. She stayed home and read a book about national parks.",
+    "prompt": "Marta says, \"Maybe we can hike next weekend.\" The best reply is:",
+    "options": [
+      "Yesterday is very blue.",
+      "I never speak to people.",
+      "Sure, let's check the weather first.",
+      "No, I don't know your name."
+    ],
+    "answer": 2,
+    "explanation": "La respuesta adecuada cumple la función comunicativa de la situación."
+  },
+  {
+    "id": "ING-015",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Sentence completion",
+    "difficulty": "Medio",
+    "context": "Rainy hike\n\nMarta wanted to go hiking, but it started to rain heavily. She stayed home and read a book about national parks.",
+    "prompt": "Complete: Marta read a book ___ national parks.",
+    "options": [
+      "under",
+      "about",
+      "by",
+      "from"
+    ],
+    "answer": 1,
+    "explanation": "La preposición correcta depende de la expresión usada en la frase."
+  },
+  {
+    "id": "ING-016",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Reading comprehension",
+    "difficulty": "Básico",
+    "context": "New neighbor\n\nA new family moved into the apartment next door. Sara baked cookies and introduced herself in the afternoon.",
+    "prompt": "What is the text mainly about?",
+    "options": [
+      "Sara welcomed the new neighbors.",
+      "A person who refuses to do anything.",
+      "A place that is never mentioned in the text.",
+      "A problem with no possible solution."
+    ],
+    "answer": 0,
+    "explanation": "La idea principal resume la situación completa, no un dato suelto."
+  },
+  {
+    "id": "ING-017",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Vocabulary",
+    "difficulty": "Básico",
+    "context": "New neighbor\n\nA new family moved into the apartment next door. Sara baked cookies and introduced herself in the afternoon.",
+    "prompt": "In the text, \"introduced herself\" means:",
+    "options": [
+      "to forget",
+      "very expensive",
+      "without a reason",
+      "said who she was"
+    ],
+    "answer": 3,
+    "explanation": "La palabra se interpreta por el contexto de la oración."
+  },
+  {
+    "id": "ING-018",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Grammar",
+    "difficulty": "Básico",
+    "context": "New neighbor\n\nA new family moved into the apartment next door. Sara baked cookies and introduced herself in the afternoon.",
+    "prompt": "Choose the correct sentence.",
+    "options": [
+      "They has a good idea.",
+      "No se puede determinar con la información dada.",
+      "A new family moved into the apartment.",
+      "She are going yesterday."
+    ],
+    "answer": 2,
+    "explanation": "La respuesta conserva el tiempo verbal y la concordancia correctos."
+  },
+  {
+    "id": "ING-019",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Communicative function",
+    "difficulty": "Medio",
+    "context": "New neighbor\n\nA new family moved into the apartment next door. Sara baked cookies and introduced herself in the afternoon.",
+    "prompt": "The neighbor says, \"Nice to meet you.\" The best answer is:",
+    "options": [
+      "I never speak to people.",
+      "Nice to meet you too.",
+      "No, I don't know your name.",
+      "Yesterday is very blue."
+    ],
+    "answer": 1,
+    "explanation": "La respuesta adecuada cumple la función comunicativa de la situación."
+  },
+  {
+    "id": "ING-020",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Sentence completion",
+    "difficulty": "Medio",
+    "context": "New neighbor\n\nA new family moved into the apartment next door. Sara baked cookies and introduced herself in the afternoon.",
+    "prompt": "Complete: Sara lives next ___ the new family.",
+    "options": [
+      "to",
+      "by",
+      "from",
+      "under"
+    ],
+    "answer": 0,
+    "explanation": "La preposición correcta depende de la expresión usada en la frase."
+  },
+  {
+    "id": "ING-021",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Reading comprehension",
+    "difficulty": "Básico",
+    "context": "Healthy lunch\n\nDaniel usually bought chips for lunch. This week he is bringing fruit, rice and chicken because he wants more energy for soccer practice.",
+    "prompt": "What is the text mainly about?",
+    "options": [
+      "A person who refuses to do anything.",
+      "A place that is never mentioned in the text.",
+      "A problem with no possible solution.",
+      "He changed his lunch to feel better during practice."
+    ],
+    "answer": 3,
+    "explanation": "La idea principal resume la situación completa, no un dato suelto."
+  },
+  {
+    "id": "ING-022",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Vocabulary",
+    "difficulty": "Básico",
+    "context": "Healthy lunch\n\nDaniel usually bought chips for lunch. This week he is bringing fruit, rice and chicken because he wants more energy for soccer practice.",
+    "prompt": "In the text, \"usually\" means:",
+    "options": [
+      "very expensive",
+      "without a reason",
+      "most of the time",
+      "to forget"
+    ],
+    "answer": 2,
+    "explanation": "La palabra se interpreta por el contexto de la oración."
+  },
+  {
+    "id": "ING-023",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Grammar",
+    "difficulty": "Medio",
+    "context": "Healthy lunch\n\nDaniel usually bought chips for lunch. This week he is bringing fruit, rice and chicken because he wants more energy for soccer practice.",
+    "prompt": "Choose the correct sentence.",
+    "options": [
+      "They has a good idea.",
+      "Daniel is bringing fruit this week.",
+      "Daniel are bringing fruit this week.",
+      "She are going yesterday."
+    ],
+    "answer": 1,
+    "explanation": "La respuesta conserva el tiempo verbal y la concordancia correctos."
+  },
+  {
+    "id": "ING-024",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Communicative function",
+    "difficulty": "Medio",
+    "context": "Healthy lunch\n\nDaniel usually bought chips for lunch. This week he is bringing fruit, rice and chicken because he wants more energy for soccer practice.",
+    "prompt": "A friend asks, \"Why did you change your lunch?\" The best answer is:",
+    "options": [
+      "Because I want more energy for practice.",
+      "No, I don't know your name.",
+      "Yesterday is very blue.",
+      "I never speak to people."
+    ],
+    "answer": 0,
+    "explanation": "La respuesta adecuada cumple la función comunicativa de la situación."
+  },
+  {
+    "id": "ING-025",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Sentence completion",
+    "difficulty": "Medio",
+    "context": "Healthy lunch\n\nDaniel usually bought chips for lunch. This week he is bringing fruit, rice and chicken because he wants more energy for soccer practice.",
+    "prompt": "Complete: Daniel wants energy ___ soccer practice.",
+    "options": [
+      "by",
+      "from",
+      "under",
+      "for"
+    ],
+    "answer": 3,
+    "explanation": "La preposición correcta depende de la expresión usada en la frase."
+  },
+  {
+    "id": "ING-026",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Reading comprehension",
+    "difficulty": "Básico",
+    "context": "Library card\n\nEmma needs a library card to borrow books. The librarian asked her to fill out a form and show her student ID.",
+    "prompt": "What is the text mainly about?",
+    "options": [
+      "A place that is never mentioned in the text.",
+      "A problem with no possible solution.",
+      "Emma must complete a form and show an ID to get a library card.",
+      "A person who refuses to do anything."
+    ],
+    "answer": 2,
+    "explanation": "La idea principal resume la situación completa, no un dato suelto."
+  },
+  {
+    "id": "ING-027",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Vocabulary",
+    "difficulty": "Básico",
+    "context": "Library card\n\nEmma needs a library card to borrow books. The librarian asked her to fill out a form and show her student ID.",
+    "prompt": "In the text, \"borrow\" means:",
+    "options": [
+      "without a reason",
+      "take and return later",
+      "to forget",
+      "very expensive"
+    ],
+    "answer": 1,
+    "explanation": "La palabra se interpreta por el contexto de la oración."
+  },
+  {
+    "id": "ING-028",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Grammar",
+    "difficulty": "Básico",
+    "context": "Library card\n\nEmma needs a library card to borrow books. The librarian asked her to fill out a form and show her student ID.",
+    "prompt": "Choose the correct sentence.",
+    "options": [
+      "Emma needs a library card.",
+      "She are going yesterday.",
+      "They has a good idea.",
+      "No se puede determinar con la información dada."
+    ],
+    "answer": 0,
+    "explanation": "La respuesta conserva el tiempo verbal y la concordancia correctos."
+  },
+  {
+    "id": "ING-029",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Communicative function",
+    "difficulty": "Medio",
+    "context": "Library card\n\nEmma needs a library card to borrow books. The librarian asked her to fill out a form and show her student ID.",
+    "prompt": "The librarian asks, \"Can I see your ID?\" The best answer is:",
+    "options": [
+      "No, I don't know your name.",
+      "Yesterday is very blue.",
+      "I never speak to people.",
+      "Yes, here it is."
+    ],
+    "answer": 3,
+    "explanation": "La respuesta adecuada cumple la función comunicativa de la situación."
+  },
+  {
+    "id": "ING-030",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Sentence completion",
+    "difficulty": "Medio",
+    "context": "Library card\n\nEmma needs a library card to borrow books. The librarian asked her to fill out a form and show her student ID.",
+    "prompt": "Complete: She has to fill ___ a form.",
+    "options": [
+      "from",
+      "under",
+      "out",
+      "by"
+    ],
+    "answer": 2,
+    "explanation": "La preposición correcta depende de la expresión usada en la frase."
+  },
+  {
+    "id": "ING-031",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Reading comprehension",
+    "difficulty": "Básico",
+    "context": "Broken phone\n\nKevin dropped his phone and the screen broke. He cannot buy a new one, so he will take it to a repair shop.",
+    "prompt": "What is the text mainly about?",
+    "options": [
+      "A problem with no possible solution.",
+      "He plans to repair his phone.",
+      "A person who refuses to do anything.",
+      "A place that is never mentioned in the text."
+    ],
+    "answer": 1,
+    "explanation": "La idea principal resume la situación completa, no un dato suelto."
+  },
+  {
+    "id": "ING-032",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Vocabulary",
+    "difficulty": "Básico",
+    "context": "Broken phone\n\nKevin dropped his phone and the screen broke. He cannot buy a new one, so he will take it to a repair shop.",
+    "prompt": "In the text, \"repair\" means:",
+    "options": [
+      "fix",
+      "to forget",
+      "very expensive",
+      "without a reason"
+    ],
+    "answer": 0,
+    "explanation": "La palabra se interpreta por el contexto de la oración."
+  },
+  {
+    "id": "ING-033",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Grammar",
+    "difficulty": "Medio",
+    "context": "Broken phone\n\nKevin dropped his phone and the screen broke. He cannot buy a new one, so he will take it to a repair shop.",
+    "prompt": "Choose the correct sentence.",
+    "options": [
+      "Kevin will to take it to a repair shop.",
+      "She are going yesterday.",
+      "They has a good idea.",
+      "Kevin will take it to a repair shop."
+    ],
+    "answer": 3,
+    "explanation": "La respuesta conserva el tiempo verbal y la concordancia correctos."
+  },
+  {
+    "id": "ING-034",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Communicative function",
+    "difficulty": "Medio",
+    "context": "Broken phone\n\nKevin dropped his phone and the screen broke. He cannot buy a new one, so he will take it to a repair shop.",
+    "prompt": "The technician says, \"It will be ready tomorrow.\" The best answer is:",
+    "options": [
+      "Yesterday is very blue.",
+      "I never speak to people.",
+      "Great, thank you.",
+      "No, I don't know your name."
+    ],
+    "answer": 2,
+    "explanation": "La respuesta adecuada cumple la función comunicativa de la situación."
+  },
+  {
+    "id": "ING-035",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Sentence completion",
+    "difficulty": "Medio",
+    "context": "Broken phone\n\nKevin dropped his phone and the screen broke. He cannot buy a new one, so he will take it to a repair shop.",
+    "prompt": "Complete: Kevin dropped his phone ___ the floor.",
+    "options": [
+      "under",
+      "on",
+      "by",
+      "from"
+    ],
+    "answer": 1,
+    "explanation": "La preposición correcta depende de la expresión usada en la frase."
+  },
+  {
+    "id": "ING-036",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Reading comprehension",
+    "difficulty": "Básico",
+    "context": "Art contest\n\nNina painted a picture of her town and sent it to an art contest. She felt nervous, but her teacher encouraged her.",
+    "prompt": "What is the text mainly about?",
+    "options": [
+      "Nina entered an art contest with a painting of her town.",
+      "A person who refuses to do anything.",
+      "A place that is never mentioned in the text.",
+      "A problem with no possible solution."
+    ],
+    "answer": 0,
+    "explanation": "La idea principal resume la situación completa, no un dato suelto."
+  },
+  {
+    "id": "ING-037",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Vocabulary",
+    "difficulty": "Básico",
+    "context": "Art contest\n\nNina painted a picture of her town and sent it to an art contest. She felt nervous, but her teacher encouraged her.",
+    "prompt": "In the text, \"encouraged\" means:",
+    "options": [
+      "to forget",
+      "very expensive",
+      "without a reason",
+      "gave confidence"
+    ],
+    "answer": 3,
+    "explanation": "La palabra se interpreta por el contexto de la oración."
+  },
+  {
+    "id": "ING-038",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Grammar",
+    "difficulty": "Básico",
+    "context": "Art contest\n\nNina painted a picture of her town and sent it to an art contest. She felt nervous, but her teacher encouraged her.",
+    "prompt": "Choose the correct sentence.",
+    "options": [
+      "They has a good idea.",
+      "No se puede determinar con la información dada.",
+      "Nina painted a picture of her town.",
+      "She are going yesterday."
+    ],
+    "answer": 2,
+    "explanation": "La respuesta conserva el tiempo verbal y la concordancia correctos."
+  },
+  {
+    "id": "ING-039",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Communicative function",
+    "difficulty": "Medio",
+    "context": "Art contest\n\nNina painted a picture of her town and sent it to an art contest. She felt nervous, but her teacher encouraged her.",
+    "prompt": "Nina says, \"I'm nervous about the contest.\" The best reply is:",
+    "options": [
+      "I never speak to people.",
+      "Your painting is good. You can do it.",
+      "No, I don't know your name.",
+      "Yesterday is very blue."
+    ],
+    "answer": 1,
+    "explanation": "La respuesta adecuada cumple la función comunicativa de la situación."
+  },
+  {
+    "id": "ING-040",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Sentence completion",
+    "difficulty": "Medio",
+    "context": "Art contest\n\nNina painted a picture of her town and sent it to an art contest. She felt nervous, but her teacher encouraged her.",
+    "prompt": "Complete: Nina sent her picture ___ the contest.",
+    "options": [
+      "to",
+      "by",
+      "from",
+      "under"
+    ],
+    "answer": 0,
+    "explanation": "La preposición correcta depende de la expresión usada en la frase."
+  },
+  {
+    "id": "ING-041",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Reading comprehension",
+    "difficulty": "Básico",
+    "context": "Morning train\n\nThe train leaves at 6:30 a.m. Pablo arrived at the station at 6:20, so he had enough time to buy a ticket.",
+    "prompt": "What is the text mainly about?",
+    "options": [
+      "A person who refuses to do anything.",
+      "A place that is never mentioned in the text.",
+      "A problem with no possible solution.",
+      "Pablo arrived before the train left."
+    ],
+    "answer": 3,
+    "explanation": "La idea principal resume la situación completa, no un dato suelto."
+  },
+  {
+    "id": "ING-042",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Vocabulary",
+    "difficulty": "Básico",
+    "context": "Morning train\n\nThe train leaves at 6:30 a.m. Pablo arrived at the station at 6:20, so he had enough time to buy a ticket.",
+    "prompt": "In the text, \"enough\" means:",
+    "options": [
+      "very expensive",
+      "without a reason",
+      "sufficient",
+      "to forget"
+    ],
+    "answer": 2,
+    "explanation": "La palabra se interpreta por el contexto de la oración."
+  },
+  {
+    "id": "ING-043",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Grammar",
+    "difficulty": "Medio",
+    "context": "Morning train\n\nThe train leaves at 6:30 a.m. Pablo arrived at the station at 6:20, so he had enough time to buy a ticket.",
+    "prompt": "Choose the correct sentence.",
+    "options": [
+      "No se puede determinar con la información dada.",
+      "The train leaves at 6:30 a.m.",
+      "She are going yesterday.",
+      "They has a good idea."
+    ],
+    "answer": 1,
+    "explanation": "La respuesta conserva el tiempo verbal y la concordancia correctos."
+  },
+  {
+    "id": "ING-044",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Communicative function",
+    "difficulty": "Medio",
+    "context": "Morning train\n\nThe train leaves at 6:30 a.m. Pablo arrived at the station at 6:20, so he had enough time to buy a ticket.",
+    "prompt": "A passenger asks, \"What time does the train leave?\" The best answer is:",
+    "options": [
+      "It leaves at 6:30.",
+      "No, I don't know your name.",
+      "Yesterday is very blue.",
+      "I never speak to people."
+    ],
+    "answer": 0,
+    "explanation": "La respuesta adecuada cumple la función comunicativa de la situación."
+  },
+  {
+    "id": "ING-045",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Sentence completion",
+    "difficulty": "Medio",
+    "context": "Morning train\n\nThe train leaves at 6:30 a.m. Pablo arrived at the station at 6:20, so he had enough time to buy a ticket.",
+    "prompt": "Complete: Pablo arrived ___ the station early.",
+    "options": [
+      "by",
+      "from",
+      "under",
+      "at"
+    ],
+    "answer": 3,
+    "explanation": "La preposición correcta depende de la expresión usada en la frase."
+  },
+  {
+    "id": "ING-046",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Reading comprehension",
+    "difficulty": "Básico",
+    "context": "Weekend project\n\nSofia and her brother are building a birdhouse this weekend. They bought wood yesterday and will paint it blue tomorrow.",
+    "prompt": "What is the text mainly about?",
+    "options": [
+      "A place that is never mentioned in the text.",
+      "A problem with no possible solution.",
+      "They are making and painting a birdhouse.",
+      "A person who refuses to do anything."
+    ],
+    "answer": 2,
+    "explanation": "La idea principal resume la situación completa, no un dato suelto."
+  },
+  {
+    "id": "ING-047",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Vocabulary",
+    "difficulty": "Básico",
+    "context": "Weekend project\n\nSofia and her brother are building a birdhouse this weekend. They bought wood yesterday and will paint it blue tomorrow.",
+    "prompt": "In the text, \"bought\" means:",
+    "options": [
+      "without a reason",
+      "purchased",
+      "to forget",
+      "very expensive"
+    ],
+    "answer": 1,
+    "explanation": "La palabra se interpreta por el contexto de la oración."
+  },
+  {
+    "id": "ING-048",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Grammar",
+    "difficulty": "Básico",
+    "context": "Weekend project\n\nSofia and her brother are building a birdhouse this weekend. They bought wood yesterday and will paint it blue tomorrow.",
+    "prompt": "Choose the correct sentence.",
+    "options": [
+      "They will paint it blue tomorrow.",
+      "They will to paint it blue tomorrow.",
+      "She are going yesterday.",
+      "They has a good idea."
+    ],
+    "answer": 0,
+    "explanation": "La respuesta conserva el tiempo verbal y la concordancia correctos."
+  },
+  {
+    "id": "ING-049",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Communicative function",
+    "difficulty": "Medio",
+    "context": "Weekend project\n\nSofia and her brother are building a birdhouse this weekend. They bought wood yesterday and will paint it blue tomorrow.",
+    "prompt": "Sofia asks, \"Can you help me paint it?\" The best answer is:",
+    "options": [
+      "No, I don't know your name.",
+      "Yesterday is very blue.",
+      "I never speak to people.",
+      "Of course. What time should I come?"
+    ],
+    "answer": 3,
+    "explanation": "La respuesta adecuada cumple la función comunicativa de la situación."
+  },
+  {
+    "id": "ING-050",
+    "areaId": "ingles",
+    "area": "Inglés",
+    "skill": "Sentence completion",
+    "difficulty": "Medio",
+    "context": "Weekend project\n\nSofia and her brother are building a birdhouse this weekend. They bought wood yesterday and will paint it blue tomorrow.",
+    "prompt": "Complete: They are building a birdhouse ___ the weekend.",
+    "options": [
+      "from",
+      "under",
+      "on",
+      "by"
+    ],
+    "answer": 2,
+    "explanation": "La preposición correcta depende de la expresión usada en la frase."
+  }
+]
