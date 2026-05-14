@@ -163,7 +163,7 @@ function publicQuestion(input, author) {
 
 function validateQuestion(question) {
   if (!areas.some((area) => area.id === question.areaId)) {
-    throw new Error("Selecciona una materia valida.");
+    throw new Error("Selecciona una materia válida.");
   }
   if (question.prompt.length < 8) {
     throw new Error("La pregunta es demasiado corta.");
@@ -230,10 +230,10 @@ function makeLocalProvider() {
       const key = normalizeUsername(username);
       const user = store.users.find((item) => normalizeUsername(item.username) === key);
       if (!user || user.password !== password) {
-        throw new Error("Usuario o contrasena incorrectos.");
+        throw new Error("Usuario o contraseña incorrectos.");
       }
       if (user.status !== "active") {
-        throw new Error("Tu cuenta aun esta pendiente de aprobacion.");
+        throw new Error("Tu cuenta aún está pendiente de aprobación.");
       }
       currentUser = safeUser(user);
       localStorage.setItem(userKey, JSON.stringify(currentUser));
@@ -246,7 +246,7 @@ function makeLocalProvider() {
         throw new Error("El usuario debe tener al menos 3 caracteres.");
       }
       if (String(password || "").length < 4) {
-        throw new Error("La contrasena debe tener al menos 4 caracteres.");
+        throw new Error("La contraseña debe tener al menos 4 caracteres.");
       }
       if (store.users.some((user) => normalizeUsername(user.username) === key)) {
         throw new Error("Ese usuario ya existe.");
@@ -382,7 +382,7 @@ async function makeFirebaseProvider() {
       }
       if (user.status !== "active") {
         await signOut(auth);
-        throw new Error("Tu cuenta aun esta pendiente de aprobacion.");
+        throw new Error("Tu cuenta aún está pendiente de aprobación.");
       }
       currentUser = user;
       return currentUser;
@@ -515,12 +515,16 @@ function renderConnection() {
   const mode = dataProvider.mode === "firebase" ? "Firebase" : "Local";
   const status = navigator.onLine ? "online" : "offline";
   els.connectionBadge.textContent = `${mode} · ${status}`;
-  els.localAdminUsername.textContent = dataProvider.mode === "firebase"
-    ? "Firebase conectado"
-    : appSettings.localAdmin.username;
-  els.localAdminPassword.textContent = dataProvider.mode === "firebase"
-    ? "no aplica"
-    : appSettings.localAdmin.password;
+  if (els.localAdminUsername) {
+    els.localAdminUsername.textContent = dataProvider.mode === "firebase"
+      ? "Firebase conectado"
+      : appSettings.localAdmin.username;
+  }
+  if (els.localAdminPassword) {
+    els.localAdminPassword.textContent = dataProvider.mode === "firebase"
+      ? "no aplica"
+      : appSettings.localAdmin.password;
+  }
 }
 
 function shuffle(items) {
@@ -586,7 +590,7 @@ function renderRolePanels() {
 }
 
 function renderSetup() {
-  const allAreas = [{ id: "todas", name: "Todas las areas", count: state.meta.total, accent: "#111827" }, ...state.meta.areas];
+  const allAreas = [{ id: "todas", name: "Todas las áreas", count: state.meta.total, accent: "#111827" }, ...state.meta.areas];
 
   els.totalQuestions.textContent = `${state.meta.total} preguntas`;
   els.areaSelect.innerHTML = allAreas
@@ -729,7 +733,7 @@ function renderResults(correct, percent) {
           <h4>${index + 1}. ${escapeHtml(question.prompt)}</h4>
           <p><strong>Tu respuesta:</strong> ${escapeHtml(userAnswer)}</p>
           <p><strong>Respuesta correcta:</strong> ${escapeHtml(correctAnswer)}</p>
-          <p><strong>Explicacion:</strong> ${escapeHtml(question.explanation)}</p>
+          <p><strong>Explicación:</strong> ${escapeHtml(question.explanation)}</p>
         </article>
       `;
     })
@@ -796,7 +800,7 @@ async function register(event) {
       return;
     }
 
-    setMessage(els.registerMessage, "Profesor registrado. Espera aprobacion del admin.", "success");
+    setMessage(els.registerMessage, "Profesor registrado. Espera aprobación del admin.", "success");
   } catch (error) {
     setMessage(els.registerMessage, error.message, "error");
   }
@@ -829,7 +833,7 @@ async function saveQuestion(event) {
     els.questionDifficultySelect.value = "Medio";
     els.correctAnswerSelect.value = "0";
     await loadQuestions();
-    setMessage(els.questionFormMessage, "Pregunta guardada. Si estas offline, se sincronizara al volver internet.", "success");
+    setMessage(els.questionFormMessage, "Pregunta guardada. Si estás offline, se sincronizará al volver internet.", "success");
   } catch (error) {
     setMessage(els.questionFormMessage, error.message, "error");
   }

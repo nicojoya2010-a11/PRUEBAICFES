@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700;900&family=DM+Mono:wght@400;500&display=swap');
 
 :root {
-  --bg: #F8F7F4;
+  --bg: #F6F7F9;
   --surface: #FFFFFF;
-  --surface-soft: #F1F0EC;
-  --ink: #141414;
-  --muted: #72706A;
-  --line: #E2E0D8;
-  --primary: #1A1A2E;
-  --primary-dark: #0D0D1F;
-  --danger: #C0392B;
-  --success: #1A7A4A;
-  --warning: #B8860B;
+  --surface-soft: #EEF1F4;
+  --ink: #12141B;
+  --muted: #667085;
+  --line: #D9DEE7;
+  --primary: #B91C1C;
+  --primary-dark: #7F1D1D;
+  --danger: #B91C1C;
+  --success: #1C7C54;
+  --warning: #A16207;
   --radius: 6px;
-  --shadow: 0 2px 12px rgba(20, 20, 20, 0.07), 0 1px 3px rgba(20, 20, 20, 0.05);
+  --shadow: 0 10px 30px rgba(15, 23, 42, 0.06), 0 1px 0 rgba(15, 23, 42, 0.04);
   font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -38,6 +38,10 @@ body {
   margin: 0;
   min-height: 100vh;
   background: var(--bg);
+  background-image:
+    linear-gradient(90deg, rgba(185, 28, 28, 0.026) 1px, transparent 1px),
+    linear-gradient(rgba(18, 20, 27, 0.03) 1px, transparent 1px);
+  background-size: 34px 34px;
   color: var(--ink);
 }
 
@@ -211,11 +215,11 @@ code {
   width: 44px;
   height: 44px;
   border-radius: var(--radius);
-  background: var(--ink);
+  background: var(--primary);
   font-family: 'DM Mono', monospace;
   font-size: 1.1rem;
   font-weight: 500;
-  color: var(--bg);
+  color: #fff;
   letter-spacing: -1px;
   flex-shrink: 0;
 }

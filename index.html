@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Practica ICFES Saber 11</title>
+    <title>Práctica ICFES Saber 11</title>
     <meta name="theme-color" content="#ff174d">
     <link rel="manifest" href="/manifest.webmanifest">
   </head>
@@ -18,11 +18,11 @@
           </div>
           <div>
             <p class="eyebrow">Saber 11</p>
-            <h1>Practica ICFES</h1>
+            <h1>Práctica ICFES</h1>
           </div>
         </div>
         <p class="auth-copy">
-          Plataforma local y online con estudiantes, profesores y administracion. Los profesores quedan pendientes hasta que el admin los apruebe.
+          Entrena por áreas, revisa resultados y administra preguntas desde un panel claro para estudiantes y docentes.
         </p>
         
       </div>
@@ -31,14 +31,14 @@
         <form class="auth-card" id="loginForm">
           <div>
             <p class="eyebrow">Entrar</p>
-            <h2>Inicia sesion</h2>
+            <h2>Inicia sesión</h2>
           </div>
           <label class="field">
             <span>Usuario</span>
             <input id="loginUsername" autocomplete="username" required>
           </label>
           <label class="field">
-            <span>Contrasena</span>
+            <span>Contraseña</span>
             <input id="loginPassword" type="password" autocomplete="current-password" required>
           </label>
           <button class="primary-button" type="submit">Entrar</button>
@@ -85,7 +85,7 @@
           </div>
           <div>
             <p class="eyebrow">Saber 11</p>
-            <h1>Practica ICFES</h1>
+            <h1>Práctica ICFES</h1>
           </div>
         </div>
         <div class="user-strip" aria-label="Sesion">
@@ -102,7 +102,7 @@
         <aside class="sidebar" aria-label="Configuracion de practica">
           <section class="panel setup-panel">
             <div class="panel-heading">
-              <h2>Practica</h2>
+              <h2>Práctica</h2>
               <button class="icon-button" id="resetStats" title="Borrar historial" aria-label="Borrar historial">R</button>
             </div>
 
@@ -125,7 +125,7 @@
               <span>Dificultad</span>
               <select id="difficultySelect">
                 <option value="todas" selected>Todas</option>
-                <option value="Básico">Basico</option>
+                <option value="Básico">Básico</option>
                 <option value="Medio">Medio</option>
                 <option value="Avanzado">Avanzado</option>
               </select>
@@ -146,7 +146,7 @@
           </section>
 
           <section class="panel areas-panel">
-            <h2>Areas</h2>
+            <h2>Áreas</h2>
             <div class="area-list" id="areaList"></div>
           </section>
 
@@ -172,8 +172,8 @@
             </div>
             <div>
               <p class="eyebrow">Banco listo</p>
-              <h2>Elige un area y empieza una sesion.</h2>
-              <p>Funciona localmente y queda preparado para Firebase con sincronizacion offline cuando configures el proyecto.</p>
+              <h2>Elige un área y empieza tu sesión.</h2>
+              <p>Practica por competencias, guarda avances y revisa tus resultados con una lectura sencilla.</p>
             </div>
           </section>
 
@@ -217,7 +217,7 @@
 
             <div class="review-heading">
               <h3>Revision</h3>
-              <button class="secondary-button" id="newSessionBtn">Nueva sesion</button>
+              <button class="secondary-button" id="newSessionBtn">Nueva sesión</button>
             </div>
             <div class="review-list" id="reviewList"></div>
           </section>
@@ -240,7 +240,7 @@
                 <label class="field">
                   <span>Dificultad</span>
                   <select id="questionDifficultySelect">
-                    <option value="Básico">Basico</option>
+                    <option value="Básico">Básico</option>
                     <option value="Medio" selected>Medio</option>
                     <option value="Avanzado">Avanzado</option>
                   </select>
@@ -263,10 +263,10 @@
               </label>
 
               <div class="option-grid">
-                <label class="field"><span>Opcion A</span><input id="option0" required></label>
-                <label class="field"><span>Opcion B</span><input id="option1" required></label>
-                <label class="field"><span>Opcion C</span><input id="option2" required></label>
-                <label class="field"><span>Opcion D</span><input id="option3" required></label>
+                <label class="field"><span>Opción A</span><input id="option0" required></label>
+                <label class="field"><span>Opción B</span><input id="option1" required></label>
+                <label class="field"><span>Opción C</span><input id="option2" required></label>
+                <label class="field"><span>Opción D</span><input id="option3" required></label>
               </div>
 
               <div class="form-grid">
@@ -280,8 +280,8 @@
                   </select>
                 </label>
                 <label class="field">
-                  <span>Explicacion</span>
-                  <input id="questionExplanationInput" placeholder="Retroalimentacion para el estudiante">
+                  <span>Explicación</span>
+                  <input id="questionExplanationInput" placeholder="Retroalimentación para el estudiante">
                 </label>
               </div>
 
